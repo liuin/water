@@ -82,22 +82,22 @@
   margin: 0 auto;}
 .container-navbar {
  
-  background-color: #3098f9;
- 
+  background-color: #f9f9f9;
+ border-bottom: 1px solid #f2f2f2;
 }
 .page-header .search-bar .search-btn:hover {background-color: #3098f9;}
 .navbar-inverse .navbar-inner {
 
  width: 1020px;
   margin: 0 auto;
-color:#fff;
+color:#646464;
  line-height: 20px;
-  font-size:14px;
+  font-size:12px;
 
 }
 .top_a {
-color: white ;
-line-height:40px;
+color: #3098f9 ;
+line-height:30px;
 }
 </style>
 <div class="container-navbar">
@@ -105,8 +105,7 @@ line-height:40px;
     <div class="navbar-inner">
              <span class="top_span">您好，请</span>
              <a href="http://203.166.186.14/Login" class="top_a">登录</a>
-             <span class="top_span">&nbsp;|&nbsp;</span>
-             <a href="http://203.166.186.14/Register" class="top_a">注册</a>
+             <a href="http://203.166.186.14/Register" class="top_a">免费注册</a>
       </div>
   </div>
 </div>
@@ -122,9 +121,9 @@ line-height:40px;
 </div>
   <div class="area">
     <style type="text/css">
-      .topbarul {float: left; font-size: 18px; line-height: 36px; margin-left: 22px; margin-top: 15px;}
+      .topbarul {float: left; font-size: 14px; line-height: 36px; margin-left: 22px; margin-top: 15px;}
       .topbarul li {float:left;}
-      .topbarul a {display:inline-block;margin-right:10px;}
+      .topbarul a {display:inline-block;margin-right:10px; color:#999;}
     </style>
   <ul class="topbarul">
     <li>
@@ -135,7 +134,7 @@ line-height:40px;
                 </li>
                 <li>
                     <a href="http://203.166.186.14/About">
-                        <span class="id_1" data="关于联盟">广州</span>
+                        <span class="id_1" data="关于联盟" style=" color:#3098f9; font-weight:bold;">广州</span>
                         /
                     </a>
                 </li>
@@ -162,21 +161,97 @@ line-height:40px;
   </div>
 	</div>
 </div>
-
-<div class="">
-  <img src="http://p3.s1.dpfile.com/pc/ad/d51eff69823fe6f8bcc59cab960ed43a(800x800)/thumb.jpg" width="100%" alt="" />
+<style type="text/css">
+  /* nav */
+.v_nav_search{position: relative;z-index: 998;zoom:1;width:100%;min-width: 1100px;_width:expression(this.scrollWidth < 1100 ? "1100px" : "auto");}
+.v_nav{background-color: #3098f9;height: 40px;width:100%;zoom:1;position:relative;}
+.v_nav .sub{width: 1020px;position: relative;margin: 0 auto;height: 40px;background-color: #3098f9;overflow: hidden;}
+.v_nav ul{width: 1100px;height: 40px;}
+.v_nav ul li{float: left;}
+.v_nav ul li a{display: block;height: 20px;line-height: 20px;padding: 10px 12px;color: #ededed;font-size: 14px;font-family: "Microsoft Yahei";text-decoration: none;float: left;}
+.v_nav ul li.hover a,.v_nav ul li a:hover,.v_nav ul li.hover a.current,.v_nav ul li a.current{background:#1086F4;color: #fff;text-decoration: none;}
+.v_nav_sbox{width:100%;}
+.v_nofixed_nav{_top:expression(eval(0));}
+.v_nofixed_nav .v_nav_sbox{background-color: #c70048; display:none;}
+.v_nav_sbox .v_nav_sbox_inner{width: 1100px;margin: 0 auto;height: 15px;position: relative;}
+.v_fixed_nav{position: fixed;top: 0;left: 0;width: 100%;_position:absolute;_top: expression(eval(document.documentElement.scrollTop));}
+.v_fixed_nav .v_nav_sbox .v_nav_sbox_inner{padding: 11px 0;height: 34px;width: 1100px;}
+.v_fixed_nav .v_nav_sbox{background-color: rgba(187,8,73,.9);}
+.v_nav_sbox .search_box{margin-top: 0;height: 34px;display: none;top: 10px;}
+.v_fixed_nav .search_box{display: block;}
+.v_nav_sbox .search_box .search form{height: 32px;}
+.v_nav_sbox  .search_box .v_select_box .v_sel_a,.v_nav_sbox  .search_box .v_select_box .v_sel_a:hover{height: 32px;line-height: 32px;background-position: 74px -21px;}
+.v_nav_sbox .search_box .v_select_box .now,.v_nav_sbox .search_box .v_select_box .now:hover{background-position: 74px 14px;}
+.v_nav_sbox .search_box .search .text{padding: 7px 0;}
+.v_nav_sbox .search_box .select{height: 32px;line-height: 32px;}
+.v_nav_sbox .search_box .select .icon{top: 12px;}
+.v_nav_sbox .search_box .select .select_pop{top: 32px;}
+.v_nav_sbox .search_box .suggest_key{top: 33px;}
+.v_nav_sbox .search_box .button {height: 34px;background-position: center -67px;}
+.v_nav_sbox .search .hot,.v_nav_sbox .search_box .search .search_btn{height: 34px;line-height: 34px;color: #fff;}
+.v_nav_sbox .search .hot,.v_nav_sbox .search .hot a{color: #fff;}
+.v_nav_sbox .search_box .search .label_search{height: 32px;line-height: 32px;}
+.v_nav_sbox .search_box .search .del-keywords{top: 8px;}
+</style>
+<div class="v_nav_search v_nofixed_nav" id="v_fixed_div">
+    <div class="v_nav">
+    <div class="sub">
+    <ul>
+                <li><a name="nav2" target="_blank" href="http://www.dangdang.com/" class="current">首页</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/men">男装</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/women">女装</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/underwear">内衣</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/shoes">鞋履</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/sports">运动/户外</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/bag">箱包/礼品</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/jewelry">钟表首饰</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/kids">孕婴童</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/living">居家</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/cosmetic">美妆</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/children">童书</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/book">图书</a></li>
+                        <li><a name="nav2" target="_blank" href="http://v.dangdang.com/global">国际名品</a></li>
+            </ul>
+</div>    </div>
+    <div class="v_nav_sbox"><div class="v_nav_sbox_inner">
+        <div id="search_content_2" class="search_box"></div>
+    </div></div>
 </div>
 
 <style type="text/css">
+  .box1-dd {position:relative;}
+  .tab_aa { position:absolute; left:50%; bottom:0; width:300px; height:32px; text-align:center;   margin-left:-150px; z-index:999;*padding-top:4px;*height:28px;}
+.tab_aa li { display:inline-block;width:15px; height:15px; font:normal 18px/24px arial; color:#4f3a2b; text-align:center; background: #c9c9c9; margin:5px 3px 0 0; cursor:pointer; border-radius:30px;*display:inline;*padding:2px 2px 2px 7px;*margin:0 3px;}
+.tab_aa li.first { margin-left:2px;}
+.tab_aa li.on { color:#fff; background:#f60;}.exhibit_box { position: relative; margin-top: 35px; }
+
+</style>
+
+<div class="box1-dd">
+  <img src="http://img52.ddimg.cn/61250003155191_y.jpg" width="100%" alt="" />
+  <ul class="tab_aa">
+                                    <li class="first on" type="bar"><span> </span></li>
+                                                        <li type="bar" class=""><span> </span></li>
+                                                                                        <li type="bar" class=""><span> </span></li>
+                                                                                        <li type="bar" class=""><span> </span></li>
+                                                                                        <li type="bar" class=""><span> </span></li>
+                                                                                        <li type="bar" class=""><span> </span></li>
+                                                                </ul>
+</div>
+
+<style type="text/css">
+  .footer_w {margin-top:0;}
   .tg-nav {overflow:hidden;}
-  .tg-nav-menu {float:left; width:260px;}
+  .tg-nav-menu {float: left; width: 240px; background: #fff; padding-left: 10px; padding-right: 10px; padding-top: 1em;padding-bottom: 1000em;
+margin-bottom: -1000em;}
   .member {
 margin-bottom: 22px;
-margin-top: 20px;
+
 }
   .member h3 {font-size: 24px;
-color: #b21a15;
+color: #666666;
 font-weight: normal;
+line-height: 1;
 }
   .member h3 span {padding-right: 15px;}
   .server-box-ct a {margin-left: -1px;
@@ -189,278 +264,335 @@ float: left;
 width: 42px;
 overflow: hidden;
 margin-bottom: 5px;}
-.member {clear:both;}
-.tg-nav-link {float:left; width:758px;}
-</style>
-<div class="tg-nav w1020">
-    <div class="tg-nav-menu" id="nav-menu">
-      <div class="member listsc">
-      <h3><span>最新活动</span></h3>
-      <div id="smimglist-warp"><ul class="smimglist" >
-
-      <li><a href="http://mall.bydauto.com.cn/xian/index/byd201415buy"> <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" alt=""></a></li>
-
-      </ul></div>
-      </div>
-            <div class="member listsc">
-      <h3><span>在线客服</span></h3>
-      <div id="smimglist-warp">
-        <ul class="server-box-ct"><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小海">小海</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小迪">小迪</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小四">小四</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小宁">小宁</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小九">小九</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小爱">小爱</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小锐">小锐</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小纯">小纯</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小洛">小洛</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小技">小技</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小美">小美</a></ul>
-      </div>
-      </div>
-      <div class="member listsc">
-      <h3><span>扫一扫</span></h3>
-      <div id="smimglist-warp"><ul class="smimglist">
-
-      <li><a href="http://mall.bydauto.com.cn/xian/index/byd201415buy"> <img src="http://t1.dpfile.com/pc/tgzt/fb01cbe5e96e3f99b8de9a198bf3b6c4(1600c550)/thumb.jpg" alt=""></a></li>
-
-      </ul></div>
-      </div>
-
-      
-
-
-    </div>
-    <div class="tg-nav-link" id="nav-link">
-      <div class="block block-inner features-list features-list-a Fix" id="cms_Center"> <div class="block-title"><strong>站长推荐</strong> </div> <!--Start1050ModuleID--><div id="J_index_ddkbanner"> <div class="b-dpkan"> <div class="DPKAN"> <ul class="DPMKTSlider" style="top: -154.519002074074px;"> <li><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_pic1_guangzhou|module#5_home_news_pic,action#click,index#2"><img src="http://i2.dpfile.com/cms/20141204/582833000000.jpg"></a></li>  <li><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_pic1_guangzhou|module#5_home_news_pic,action#click,index#2"><img src="http://i2.dpfile.com/cms/20141204/582833000000.jpg"></a></li> </ul> </div></div></div> <ul class="content"> <li class="leading"> <h2 class="title"><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_title1_guangzhou|module#5_home_news_record,action#click,index#1">2104大众点评年终盘点（广州篇）</a></h2> <p>香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略…<a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_titlequanwen_nanjing|module#5_home_news_record,action#click,index#1">全文</a></p>
-          <a href="#">立刻抢购</a>
-          <a href="#">详情</a>
-      </li></ul><!--End1050ModuleID--> </div>
-
-      <div class="clear"></div>
-      <style type="text/css">
-         .deal-list li {
-width: 268px;
-float: left;
-margin: 20px 50px;
-position: relative;
-} .deal-list .deal-img {
-width: 268px;
-height: 201px;
-border: 0 none;
-margin: 0;
-overflow: hidden;
-} .deal-list .deal-title {
-padding: 15px 0 0;
-font-size: 20px;
-color: #333;
-font-weight: bold;
-width: 13em;
-overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-line-height: 100%;
+.member {clear:both; overflow:hidden;}
+.tg-nav-link {float:left; width:728px; padding-bottom:20px; padding-top:1em; margin-left:10px; padding-left:10px;padding-right:10px;padding-bottom:10px; background:#fff;}
+.two_line{
+	position: relative;
+	margin-top: 12px;
+  width:237px;
+  margin-bottom:12px;
 }
- .deal-list .deal-sub-title {
-width: 268px;
-font-size: 14px;
-padding: 7px 0 0;
-color: #666;
-overflow: hidden;
-text-overflow: ellipsis;
-line-height: 20px;
-height: 42px;
+
+.short_line{
+	position:relative;
+	width: 128px;
+	height: 2px;
+	background: #3098f9;
 }
- .deal-list .deal-price {
-padding: 17px 0 10px;
+
+.less_short_line{
+	position:relative;
+	width: 105px;
+	height: 2px;
+	background: #3098f9;
 }
- .deal-list .deal-price .yan {
-font-size: 30px;
-color: #f63;
+.long_line{
+	position:relative;
+	width: 100%;
+	height: 1px;
+	background: #dddddd;
+	margin-top: -3px;
 }
- .deal-list .deal-price .current-price {
-font-size: 34px;
-color: #f63;
-}
- .deal-list .deal-price .old-price {
-font-size: 16px;
-color: #666;
-}
- .deal-list .deal-price .btn-yel {
+
+.registbt {
 padding: 9px 13px;
 float: right;
 font-size: 16px;
 margin: 0;
-margin-top: -6px;
+margin-top: 3px;
 border-bottom: 0 none;
 font-weight: normal;
-}
-      </style>
-      <h2>热门商家</h2>
-      <ul class="deal-list clearfix">
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/107587" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/2615a6e88c044eb7deec757cca50ea26(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">云来斯堡酒店伯爵国际自助美食</div>
-                        <div class="deal-sub-title">仅售168元，价值298元豪华自助晚餐（平日/周末可选），免费WiFi，免费停车位！超万人的选择，海鲜刺身源源不断，环球美食，倾情力献！（另有其他套餐可选）</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">168</span>
-                            <del class="old-price">¥298</del>
-                            <a href="http://t.dianping.com/deal/107587" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8769267" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/1e0f1ed58ba0fe78a48f5671a8ab7c9b(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">万达希尔顿酒店感趣自助餐厅</div>
-                        <div class="deal-sub-title">仅售377.2元，价值754.4元周六至周四双人自助晚餐！岁末年初！重磅优惠！两人同行一人免单！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">377.2</span>
-                            <del class="old-price">¥754.4</del>
-                            <a href="http://t.dianping.com/deal/8769267" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8769427" target="_blank"><img src="http://t3.s1.dpfile.com/pc/mc/65b06901aa31d8807ea4516e2fe15f7d(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">达芬西餐厅</div>
-                        <div class="deal-sub-title">仅售75元，价值100元代金券，不限时段通用，免费WiFi，可累积使用，全场通用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">75</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/8769427" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8039830" target="_blank"><img src="http://t1.s2.dpfile.com/pc/mc/dd10be79f748a9207dcd14c8e0a40351(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">BOOKBANK初品概念咖啡西餐厅</div>
-                        <div class="deal-sub-title">仅售123元，价值260元双人精选套餐，不限时段通用，免费WiFi！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">123</span>
-                            <del class="old-price">¥260</del>
-                            <a href="http://t.dianping.com/deal/8039830" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8653783" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/cc107ac98918917559545081abac501b(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">炉火鱼香时尚烤鱼主题餐厅</div>
-                        <div class="deal-sub-title">仅售59.9元，价值100元代金券，免费WiFi，可累积使用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">59.9</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/8653783" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8806508" target="_blank"><img src="http://t2.s1.dpfile.com/pc/mc/a6b7bcd6c1fe4c887c2ae619d11a25c6(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">OLD记茶餐厅</div>
-                        <div class="deal-sub-title">仅售90元，价值110元储值卡，不限时段通用，免费WiFi，可累积使用，全场通用！不限使用次数也不限当次消费金额；储值卡长期有效！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">90</span>
-                            <del class="old-price">¥110</del>
-                            <a href="http://t.dianping.com/deal/8806508" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8616735" target="_blank"><img src="http://t2.s1.dpfile.com/pc/mc/b75ae8dbca6e8522fde246f048cd3c53(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">宜客乐西餐厅</div>
-                        <div class="deal-sub-title">仅售228元，价值296.7元周五至周六单人自助晚餐！需提前1小时预约！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">228</span>
-                            <del class="old-price">¥296.7</del>
-                            <a href="http://t.dianping.com/deal/8616735" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8578786" target="_blank"><img src="http://t2.s1.dpfile.com/pc/mc/b75ae8dbca6e8522fde246f048cd3c53(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">东圃合景福朋喜来登酒店宜客乐西餐厅</div>
-                        <div class="deal-sub-title">仅售178元，价值250.7元周日至周四自助晚餐！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">178</span>
-                            <del class="old-price">¥250.7</del>
-                            <a href="http://t.dianping.com/deal/8578786" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/6313130" target="_blank"><img src="http://t2.s2.dpfile.com/pc/mc/36f68d92c1ad6f56790f438345e4a1f7(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">诚寿司</div>
-                        <div class="deal-sub-title">仅售170元，价值200元代金券，免费WiFi，可累积使用，全场通用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">170</span>
-                            <del class="old-price">¥200</del>
-                            <a href="http://t.dianping.com/deal/6313130" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8429625" target="_blank"><img src="http://t3.s2.dpfile.com/pc/mc/64c20059134ae87afc0aadafc80196d0(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">韩苑韩国料理</div>
-                        <div class="deal-sub-title">仅售167元，价值200元代金劵，免费WiFi，可累积使用，可使用包厢！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">167</span>
-                            <del class="old-price">¥200</del>
-                            <a href="http://t.dianping.com/deal/8429625" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8890905" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/68f703c0432484f556166d7ee7eb51e4(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">新艺龙</div>
-                        <div class="deal-sub-title">仅售686元，价值980元萧敬腾演唱会票！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">686</span>
-                            <del class="old-price">¥980</del>
-                            <a href="http://t.dianping.com/deal/8890905" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/6398030" target="_blank"><img src="http://t3.s1.dpfile.com/pc/mc/bbee7e58e66a17357aa1dbe159bb76ad(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">大汗烧烤城</div>
-                        <div class="deal-sub-title">仅售78元，价值100元代金券，可累积使用！无需预约，可累积使用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">78</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/6398030" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/6117433" target="_blank"><img src="http://t2.s2.dpfile.com/pc/mc/3f219ce2f9d8f8a4556e89f38c452731(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">百年水饺</div>
-                        <div class="deal-sub-title">仅售78元，价值100元代金券，不限时段通用，免费WiFi！独特滋味，在心头久久萦绕！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">78</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/6117433" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8649701" target="_blank"><img src="http://t2.s2.dpfile.com/pc/mc/c0da767a06099eef535522c7b86c16f0(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">滔滔客</div>
-                        <div class="deal-sub-title">仅售79元，价值100元代金券，不限时段通用，免费WiFi，免费停车位！选用新鲜上乘的原材料，特制的酱汁烹饪出各种不同风味的美食！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">79</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/8649701" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8682412" target="_blank"><img src="http://t2.s2.dpfile.com/pc/mc/743cee4c6e2e85e090f53a4839049101(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">尚北八旗</div>
-                        <div class="deal-sub-title">仅售79元，价值100元代金劵，不限时段通用，可累积使用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">79</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/8682412" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8718663" target="_blank"><img src="http://t2.s2.dpfile.com/pc/mc/b01ab7c8bd39202dac3373436dc60c84(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">六本木日本料理</div>
-                        <div class="deal-sub-title">仅售82元，价值100元代金券，不限时段通用，免费WiFi，可累积使用！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">82</span>
-                            <del class="old-price">¥100</del>
-                            <a href="http://t.dianping.com/deal/8718663" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="deal-img"><a href="http://t.dianping.com/deal/8428990" target="_blank"><img src="http://t2.s1.dpfile.com/pc/mc/9da6244773a6b634b502c8db9ba8dfcb(320c200)/thumb.jpg"></a></div>
-                        <div class="deal-title">东兴饭店</div>
-                        <div class="deal-sub-title">仅售86元，价值140元超值特色双人套餐，不限时段通用，免费WiFi，免费停车位！</div>
-                        <div class="deal-price clearfix">
-                            <span class="yan">¥</span><span class="current-price">86</span>
-                            <del class="old-price">¥140</del>
-                            <a href="http://t.dianping.com/deal/8428990" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
-                        </div>
-                    </li>
-                </ul>
+background: #ffa631;
+color: #fff;
+position: relative;
+top: -16px;
 
-    </div>
+}
+.wrap-tg-nav {background: rgba(48, 152, 249, 0.14); padding-top: 1em; padding-bottom: 1em;}
+</style>
+<div class="wrap-tg-nav">
+  <div class="tg-nav w1020">
+      <div class="tg-nav-menu" id="nav-menu">
+        <div class="member listsc">
+        <h3><span>最新活动</span></h3>
+        <div class="two_line">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <div id="smimglist-warp"><ul class="smimglist" >
+  
+        <li><a href="http://mall.bydauto.com.cn/xian/index/byd201415buy"> <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" alt=""></a></li>
+  
+        </ul></div>
+        </div>
+              <div class="member listsc">
+        <h3><span>在线客服</span></h3>
+              <div class="two_line">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <div id="smimglist-warp">
+          <ul class="server-box-ct"><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小海">小海</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小迪">小迪</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小四">小四</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小宁">小宁</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小九">小九</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小爱">小爱</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小锐">小锐</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小纯">小纯</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小洛">小洛</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小技">小技</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小美">小美</a></ul>
+        </div>
+        </div>
+        <div class="member listsc">
+        <h3><span>扫一扫</span></h3>
+        <div class="two_line">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <div id="smimglist-warp"><ul class="smimglist">
+  
+        <li><a href="http://mall.bydauto.com.cn/xian/index/byd201415buy"> <img src="http://img01.taobaocdn.com/imgextra/i1/1114455927/T2KMLjXgBaXXXXXXXX_!!1114455927.png" alt="" width="240"></a></li>
+  
+        </ul></div>
+        </div>
+  
+        
+  
+  
+      </div>
+      <div class="tg-nav-link" id="nav-link">
+        <div class="block block-inner features-list features-list-a Fix" id="cms_Center"> <div class="member" style="margin:0;"><h3>站长推荐</h3></div>
+        <div class="two_line" style="width:100%;">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <!--Start1050ModuleID--><div id="J_index_ddkbanner"> <div class="b-dpkan"> <div class="DPKAN"> <ul class="DPMKTSlider" style="top: -154.519002074074px;"> <li><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_pic1_guangzhou|module#5_home_news_pic,action#click,index#2"><img src="http://i2.dpfile.com/cms/20141204/582833000000.jpg"></a></li>  <li><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_pic1_guangzhou|module#5_home_news_pic,action#click,index#2"><img src="http://i2.dpfile.com/cms/20141204/582833000000.jpg"></a></li> </ul> </div></div></div> <ul class="content"> <li class="leading"> <h2 class="title"><a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_title1_guangzhou|module#5_home_news_record,action#click,index#1">2104大众点评年终盘点（广州篇）</a></h2> <p style="height:75px;">香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略… 香港8大商场圣诞主题展全攻略…<a href="http://events.dianping.com/food-feature/pandian2014_guangzhou.html" target="_blank" track="dp_home_all_news_titlequanwen_nanjing|module#5_home_news_record,action#click,index#1">全文</a></p>
+            <a href="#" class="registbt" style="float:right;">立刻抢购</a>
+            <a href="#" >详情</a>
+        </li></ul><!--End1050ModuleID--> </div>
+  
+        <div class="clear"></div>
+        <style type="text/css">
+        a {color:#3098f9;}
+           .deal-list li {
+  width: 230px;
+  float: left;
+  margin: 20px 10px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 0;
+  height: 344px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border:1px solid #ddd;
+  margin-left: 16px;
+  
+  
+  } .deal-list .deal-img {
+  width: 230px;
+  height: 201px;
+  border: 0 none;
+  margin: 0;
+  overflow: hidden;
+  } .deal-list .deal-title {
+  padding: 15px 0 0;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 100%;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-sub-title {
+  
+  font-size: 14px;
+  padding: 7px 0 0;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  height: 42px;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-price {
+  padding: 20px 0 10px;
+  padding-top:0;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-price .yan {
+  font-size: 30px;
+  color: #f63;
+  }
+   .deal-list .deal-price .current-price {
+  font-size: 34px;
+  color: #f63;
+  }
+   .deal-list .deal-price .old-price {
+  font-size: 16px;
+  color: #666;
+  display:none;
+  }
+   .deal-list .deal-price .btn-yel {
+  padding: 9px 13px;
+  float: right;
+  font-size: 16px;
+  margin: 0;
+  margin-top:3px;
+  border-bottom: 0 none;
+  font-weight: normal;
+  }
+  
+  .brand_selection {width: 726px; background: #fff; position: relative; overflow: hidden; border: 1px solid #f0e4e4; height: 300px;}
+  .brand_selection li { float: left;
+  width: 182px;
+  border: 1px solid #f0e4e4;
+  border-width: 0 1px 1px 0;
+  padding: 8px 0;
+  height: 85px;
+  line-height: 85px;}
+  .brand_selection li a {position: relative;
+  display: block;
+  width: 80px;
+  height: 40px;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 23px; }
+  .brand_selection li a:hover { text-decoration: none; }
+  .brand_selection li a span { position: absolute; left: 0; top: 0; width: 80px; height: 40px; line-height: 40px; overflow: hidden; text-align: center; color: #fff; background: #896e51; cursor: pointer; z-index: 99; }
+  .brand_selection .head .more { position: absolute; right: 10px; line-height: 27px; top: 0; }
+  .brand_selection .body { margin: 10px 8px; width: 943px; overflow: hidden; margin:0;}
+  .brand_selection ul { width: 944px; margin-bottom: -1px; }
+  .brand_selection ul img { width: 80px; height: 40px; display: block; }.fashion_right_ad{}
+  
+        </style>
+        <div class="member" style="margin:0; margin-top:22px;">
+          <h3>热门商家</h3>
+        </div>
+        <div class="two_line" style="width:100%;">
+            <div class="less_short_line"></div>
+            <div class="long_line"></div>
+        </div>
+        <div class="con brand_selection"><div class="con head"><div class="col title"></div><div class="col more"></div></div><div class="con body"><ul class=""><li class="_li_0  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_0">
+                   <a href="http://shop.dangdang.com/3957?act=subject&amp;pid=13776" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/wuyi001/%E8%80%90%E5%85%8Bas4d5a4sd65q46.jpg" class="is_display_solid_colour_alt"><span style="display: none;">耐克</span></a></li><li class="_li_1  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_1">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=9274" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/adidas.jpg" class="is_display_solid_colour_alt"><span style="display: none;">阿迪达斯</span></a></li><li class="_li_2  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_2">
+                   <a href="http://searchb.dangdang.com/?key=%C8%FD%D2%B6%B2%DD&amp;category_id=4002378&amp;ref=suggest-1-1" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/meiya/三叶草.jpg" class="is_display_solid_colour_alt"><span style="display: none;">三叶草</span></a></li><li class="_li_3  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_3">
+                   <a href="http://searchb.dangdang.com/?key=%D0%C2%B0%D9%C2%D7&amp;category_id=4003728" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/newblan.jpg" class="is_display_solid_colour_alt"><span style="display: none;">新百伦</span></a></li><li class="_li_4  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_4">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=12359" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/1/10955logo.jpg" class="is_display_solid_colour_alt"><span style="display: none;">ascis</span></a></li><li class="_li_5  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_5">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=12359" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/puma.jpg" class="is_display_solid_colour_alt"><span style="display: none;">彪马</span></a></li><li class="_li_6  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_6">
+                   <a href="http://searchb.dangdang.com/?key=%BF%EF%CD%FE&amp;category_id=4003728" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/converse.jpg" class="is_display_solid_colour_alt"><span style="display: none;">匡威</span></a></li><li class="_li_7  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_7">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=10194" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/wuyi/erke.jpg" class="is_display_solid_colour_alt"><span style="display: none;">鸿星尔克</span></a></li><li class="_li_8  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_8">
+                   <a href="http://searchb.dangdang.com/?key=%C0%EE%C4%FE&amp;category_id=4003728" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/wuyi/lining.jpg" class="is_display_solid_colour_alt"><span style="display: none;">李宁</span></a></li><li class="_li_9  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_9">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=3910" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wangjurong/3910LOGO%281%29.jpg" class="is_display_solid_colour_alt"><span style="display: none;">乔丹</span></a></li><li class="_li_10  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_10">
+                   <a href="http://searchb.dangdang.com/?key=%C3%C0%BD%F2%C5%A8&amp;category_id=4003728" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/mizuo.jpg" class="is_display_solid_colour_alt"><span style="display:none;">美津浓</span></a></li><li class="_li_11  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_11">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=8064" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/361.jpg" class="is_display_solid_colour_alt"><span style="display:none;">361°</span></a></li><li class="_li_12  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_12">
+                   <a href="http://search.dangdang.com/?key=%B0%B2%CC%A4" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/13433安踏logo-80-40.jpg" class="is_display_solid_colour_alt"><span style="display: none;">安踏</span></a></li><li class="_li_13  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_13">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=10439" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/wuyi001/guirenniaoLOGO-10439.jpg" class="is_display_solid_colour_alt"><span style="display: none;">贵人鸟</span></a></li><li class="_li_14  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_14">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=7733" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/运动logo-tb.jpg" class="is_display_solid_colour_alt"><span style="display: none;">特步</span></a></li><li class="_li_15  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_15">
+                   <a href="http://mingxieku.dangdang.com/store_clothes.php?sid=9479" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/9479-茵宝-80x40.jpg" class="is_display_solid_colour_alt"><span style="display:none;">茵宝</span></a></li><li class="_li_16  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_16">
+                   <a href="http://shop.dangdang.com/13898" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00135/zcc/north.jpg" class="is_display_solid_colour_alt"><span style="display: none;">北面</span></a></li><li class="_li_17  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_17">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=12689" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00332/syn/12689-LOGO-8040.jpg" class="is_display_solid_colour_alt"><span style="display: none;">狼爪</span></a></li><li class="_li_18  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_18">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=9957" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/wuyi001/%E6%8E%A2%E8%B7%AF%E8%80%85logo.jpg" class="is_display_solid_colour_alt"><span style="display:none;">探路者</span></a></li><li class="_li_19  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_19">
+                   <a href="http://shop.dangdang.com/12975  " target="_blank" class="pic"><img src="http://img58.ddimg.cn/129750003040668_y.jpg " class="is_display_solid_colour_alt"><span style="display:none;">兵行者</span></a></li><li class="_li_20  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_20">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=6128" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/KAILAS公司LOGO 80x40.jpg" class="is_display_solid_colour_alt"><span style="display: none;">凯乐石</span></a></li><li class="_li_21  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_21">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=7834" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00135/zcc/%E9%AA%86%E9%A9%BC.jpg" class="is_display_solid_colour_alt"><span style="display: none;">骆驼</span></a></li><li class="_li_22  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_22">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=13522" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00389/1/80-40奥索卡LOGO-2.jpg" class="is_display_solid_colour_alt"><span style="display:none;">奥索卡官方旗舰店</span></a></li><li class="_li_23  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_23">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=6079" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00389/1/6079-亚特.jpg" class="is_display_solid_colour_alt"><span style="display:none;">AIR TEX旗舰店</span></a></li><li class="_li_24  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_24">
+                   <a href="http://shop.dangdang.com/7723" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00389/1/7723+奥特山+承接页面.jpg" class="is_display_solid_colour_alt"><span style="display: none;">奥特山旗舰店</span></a></li><li class="_li_25  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_25">
+                   <a href="http://shop.dangdang.com/4100" target="_blank" class="pic"><img src="http://img53.ddimg.cn/41000002860288_y.jpg" class="is_display_solid_colour_alt"><span style="display: none;">犸凯奴</span></a></li><li class="_li_26  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_26">
+                   <a href="http://shop.dangdang.com/9193" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00389/1/9193-雷诺斯.jpg" class="is_display_solid_colour_alt"><span style="display:none;">雷诺斯官方旗舰店</span></a></li><li class="_li_27  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_27">
+                   <a href="http://shop.dangdang.com/9154" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00389/1/9154-远行客-logo01.jpg" class="is_display_solid_colour_alt"><span style="display:none;">远行客</span></a></li><li class="_li_28  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_28">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=12683" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00389/1/12683-牧高笛 logo.jpg" class="is_display_solid_colour_alt"><span style="display:none;">牧高笛</span></a></li><li class="_li_29  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_29">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=9863" target="_blank" class="pic"><img src="http://img52.ddimg.cn/98630003919531_y.jpg" class="is_display_solid_colour_alt"><span style="display: none;">Lonsdale  龙狮戴尔</span></a></li><li class="_li_30  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_30">
+                   <a href="http://search.dangdang.com/?key=%CB%B9%B2%AE%B6%A1" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/siboding.jpg" class="is_display_solid_colour_alt"><span style="display:none;">斯伯丁</span></a></li><li class="_li_31  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_31">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=14163" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/1/威联盟80x40.jpg" class="is_display_solid_colour_alt"><span style="display:none;">威联盟</span></a></li><li class="_li_32  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_32">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=11387" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/q1/hata.jpg" class="is_display_solid_colour_alt"><span style="display: none;">哈他</span></a></li><li class="_li_33  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_33">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=9504" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wangjurong/LOGO-9504.jpg" class="is_display_solid_colour_alt"><span style="display: none;">洲克</span></a></li><li class="_li_34  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_34">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=3695" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wangjurong/oliver%20LOGO.jpg" class="is_display_solid_colour_alt"><span style="display: none;">奥利弗</span></a></li><li class="_li_35  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_35">
+                   <a href="http://shop.dangdang.com/7522" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/乔山LOGO.jpg" class="is_display_solid_colour_alt"><span style="display: none;">乔山</span></a></li><li class="_li_36  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_36">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=7982" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/123/shuti.jpg" class="is_display_solid_colour_alt"><span style="display: none;">舒体</span></a></li><li class="_li_37  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_37">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=6881" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wjr/%E8%BF%90%E5%8A%A8-%E5%88%97%E8%A1%A8SPEEDO.jpg" class="is_display_solid_colour_alt"><span style="display: none;">速比涛</span></a></li><li class="_li_38  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_38">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=10255" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wangjurong/10255-小桃泳衣.jpg" class="is_display_solid_colour_alt"><span style="display:none;">小桃泳衣</span></a></li><li class="_li_39  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_39">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=10859" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00335/wangjurong/arena80-40.jpg" class="is_display_solid_colour_alt"><span style="display:none;">阿瑞娜</span></a></li><li class="_li_40  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_40">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=6492" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/logo-2-副本.jpg" class="is_display_solid_colour_alt"><span style="display: none;">尤尼克斯</span></a></li><li class="_li_41  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_41">
+                   <a href="http://searchb.dangdang.com/?key=%BF%A8%C5%C1&amp;category_id=4003728" target="_blank" class="pic"><img src="http://img4.ddimg.cn/00103/ohxuan_qiao/卡帕.jpg" class="is_display_solid_colour_alt"><span style="display: block;">卡帕</span></a></li><li class="_li_42  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_42">
+                   <a href="http://shop.dangdang.com/11759?sid=11759" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/11759logo.jpg" class="is_display_solid_colour_alt"><span style="display: none;">花花公子</span></a></li><li class="_li_43  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_43">
+                   <a href="http://shop.dangdang.com/12909" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/12909.gif" class="is_display_solid_colour_alt"><span style="display: none;">伯希和</span></a></li><li class="_li_44  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_44">
+                   <a href="http://shop.dangdang.com/store_clothes.php?sid=12359" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/out/OT-LOGO.jpg" class="is_display_solid_colour_alt"><span style="display: none;">鬼冢虎</span></a></li><li class="_li_45  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_45">
+                   <a href="http://shop.dangdang.com/3709" target="_blank" class="pic"><img src="http://img31.ddimg.cn/upload_img/00451/YDZR/peak150104pc.jpg" class="is_display_solid_colour_alt"><span style="display: none;">匹克</span></a></li><li class="_li_46  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_46">
+                   <a href="http://shop.dangdang.com/6492/pid116861.html" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/1/willison.jpg" class="is_display_solid_colour_alt"><span style="display: none;">维尔胜</span></a></li><li class="_li_47  display_solid_colour_alt" nname="fashion-10497-3923_2-62562_47">
+                   <a href="http://shop.dangdang.com/12640" target="_blank" class="pic"><img src="http://img3.ddimg.cn/00334/zwj/oakley_logo%2060%2040.jpg" class="is_display_solid_colour_alt"><span style="display: none;">欧克利</span></a></li></ul></div></div>
+        <div class="member" style="margin:0; margin-top:22px;">
+          <h3>热门产品</h3>
+        </div>
+        <div class="two_line" style="width:100%;">
+            <div class="less_short_line"></div>
+            <div class="long_line"></div>
+        </div>
+        <ul class="deal-list clearfix">
+                      <li style="margin-top:0; margin-left:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/107587" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/2615a6e88c044eb7deec757cca50ea26(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">云来斯堡酒店伯爵国际自助美食</div>
+                          <div class="deal-sub-title">仅售168元，价值298元豪华自助晚餐（平日/周末可选），免费WiFi，免费停车位！超万人的选择，海鲜刺身源源不断，环球美食，倾情力献！（另有其他套餐可选）</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">168</span>
+                              <del class="old-price">¥298</del>
+                              <a href="http://t.dianping.com/deal/107587" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li style="margin-top:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769267" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/1e0f1ed58ba0fe78a48f5671a8ab7c9b(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">万达希尔顿酒店感趣自助餐厅</div>
+                          <div class="deal-sub-title">仅售377.2元，价值754.4元周六至周四双人自助晚餐！岁末年初！重磅优惠！两人同行一人免单！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">377.2</span>
+                              <del class="old-price">¥754.4</del>
+                              <a href="http://t.dianping.com/deal/8769267" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li style="margin-top:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769427" target="_blank"><img src="http://t3.s1.dpfile.com/pc/mc/65b06901aa31d8807ea4516e2fe15f7d(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">达芬西餐厅</div>
+                          <div class="deal-sub-title">仅售75元，价值100元代金券，不限时段通用，免费WiFi，可累积使用，全场通用！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">75</span>
+                              <del class="old-price">¥100</del>
+                              <a href="http://t.dianping.com/deal/8769427" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li style="margin-left:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/107587" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/2615a6e88c044eb7deec757cca50ea26(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">云来斯堡酒店伯爵国际自助美食</div>
+                          <div class="deal-sub-title">仅售168元，价值298元豪华自助晚餐（平日/周末可选），免费WiFi，免费停车位！超万人的选择，海鲜刺身源源不断，环球美食，倾情力献！（另有其他套餐可选）</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">168</span>
+                              <del class="old-price">¥298</del>
+                              <a href="http://t.dianping.com/deal/107587" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769267" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/1e0f1ed58ba0fe78a48f5671a8ab7c9b(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">万达希尔顿酒店感趣自助餐厅</div>
+                          <div class="deal-sub-title">仅售377.2元，价值754.4元周六至周四双人自助晚餐！岁末年初！重磅优惠！两人同行一人免单！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">377.2</span>
+                              <del class="old-price">¥754.4</del>
+                              <a href="http://t.dianping.com/deal/8769267" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769427" target="_blank"><img src="http://t3.s1.dpfile.com/pc/mc/65b06901aa31d8807ea4516e2fe15f7d(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">达芬西餐厅</div>
+                          <div class="deal-sub-title">仅售75元，价值100元代金券，不限时段通用，免费WiFi，可累积使用，全场通用！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">75</span>
+                              <del class="old-price">¥100</del>
+                              <a href="http://t.dianping.com/deal/8769427" style="background: #ffa631;color: #ffffff" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                     
+                  </ul>
+  
+      </div>
+  </div>
 </div>
 
 <div class="footer_w" style="width:auto;"><div class="compay">
