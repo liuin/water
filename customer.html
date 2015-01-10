@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="key words" />
+    <meta name="description" content="google will show" />
+    <meta http-equiv="Content-Script-Type" content="type" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>
+        write your site name
+    </title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+  
+  <style type="text/css">
+    * {margin:0; padding:0; }
+    body {font-family:'微软雅黑'; }
+    .top_header {
+background: #3098f9;
+height: 40px;
+line-height:40px;
+color:#fff;
+}
+  .top_header  a {color:#fff; text-decoration:none;margin-left:10px;}
+  .w1020 {width:1020px; margin:0 auto;}
+  .top_header .container{width:1020px; margin:0 auto;}
+  </style>
+  <div class="top_header">
+    	<div class="container">
+        	<div class="navbar navbar-inverse" style="float:left;">
+            	<div class="navbar-inner">
+                       <span class="top_span">您好，用户商家</span>
+                       <a href="http://203.166.186.14/Login" class="top_a">退出</a>
+                </div>
+            </div>
+ 
+        </div>
+</div>
+  <style type="text/css">
+    .top-ct2 {padding-top: 22px;margin-bottom: 0; overflow:hidden; padding-bottom:10px;}
+    .top_bar_ul{
+	margin-top: 10px;
+	position: relative;
+	left: 0px;
+
+	float: right;
+}
+
+.top_bar_ul {float:right;}
+.top_bar_ul li{
+	float: left;
+
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+  list-style-type:none;
+}
+.top_bar_ul li a{
+color: #0088cc;
+text-decoration: none;
+}
+
+.top_bar_ul li span{
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	cursor:pointer;
+  position:relative;
+  top:-3px;
+
+}
+
+.top_bar_ul li span:hover{
+	color: #3098f9;
+}
+.top-ct2 .logo {float:left;margin-right:20px;}
+.top-ct2-wrap {background: url("http://www.wetcode.com.cn/templates/mima/images/header-bg1.jpg") 0 -64px repeat;border-bottom: 3px solid #90CFF6; margin-bottom:10px;}
+  </style>
+<div class="top-ct2-wrap">
+    <div class="top-ct2 w1020">
+      <a onclick="pageTracker._trackPageview('dp_head_logo_guangzhou');" title="大众点评网" href="http://www.dianping.com" class="logo"><img src="http://localhost/my-temp/website/des-water/logo.png" alt="" /></a>
+      <ul class="top_bar_ul">
+                  <li>
+                      <a href="http://203.166.186.14/About">
+                          <span class="id_1 active" data="关于联盟">淘宝网首页</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/News">
+                          <span class="id_2" data="新闻资讯">我的淘宝</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/Meeting">
+                          <span class="id_3" data="会务活动">购物车</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/Software">
+                          <span class="id_4" data="软件分享">联系客服</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>                                    
+              </ul>
+    </div>
+  </div>
+  <style type="text/css">
+    .cotent-1 { border:1px solid #e4eaee; overflow:hidden; position:relative; margin-bottom:30px;}
+    .left-bk {width:120px;padding:10px; background:#f5f8fa; float:left; padding-bottom:999em;margin-bottom:-999em;}
+    .list-left-bk {list-style:none;}
+    .list-left-bk a{color:#000; font-family:'\5B8B\4F53',Arial; font-size:12px; text-decoration:none; display:block; padding:0 10px; line-height:30px;margin-bottom:5px;}
+     .list-left-bk a:hover,.list-left-bk a.current {background: #66AFF3;
+color: #fff;}
+
+     .right-bk {margin-left:150px;padding:10px;}
+     .ui-record-table {text-align:left;}
+     .ui-record-table thead th {
+     font-weight: normal;
+    border-bottom:1px solid #ccc;
+    height:30px;
+    line-height:30px;
+    background:#f5f5f5;
+    background:-moz-linear-gradient(top, #f8f8f8, #f2f2f2);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f8f8f8), color-stop(1, #f2f2f2));
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#f2f2f2', GradientType='0')
+}
+.current-item {display:none;}
+.ui-record-table {font: 12px/1.5 tahoma,arial,\5b8b\4f53;border-collapse: collapse;
+border-spacing: 0;}
+.ui-record-table tr.split {
+    background-color:#fbfbfb
+}
+.ui-record-table tbody td {
+    vertical-align:top;
+    padding:10px 0;
+    border-bottom:1px solid #e6e6e6
+}
+.ui-record-table .time {
+    padding-left:20px;
+    width:60px;
+    text-align:left
+}
+.ui-record-table td.memo {
+    text-align:center
+}
+.security-tips {
+    border-top:1px dashed #ffbb76;
+    margin-top:5px;
+    padding-top:5px;
+    color:#878787
+}
+.ui-record-table td.name, .ui-record-table td.other, .ui-record-table td.tradeNo {
+    padding-right:10px
+}
+.ui-record-table td.name, .ui-record-table td.tradeNo, .memo-info {
+    word-break:break-all;
+    word-wrap:break-word
+}
+.memo-info {
+    float:left;
+    width:140px
+}
+.ui-record-table td .consume-title a {
+    color:#4d4d4d;
+    outline:0 none
+}
+.ui-record-table td .consume-title a:hover {
+    color:#08C
+}
+.ui-record-table td .consume-bizNo a {
+    color:#9A9A9A;
+    outline:0 none
+}
+.ui-record-table .consume-bizNo a:hover {
+    color:#9A9A9A;
+    cursor:default
+}
+.ui-record-table .consume-bizNo a.hover {
+    text-decoration:underline
+}
+.ui-record-table td.name .consume-bizNo .J-tradeNo-copy {
+    display:inline-block
+}
+.ui-record-table .ft-gray {
+    color:#9a9a9a
+}
+.ui-record-table td.detail {
+    text-align:left;
+    padding-left:10px
+}
+.ui-record-table td.detail a {
+    float:left;
+    margin-right:10px;
+    margin-top:2px
+}
+.ui-record-table .amount, .ui-record-table .status,.ui-record-table  .action {
+    text-align:center
+}
+.amount-pay {
+    font-weight:700;
+    color:gray
+}
+.amount-pay-out {
+    color:#f37800;
+    font-weight:700
+}
+.amount-pay-in {
+    color:#53a000;
+    font-weight:700
+}
+.ui-record-table .action {
+    padding-right:20px;
+    text-align:center
+}
+.ui-record-table .refund {
+    height:20px;
+    padding-top:7px;
+    border-top:1px dashed #ccc
+}
+.ui-record-table .action .refund {
+    padding-right:20px
+}
+.ui-record-table tr.no-border td {
+    border-bottom:0 none;
+    padding-bottom:0
+}
+.right-bk-hd{ height:40px; line-height:40px; font-weight:normal;margin-bottom:10px;border-bottom: 1px solid #ddd;color:#206E93;
+}
+.cotent-1-hd {color:#0088cc; font-weight:normal;  left:0; border-top:1px solid #e4eaee;margin-bottom:30px; border-right:1px solid #e4eaee; position:relative; top:30px; border-left: 1px solid #fff;}
+.cotent-1-hd span {position:relative;top:-20px; background:#fff; display:inline-block; padding:0 10px; font-weight:bold;}
+  </style>
+
+<h2 class="cotent-1-hd w1020"><span>客户用户中心</span></h2>  
+<div class="cotent-1 w1020" style="clear:both;">
+    
+    <div class="left-bk">
+      <ul class="list-left-bk">
+        <li><a href="#" class="current">我的订单</a></li>
+        <li><a href="#">我的收藏</a></li>
+        <li><a href="#">我的钱包</a></li>
+        <li><a href="#">我的积分</a></li>
+      </ul>
+    </div>
+        <div class="right-bk">
+          <h3 class="right-bk-hd">列表表格</h3>
+
+<table class="ui-record-table" id="tradeRecordsIndex" width="100%">
+    <colgroup>
+        <col width="">
+            <col width="4%">
+                <col width="">
+                    <col width="12%">
+                        <col width="12%">
+                      
+                                <col width="13%">
+                                    <col width="15%">
+    </colgroup>
+    <thead>
+        <tr>
+            <th class="time">创建时间</th>
+            <th class="memo"></th>
+            <th class="name">名称<em class="ft-bar">|</em>交易号</th>
+            <th class="other">对方</th>
+            <th class="amount">金额</th>
+            <th class="status">状态</th>
+            <th class="action">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="J-item-1" class="J-item  ">
+            <td class="time">
+                <p class="time-d"><img src="http://t1.s1.dpfile.com/pc/mc/2615a6e88c044eb7deec757cca50ea26(320c200)/thumb.jpg" width="100" alt="" /></p>
+                <p class="time-h ft-gray">20:22</p>
+            </td>
+            <td class="memo"></td>
+            <td class="name">
+                <p class="consume-title"> <a href="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2014120121001001110072035238" title="淘宝购物-银祥牌:广东佛山肇庆珠海广州茂名惠州广电网络高清机顶盒遥控器" target="_blank" seed="consumeTitle-link" smartracker="on">淘宝购物-银祥牌:广东佛山肇庆珠海广州茂名惠州广电网络高清机顶盒遥控器</a>
+ 
+                </p>
+                <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container" id="J-tradeNo-container-1">交易号 <a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-1" href="javascript:;" data-clipboard-text="2014120121001001110072035238" title="2014120121001001110072035238" seed="JTradeNoContainer1-JTradeNo1" smartracker="on">          2014...238
+    </a>
+ 
+                </div>
+            </td>
+            <td class="other">
+                <p class="name">银祥旗舰店</p>
+                <p class="fn-clear mt-5">
+                    <a class="J-open-ww  mr-10 fn-left record-icon icon-ww icon-ww-offline" href="http://www.taobao.com/webww/ww.php?ver=3&siteid=cntaobao&status=1&charset=utf-8&touid=%E9%93%B6%E7%A5%A5%E6%97%97%E8%88%B0%E5%BA%97" data-account="银祥旗舰店" seed="mt5-JOpenWw" smartracker="on" target="_blank"></a>
+                </p>
+            </td>
+            <td class="amount"> <span class="amount-pay-out">-9.90</span>
+ 
+            </td>
+            <td class="status">
+                <p>交易成功</p>
+                <p class="ft-gray"></p>
+            </td>
+            <td class="action">
+                <select id="J-operation-select-1" class="fn-hide J-operation-select" seed="action-JOperationSelect1" smartracker="on">
+                    <option seed="trade-detail" data-link="https://lab.alipay.com/consume/queryTradeDetail.htm?tradeNo=2014120121001001110072035238" data-target="_blank">详情</option>
+                    <option class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com/record/editMemo.htm?bizInNo=2014120121001001110072035238&createDate=          20141201202202
+    &bizType=TRADE" rel-id="" data-tip="请勿备注个人敏感信息">备注</option>
+                    <option seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com/record/delete.json?record=           2014-12-01 20:22:02
+    |2014120121001001110072035238|TRADE" data-fund-change="true" rel-id="">删除</option>
+                </select>
+                <div class="operation-menu-trigger J-operation-menu-trigger" id="J-operation-menu-1">
+                    <div class="current-item"> <span class="item-text">详情</span><span class="icon-pull-down"> </span>
+ 
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr id="J-item-2" class="J-item split  ">
+            <td class="time">
+                <p class="time-d">2014.11.28</p>
+                <p class="time-h ft-gray">08:32</p>
+            </td>
+            <td class="memo"></td>
+            <td class="name">
+                <p class="consume-title">   <a href="https://ebppprod.alipay.com/home/consumeRecord.htm?billNo=201411282628450" title="手机充值-充值100.00元-15338073385" target="_blank" seed="consumeTitle-linkT1" smartracker="on">手机充值-充值100.00元-15338073385</a>
+ 
+                </p>
+                <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container" id="J-tradeNo-container-2">流水号 <a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-2" href="javascript:;" data-clipboard-text="201411282628450" title="201411282628450" seed="JTradeNoContainer2-JTradeNo2" smartracker="on">            2014...450
+    </a>
+ 
+                </div>
+            </td>
+            <td class="other">
+                <p class="name">广东电信</p>
+                <p class="fn-clear mt-5"></p>
+            </td>
+            <td class="amount"> <span class="amount-pay-out">-100.00</span>
+ 
+            </td>
+            <td class="status">
+                <p>充值成功</p>
+                <p class="ft-gray"></p>
+            </td>
+            <td class="action">
+                <select id="J-operation-select-2" class="fn-hide J-operation-select" seed="action-JOperationSelect2" smartracker="on">
+                    <option seed="trade-detail" data-link="https://ebppprod.alipay.com/home/consumeRecord.htm?billNo=201411282628450" data-target="_blank">详情</option>
+                    <option class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com/record/editMemo.htm?bizInNo=201411282628450&createDate=           20141128083208
+    &bizType=PUC_CHARGE" rel-id="" data-tip="请勿备注个人敏感信息">备注</option>
+                    <option seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com/record/delete.json?record=           2014-11-28 08:32:08
+    |201411282628450|PUC_CHARGE" data-fund-change="true" rel-id="">删除</option>
+                </select>
+                <div class="operation-menu-trigger J-operation-menu-trigger" id="J-operation-menu-2">
+                    <div class="current-item"> <span class="item-text">详情</span><span class="icon-pull-down"> </span>
+ 
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr id="J-item-3" class="J-item  ">
+            <td class="time">
+                <p class="time-d">2014.11.28</p>
+                <p class="time-h ft-gray">08:28</p>
+            </td>
+            <td class="memo"></td>
+            <td class="name">
+                <p class="consume-title">   <a href="https://ebppprod.alipay.com/home/consumeRecord.htm?billNo=201411282620451" title="手机充值-充值100.00元-15915729856" target="_blank" seed="consumeTitle-linkT2" smartracker="on">手机充值-充值100.00元-15915729856</a>
+ 
+                </p>
+                <div class="consume-bizNo ft-gray fn-pr J-tradeNo-container" id="J-tradeNo-container-3">流水号 <a class="J-tradeNo-copy J-tradeNo" id="J-tradeNo-3" href="javascript:;" data-clipboard-text="201411282620451" title="201411282620451" seed="JTradeNoContainer3-JTradeNo3" smartracker="on">            2014...451
+    </a>
+ 
+                </div>
+            </td>
+            <td class="other">
+                <p class="name">广东移动</p>
+                <p class="fn-clear mt-5"></p>
+            </td>
+            <td class="amount"> <span class="amount-pay-out">-100.00</span>
+ 
+            </td>
+            <td class="status">
+                <p>充值成功</p>
+                <p class="ft-gray"></p>
+            </td>
+            <td class="action">
+                <select id="J-operation-select-3" class="fn-hide J-operation-select" seed="action-JOperationSelect3" smartracker="on">
+                    <option seed="trade-detail" data-link="https://ebppprod.alipay.com/home/consumeRecord.htm?billNo=201411282620451" data-target="_blank">详情</option>
+                    <option class="split" seed="trade-memo" data-action="edit-memo" data-link="https://consumeprod.alipay.com/record/editMemo.htm?bizInNo=201411282620451&createDate=           20141128082857
+    &bizType=PUC_CHARGE" rel-id="" data-tip="请勿备注个人敏感信息">备注</option>
+                    <option seed="trade-delete" data-action="delete" data-link="https://consumeprod.alipay.com/record/delete.json?record=           2014-11-28 08:28:57
+    |201411282620451|PUC_CHARGE" data-fund-change="true" rel-id="">删除</option>
+                </select>
+                <div class="operation-menu-trigger J-operation-menu-trigger" id="J-operation-menu-3">
+                    <div class="current-item"> <span class="item-text">详情</span><span class="icon-pull-down"> </span>
+ 
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+       <h3 class="right-bk-hd" style=" margin-top:10px;">物品列表</h3>
+      <style type="text/css">
+      .deal-list a {text-decoration:none;}
+         .deal-list li {
+  width: 270px;
+  float: left;
+  margin: 20px 10px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 0;
+  height: 344px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  border:1px solid #ccc;
+  margin-left: 16px;
+  background:url(http://www.wetcode.com.cn/templates/mima/images/sale-top-1.png) center bottom no-repeat;
+  
+  } .deal-list .deal-img {
+  height: 201px;
+  border: 0 none;
+  margin: 0;
+  overflow: hidden;
+  } .deal-list .deal-title {
+  padding: 15px 0 0;
+  font-size: 20px;
+  color: #3b8cb0;
+  font-weight: bold;
+  
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 100%;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-sub-title {
+  
+  font-size: 14px;
+  padding: 7px 0 0;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  height: 42px;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-price {
+  padding: 20px 0 10px;
+  padding-top:0;
+  padding-left:10px;
+  padding-right:10px;
+  }
+   .deal-list .deal-price .yan {
+  font-size: 30px;
+  color: #2b9cdd;
+  }
+   .deal-list .deal-price .current-price {
+  font-size: 34px;
+  color: #2b9cdd;
+  }
+   .deal-list .deal-price .old-price {
+  font-size: 16px;
+  color: #666;
+  display:none;
+  }
+   .deal-list .deal-price .btn-yel {
+display: inline-block;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #444;
+background: #0D8EE8;
+background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#0883B1), to(#0D8EE8), color-stop(1.0,#336600));
+background-image: -moz-linear-gradient(0% 0% 270deg, #0883B1,#0D8EE8, #0D8EE8 100%);
+background-image: -ms-linear-gradient(top, #0883B1, #0D8EE8);
+box-shadow: 2px 2px 0px #c7ccd3;
+
+padding: 9px 13px;
+float: right;
+font-size: 16px;
+position: relative;
+top: 5px;
+  }
+  .deal-list a img {display:block;}
+.itemblock {margin-bottom:10px; overflow:hidden;}
+      </style>
+        <div class="itemblock">
+          <ul class="deal-list clearfix">
+                      <li style="margin-top:0; margin-left:0;"><div class="deal-img"><a href="http://t.dianping.com/deal/107587" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/2615a6e88c044eb7deec757cca50ea26(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">云来斯堡酒店伯爵国际自助美食</div>
+                          <div class="deal-sub-title">仅售168元，价值298元豪华自助晚餐（平日/周末可选），免费WiFi，免费停车位！超万人的选择，海鲜刺身源源不断，环球美食，倾情力献！（另有其他套餐可选）</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">168</span>
+                              <del class="old-price">¥298</del>
+                              <a href="http://t.dianping.com/deal/107587" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li style="margin-top:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769267" target="_blank"><img src="http://t1.s1.dpfile.com/pc/mc/1e0f1ed58ba0fe78a48f5671a8ab7c9b(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">万达希尔顿酒店感趣自助餐厅</div>
+                          <div class="deal-sub-title">仅售377.2元，价值754.4元周六至周四双人自助晚餐！岁末年初！重磅优惠！两人同行一人免单！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">377.2</span>
+                              <del class="old-price">¥754.4</del>
+                              <a href="http://t.dianping.com/deal/8769267" style="" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                      <li style="margin-top:0;">
+                          <div class="deal-img"><a href="http://t.dianping.com/deal/8769427" target="_blank"><img src="http://t3.s1.dpfile.com/pc/mc/65b06901aa31d8807ea4516e2fe15f7d(320c200)/thumb.jpg"></a></div>
+                          <div class="deal-title">达芬西餐厅</div>
+                          <div class="deal-sub-title">仅售75元，价值100元代金券，不限时段通用，免费WiFi，可累积使用，全场通用！</div>
+                          <div class="deal-price clearfix">
+                              <span class="yan">¥</span><span class="current-price">75</span>
+                              <del class="old-price">¥100</del>
+                              <a href="http://t.dianping.com/deal/8769427" style="" class="btn-yel" target="_blank">立即购买</a>
+                          </div>
+                      </li>
+                     
+                  </ul>
+        </div>
+    <h3 class="right-bk-hd" style=" margin-top:10px;">账户余额</h3>
+<style type="text/css">
+  .i-assets .amount {
+font-size: 24px;
+font-weight: 400;
+color: #666;
+margin-left: 2px;
+}
+.fn-left {
+display: inline;
+float: left;
+}
+.i-assets-balance-actions {overflow:hidden;}
+.i-assets-balance-amount {
+line-height: 24px;
+margin-right: 20px;
+float: left;
+}
+.i-assets-balance-actions li {
+float: left;
+margin-right: 7px;
+height: 25px;
+list-style-type:none;
+}
+.i-assets-balance-actions .ui-button {
+display: inline-block;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+font-size: 14px;
+font-weight: 700;
+border-radius: 2px;
+padding: 0 20px;
+}
+
+
+
+.i-assets-balance-actions .ui-button-swhite {
+border: 1px solid #afafaf;
+background-color: #f3f3f3;
+color: #777;
+line-height: 24px;
+height: 24px;
+padding: 0 12px;
+font-size: 12px;
+}
+
+.i-assets-balance-actions a.ui-button-swhite {
+color: #777;
+line-height: 22px;
+height: 22px;
+}
+
+.i-assets .amount .fen {
+font-size: 18px;
+}
+.block-price {overflow:hidden;}
+</style>
+      <div class="block-price">
+        <div class="i-assets-balance-amount i-assets"><strong class="amount">1222<span class="fen">.14</span></strong>元</div>
+        <ul class="i-assets-balance-actions fn-clear">
+        <li>
+          
+          <a class="ui-button ui-button-swhite j-deposit-link" title="充值" target="_blank" href="https://shenghuo.alipay.com/transfer/deposit/depositPreprocessGw.htm" seed="app-recharge-myalipay-yue-v1">充 值</a>
+        </li>
+        <li>
+          <a class="ui-button ui-button-swhite" title="提现" target="_blank" href="https://memberprod.alipay.com/fund/withdraw/apply.htm" seed="app-draw-myalipay-yue-v1">提 现</a>
+        </li>
+        <li>
+          <a class="ui-button ui-button-swhite" title="转账" href="https://shenghuo.alipay.com/send/payment/fill.htm?_pdType=adbhajcaccgejhgdaeih" seed="app-transfer-myalipay-yue-v1">转 账</a>
+        </li>
+       
+      </ul>
+      </div>
+
+    <h3 class="right-bk-hd" style=" margin-top:10px;">积分余额</h3>
+<div class="block-price">
+        <div class="i-assets-balance-amount i-assets"><strong class="amount">1222<span class="fen">.14</span></strong>分</div>
+        <ul class="i-assets-balance-actions fn-clear">
+        <li>
+          
+          <a class="ui-button ui-button-swhite j-deposit-link" title="充值" target="_blank" href="https://shenghuo.alipay.com/transfer/deposit/depositPreprocessGw.htm" seed="app-recharge-myalipay-yue-v1">充 值</a>
+        </li>
+        <li>
+          <a class="ui-button ui-button-swhite" title="提现" target="_blank" href="https://memberprod.alipay.com/fund/withdraw/apply.htm" seed="app-draw-myalipay-yue-v1">提 现</a>
+        </li>
+        <li>
+          <a class="ui-button ui-button-swhite" title="转账" href="https://shenghuo.alipay.com/send/payment/fill.htm?_pdType=adbhajcaccgejhgdaeih" seed="app-transfer-myalipay-yue-v1">转 账</a>
+        </li>
+       
+      </ul>
+      </div>
+
+
+         </div>
+</div>
+<style type="text/css">
+  .footer_w {color: #999;text-align:center;font-size:12px; line-height:1.5;padding:10px;border-top: 1px solid #e0e0e0;
+padding: 5px 0 30px 0;}
+.footer_w  a {color:#999; text-decoration:none;}
+</style>
+
+<div class="footer_w" style="width:auto;"><div class="compay">
+      <p class="Color7">©2003-2014 dianping.com, All Rights Reserved.　　本站发布的所有内容，未经许可，不得转载，详见<a rel="nofollow" class="G" href="http://www.dianping.com/aboutus/zhishichanquan.html">《知识产权声明》</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="G" href="http://www.dianping.com/aboutus/useragreement">《用户使用协议》</a></p>
+      <p class="Color7">增值电信业务经营许可证：<a href="http://www.miitbeian.gov.cn" rel="nofollow" class="G" target="_blank">沪B2-20040012</a>　　互联网地图服务资质：乙测资字31202063</p>
+     </div>
+ </div>
+  </body>
+</html>
