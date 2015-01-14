@@ -230,7 +230,7 @@ line-height:30px;
 <style type="text/css">
   .footer_w {margin-top:0;}
   .tg-nav {overflow:hidden;}
-  .tg-nav-menu {float: left; width: 240px; background: #fff; padding-left: 10px; padding-right: 10px; padding-top: 1em;padding-bottom: 1000em;
+  .tg-nav-menu {float: right; width: 240px; background: #fff; padding-left: 10px; padding-right: 10px; padding-top: 1em;padding-bottom: 1000em;
 margin-bottom: -1000em;}
   .member {
 margin-bottom: 22px;
@@ -258,7 +258,7 @@ width: 41px;
 overflow: hidden;
 margin-bottom: 5px;}
 .member {clear:both; overflow:hidden;}
-.tg-nav-link {float:left; width:910px; padding-bottom:20px; padding-top:1em; margin-left:10px; padding-left:10px;padding-right:10px;padding-bottom:10px; background:#fff;}
+.tg-nav-link {float:left; width:910px; padding-bottom:20px; padding-top:1em; margin-left:0px; padding-left:10px;padding-right:10px;padding-bottom:10px; background:#fff;}
 .two_line{
 	position: relative;
 	margin-top: 6px;
@@ -312,6 +312,120 @@ border-radius:5px;
   <div class="tg-nav w1020">
       <div class="tg-nav-menu" id="nav-menu">
         
+                <div class="member listsc">
+        <h3><span>商家位置</span></h3>
+        <div class="two_line">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <div id="smimglist-warp">
+          <img src="http://localhost/my-temp/website/des-water/qqpng.png" alt="" />
+        </div>
+        </div>
+
+<style type="text/css">
+.midas-wrap-shop {
+    margin-top:10px
+}
+.midas-wrap-shop .title {
+    padding-top:10px;
+    border-bottom:1px solid #ececec
+}
+.midas-wrap-shop .title h4 {
+    float:left;
+    margin-bottom:-1px;
+    padding-bottom:10px;
+    border-bottom:2px solid #f63
+}
+.midas-wrap-shop .title .logo {
+    top:7px
+}
+.midas-wrap-shop .mn li {
+    margin-top:6px
+}
+.midas-wrap-shop .mn .img-shop img {
+    width:240px;
+    height:179px
+}
+.midas-wrap-shop .mn-lr {
+    position:relative;
+    height:69px;
+    padding:15px 0 0 100px
+}
+.midas-wrap-shop .mn-lr .tit {
+    font-size:14px
+}
+.midas-wrap-shop .mn-lr .tit .icon {
+    margin-left:5px
+}
+.midas-wrap-shop .mn-lr .img-shop {
+    position:absolute;
+    top:15px;
+    left:0
+}
+.midas-wrap-shop .mn-lr .img-shop img {
+    width:93px;
+    height:69px
+}
+.midas-wrap-shop .mn-lr .star {
+    margin-top:8px
+}
+.midas-wrap-shop .mn-lr .info {
+    margin-top:10px;
+    color:#999
+}
+.midas-wrap-shop .coupon {
+    border-top:1px dashed #eee
+}
+.midas-wrap-shop .coupon .con {
+    position:relative;
+    height:90px;
+    padding:10px 0 0 100px
+}
+.midas-wrap-shop .coupon .con .img-coupon {
+    position:absolute;
+    top:10px;
+    left:0
+}
+.midas-wrap-shop .coupon .con .img-coupon img {
+    width:90px;
+    height:90px
+}
+.midas-wrap-shop .coupon .con .expire {
+    color:#999;
+    line-height:22px;
+    text-align:right
+}
+.midas-wrap-shop .coupon .more {
+    margin-top:10px
+}
+.midas-wrap-shop .review {
+    margin-top:5px
+}
+.midas-wrap-shop .review a {
+    font-size:12px;
+    display:block;
+    word-wrap:break-word;
+    word-break:break-all;
+    line-height:22px
+}
+.midas-wrap-shop .review a:hover {
+    color:#f63
+}
+</style>
+        
+                <div class="member listsc">
+        <h3><span>相关商品</span></h3>
+        <div class="two_line">
+              <div class="less_short_line"></div>
+              <div class="long_line"></div>
+          </div>
+        <div id="itemblock" class="midas-wrap-shop">
+          <div class="J_con"><div class="item" data-midas="ad=10018656&amp;slot=4&amp;adidx=0" data-viewed="true" data-click-inited="true" data-midas-impressed="true"><div class="mn-lr"><a href="/shop/17627416" target="_blank" class="img-shop" onclick="document.hippo.mv('ad_c','10018656_74');" data-midas-extends="module=6_cpm_shop_pic"><img src="http://p1.s1.dpfile.com/pc/ed969eb023f34fa1806a8e4b93c251af(240x180)/thumb.jpg" alt="百丈园"></a><p class="tit"><a href="/shop/17627416" target="_blank" title="百丈园" onclick="document.hippo.mv('ad_c','10018656_74');" data-midas-extends="module=6_cpm_shop_name">百丈园</a><a href="/shop/17627416" target="_blank" class="icon tag-tuan-s" onclick="document.hippo.mv('ad_c','10018656_74');" data-midas-extends="module=6_cpm_icon_tuan"></a></p><p class="star"><span class="sml-rank-stars sml-str35"></span></p><p class="info"><span class="fr">人均 ¥81</span><span class="region">天河区</span></p></div></div><div class="item" data-midas="ad=10009842&amp;slot=4&amp;adidx=1" data-viewed="true" data-click-inited="true" data-midas-impressed="true"><div class="mn-lr"><a href="/shop/3500059" target="_blank" class="img-shop" onclick="document.hippo.mv('ad_c','10009842_74');" data-midas-extends="module=6_cpm_shop_pic"><img src="http://p3.s1.dpfile.com/pc/e81feef96f5491524070aabf01476fb2(240x180)/thumb.jpg" alt="麓苑轩酒家（蒸汽火锅）"></a><p class="tit"><a href="/shop/3500059" target="_blank" title="麓苑轩酒家（蒸汽火锅）" onclick="document.hippo.mv('ad_c','10009842_74');" data-midas-extends="module=6_cpm_shop_name">麓苑轩酒家（...</a><a href="/shop/3500059" target="_blank" class="icon tag-cu-s" onclick="document.hippo.mv('ad_c','10009842_74');" data-midas-extends="module=6_cpm_icon_coupon"></a><a href="/shop/3500059" target="_blank" class="icon tag-tuan-s" onclick="document.hippo.mv('ad_c','10009842_74');" data-midas-extends="module=6_cpm_icon_tuan"></a></p><p class="star"><span class="sml-rank-stars sml-str45"></span></p><p class="info"><span class="fr">人均 ¥62</span><span class="region">越秀区</span></p></div></div><div class="item" data-midas="ad=10003594&amp;slot=4&amp;adidx=2" data-viewed="true" data-click-inited="true" data-midas-impressed="true"><div class="mn-lr"><a href="/shop/5533764" target="_blank" class="img-shop" onclick="document.hippo.mv('ad_c','10003594_74');" data-midas-extends="module=6_cpm_shop_pic"><img src="http://i3.dpfile.com/pc/3868473f0a1bd68182fa4372866bc4ac(240x180)/thumb.jpg" alt="源德顺酒家"></a><p class="tit"><a href="/shop/5533764" target="_blank" title="源德顺酒家" onclick="document.hippo.mv('ad_c','10003594_74');" data-midas-extends="module=6_cpm_shop_name">源德顺酒家</a></p><p class="star"><span class="sml-rank-stars sml-str30"></span></p><p class="info"><span class="fr">人均 ¥47</span><span class="region">越秀区</span></p></div></div></div>
+        </div>
+        </div>
+
+
 
         <div class="member listsc">
         <h3><span>最新活动</span></h3>
@@ -324,16 +438,6 @@ border-radius:5px;
         <li><a href="http://mall.bydauto.com.cn/xian/index/byd201415buy"> <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" alt=""></a></li>
   
         </ul></div>
-        </div>
-              <div class="member listsc">
-        <h3><span>在线客服</span></h3>
-              <div class="two_line">
-              <div class="less_short_line"></div>
-              <div class="long_line"></div>
-          </div>
-        <div id="smimglist-warp">
-          <ul class="server-box-ct"><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E6%B5%B7&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小海">小海</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E8%BF%AA&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小迪">小迪</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%9B%9B&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小四">小四</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E5%AE%81&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小宁">小宁</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%B0%8F%E4%B9%9D&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小九">小九</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3Aiqs10&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小爱">小爱</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E9%94%90%E9%94%90&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小锐">小锐</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%93%81%E8%B4%A8&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小纯">小纯</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E8%B4%A3%E4%BB%BB&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小洛">小洛</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E6%8A%80%E6%9C%AF&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小技">小技</a><a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8"><img src="http://amos.alicdn.com/realonline.aw?v=2&amp;uid=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%B1%BD%E8%BD%A6%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97%3A%E5%94%AE%E5%90%8E&amp;site=cntaobao&amp;s=2&amp;charset=utf-8" border="0" alt="小美">小美</a></ul>
-        </div>
         </div>
         <div class="member listsc">
         <h3><span>扫一扫</span></h3>
@@ -386,7 +490,6 @@ border-radius:5px;
 .basic-info .shop-name {
   font-size: 22px;
   margin-top: -7.5px;
-  border-bottom: 1px solid #ddd;
   padding-bottom: 5px;
   line-height: 30px;
 }
@@ -800,16 +903,24 @@ border-radius:5px;
     .picoprolist .item {padding:0 10px; display:inline-block;}
     .picoprolist .item img {border:1px solid #ddd;
     }
+
+    .branch {float: right; display: inline-block; margin-top: 10px;}
+      
       </style>
 
       <div class="tg-nav-link" id="nav-link">
         <div id="basic-info" class="basic-info default nug_shop_ab_pv-a">
 <s class="cover J_cover"></s>
 <h1 class="shop-name">
-和苑酒家
-    <a class="icon v-shop" title="该商户提供的认证资料已经通过审核" target="_blank" rel="nofollow" href="http://www.dianping.com/business/vshop/"></a>
-    <a class="branch J-branch">其它1家分店<i class="icon i-arrow"></i></a>
+
+    
+    
 </h1>
+<div class="mod">
+      <h1 class="mod-title">
+              <a class="item current"  style="font-size:28px;height: 38px;font-weight:bold;color:#333;">和苑酒家<a class="branch J-branch">其它1家分店<i class="icon i-arrow"></i></a></a>
+          </h1>
+    </div>
 
 <div class="brief-info">
     <span title="五星商户" class="mid-rank-stars mid-str50"></span>
@@ -1287,7 +1398,7 @@ border-bottom: 1px solid #ebebeb;
 _zoom: 1;
 }
 .mod .mod-title .current {
-border-bottom: 2px solid #fa5e00;
+border-bottom: 2px solid #06c;
 margin-bottom: -2px;
 cursor: default;
 }
@@ -1324,7 +1435,14 @@ cursor: default;
                 </div>
         </div>
 </div>
-<h3 class="right-bk-hd" style=" margin-top:10px;">评论</h3>
+
+<div id="sales" class="mod sales-promotion clearfix">
+    <h2 class="mod-title">
+        <a class="item current">评论</a>
+    </h2>
+
+</div>
+
 <style type="text/css">
         .media-left {display: table-cell;
 vertical-align: top;
