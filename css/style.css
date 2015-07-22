@@ -1,5 +1,75 @@
 noscript{text-align:center;display:block;background:red;color:#fff;line-height:30px}.fl{float:left;display:inline}.fr{float:right;display:inline}.none{display:none}.v-h{visibility:hidden}.textb{white-space:normal;word-wrap:break-word;word-break:break-all}.textep{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.unselect{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.mb{font-family:Helvetica,STHeiti,Droid Sans Fallback}.yh{font-family:"Microsoft YaHei", "微软雅黑", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif}.st{font-family:"\5B8B\4F53", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif}.ht{font-family:"\9ED1\4F53", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif}.ar{font-family:"Arial", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", sans-serif}ul {margin:0; padding:0;}p {margin:0;}h1,h2,h3,h4 {margin:0;}.noscript {height:30px; line-height:30px; background:#fff; text-align:center; font-size:20px;}
-
 .my-peson {text-align:right;}
+a {color:#3098f9; -webkit-transition:.3s; transition:.3s; }
+a:hover {color:#06c;text-decoration:none;}
 
+/*-- top-nav --*/
+.top-nav {background:#f6f6f6; padding-top:5px; padding-bottom:5px;}
+.top-nav a {text-decoration:none;  font-size:12px;}
+.login-box a{margin-right:10px;}
+.my-peson a {margin-left:10px;}
+.my-peson a .glyphicon {margin-right:5px;}
 
+/*-- header--*/
+.header {background: url("../images/header-bg1.jpg") center 0 repeat-x;padding-top: 0px;padding-bottom: 11px;}
+.form-search {margin-top: 25px;}
+.form-search .input-group{border: 2px solid rgb(48, 152, 249);}
+.form-search .form-control {border: 0;border-radius: 0;}
+.form-search .input-group-btn:last-child>.btn {border-radius:0;border:0; background:#3098f9; height: 34px; color:#fff;}
+.header-area .btn {background: transparent;border: 0;font-size: 18px;padding: 0;border-left: 1px solid #adadad;border-radius: 0;padding-left: 8px;position: relative;top: 2px;}
+
+.header .col-1 {padding-top:30px;}
+
+.header-area .open>.dropdown-toggle.btn-default:focus,
+.header-area .open>.dropdown-toggle.btn-default:hover, 
+.header-area .btn-default:active, 
+.header-area .open>.dropdown-toggle.btn-default
+{
+  background: transparent !important;
+  outline:0;
+  box-shadow:none
+}
+.tuikuan-link {text-align:right;padding-top: 14px;}
+.tuikuan-link a {display: inline-block;text-align: center;width: 54px;line-height: 2.5;margin: 0 5px;padding-top: 10px;}
+.tuikuan-link a:hover {background:rgba(149, 202, 252, 0.47);}
+.tuikuan-link a i{display:block;}
+
+/*-- main-box --*/
+.main-box {padding-top:20px; padding-bottom:20px;}
+
+.jjh h2,.title1 {font-size: 14px;border-bottom: 1px solid #e0e0e0;padding-bottom: 5px; font-weight:bold; height: 40px;
+line-height: 40px;} 
+.jjh h2 .glyphicon,.title1 .glyphicon{margin-right:3px;}
+.jjh .caption {padding:0; padding-top:10px; line-height:1.8;}
+.jjh .caption h3{text-align:left;font-size:18px; margin-bottom:5px;}
+.jjh .p3 {padding-top:5px;}
+.jjh .thumbnail,.box1 {padding:10px; border:0;background:#f7f5f2;}
+
+.main-nav {background:#2577e3;}
+.main-nav li a {color:#fff; border-radius:0;}
+.main-nav li a:hover {color:#2577e3; background:#fff;}
+.sell .sp1 {color:#f60;}
+.zztj .row-1 {line-height:1.8; height:122px;}
+.zztj .price,.zztj  .sell {display:inline;}
+.zztj .price {font-size:20px; color:#f60;}
+.btn-grey {background:#ccc; color:#fff;}
+
+/*-- 今日热单 --*/
+.tj-box .title1{margin-bottom:10px;}
+.tj-box h3{font-size:16px;font-weight:bold; overflow:hidden; margin-bottom:5px; height:17px;}
+.tj-box .p1 {font-size: 12px;height: 36px;overflow: hidden;margin-bottom: 6px;}
+
+/*小屏幕*/
+@media (min-width: 768px) {
+  
+}
+/*中屏幕*/
+@media (min-width: 992px){
+ .zztj .row-1{padding-top: 23px;padding-bottom: 28px;height: 124px; } 
+ .zztj .price,.zztj  .sell {display:block;}
+}
+
+/*大屏幕*/
+@media (min-width: 1200px){
+  .zztj .row-1{padding-top: 33px;padding-bottom: 28px;height: 163px; }
+}
