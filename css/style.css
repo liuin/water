@@ -3,6 +3,7 @@ noscript{text-align:center;display:block;background:red;color:#fff;line-height:3
 a {color:#3098f9; -webkit-transition:.3s; transition:.3s; }
 a:hover {color:#06c;text-decoration:none;}
 
+
 /*-- top-nav --*/
 .top-nav {background:#f6f6f6; padding-top:5px; padding-bottom:5px;}
 .top-nav a {text-decoration:none;  font-size:12px;}
@@ -37,19 +38,22 @@ a:hover {color:#06c;text-decoration:none;}
 /*-- main-box --*/
 .main-box {padding-top:20px; padding-bottom:20px;}
 
-.jjh h2,.title1 {font-size: 14px;border-bottom: 1px solid #e0e0e0;padding-bottom: 5px; font-weight:bold; height: 40px;
-line-height: 40px;} 
-.jjh h2 .glyphicon,.title1 .glyphicon{margin-right:3px;}
+
+
+.jjh h2,.title1 {font-size: 18px;border-bottom: 1px solid #e0e0e0;padding-bottom: 5px; font-weight:normal; height: 40px;line-height: 40px;color:#444;}
+
+.jjh h2 .glyphicon,.title1 .glyphicon{margin-right:3px;top: 2px; }
 .jjh .caption {padding:0; padding-top:10px; line-height:1.8;}
 .jjh .caption h3{text-align:left;font-size:18px; margin-bottom:5px;}
 .jjh .p3 {padding-top:5px;}
 .jjh .thumbnail,.box1 {padding:10px; border:0;background:#f7f5f2;}
+.jjh .thumbnail {margin-bottom:10px;}
 
 .main-nav {background:#2577e3;}
 .main-nav li a {color:#fff; border-radius:0;}
 .main-nav li a:hover {color:#2577e3; background:#fff;}
 .sell .sp1 {color:#f60;}
-.zztj .row-1 {line-height:1.8; height:122px;}
+.zztj .row-1 {line-height:1.8; }
 .zztj .price,.zztj  .sell {display:inline;}
 .zztj .price {font-size:20px; color:#f60;}
 .btn-grey {background:#ccc; color:#fff;}
@@ -59,17 +63,39 @@ line-height: 40px;}
 .tj-box h3{font-size:16px;font-weight:bold; overflow:hidden; margin-bottom:5px; height:17px;}
 .tj-box .p1 {font-size: 12px;height: 36px;overflow: hidden;margin-bottom: 6px;}
 
+.tj-box .p3{margin-top:10px;}
+.tj-box .price {font-size: 20px;color: #f60;}
+
+.carousel-1 {margin-bottom:10px;}
+
+.view-more-link {text-align:center; font-size:16px;}
+
+/*-- footer --*/
+.footer {margin-top:30px; padding-top:0px; border-top:1px solid #e0e0e0; line-height:1.8;background: #f7f5f2;}
+.footer a {display:block; color:#999;font-size:12px; text-align:center;}
+.footer a:hover {color:#06c;}
+.copy-right {padding-top:10px; text-align:center;font-size:12px; color:#999; border-top:1px solid #e0e0e0 ;}
+
+.footer .col-1  {border-right:1px solid #ccc;}
+.footer .col-3 {border-top:1px solid #ccc;padding-top:5px;}
+
+.fix-right-code {position:fixed;right:0; top:40%;display:none;}
+
 /*小屏幕*/
 @media (min-width: 768px) {
-  
+  .footer .col-2 {border-left:1px solid #ccc; border-right:1px solid #ccc; height: 118px; padding-top:10px;}
+  .footer .col-1,.footer .col-3 {padding-top:10px;border-top:0;border-left:0;border-right:0;}
+
 }
 /*中屏幕*/
 @media (min-width: 992px){
  .zztj .row-1{padding-top: 23px;padding-bottom: 28px;height: 124px; } 
  .zztj .price,.zztj  .sell {display:block;}
+
 }
 
 /*大屏幕*/
 @media (min-width: 1200px){
   .zztj .row-1{padding-top: 33px;padding-bottom: 28px;height: 163px; }
+  .fix-right-code {display:block;}
 }
