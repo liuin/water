@@ -159,7 +159,7 @@ body {background:#eee;}
 
 /*-- main-person 个人中心 --*/
 
-.main-person .main-nav{margin-left:-15px; margin-right:-15px;}
+.main-person .main-nav{}
 
 .side-nav li {line-height: 25px;border-bottom: 1px solid #ebebeb;font-weight:bold;padding-bottom:5px;padding:0px; list-style-type:none;}
 .side-nav ul li {border-bottom:none; line-height:25px; padding-bottom:0; padding:0;}
@@ -167,12 +167,12 @@ body {background:#eee;}
 .side-nav li a {display: block;padding-left: 0px;font-size: 14px;color: #555;background-position: -370px -46px;text-decoration:none;}
 .side-nav li a:hover {color:#337ab7;}
 
-.left-side .side-nav{padding-top: 15px;margin-left: -15px;margin-right: -15px;}
+.left-side .side-nav{padding-top: 15px;margin-left: 0;margin-right: 0;}
 .left-side .side-nav .cur {margin-bottom:10px;}
 .left-side .side-nav .hd1 {display: block;height: 30px;line-height: 30px;background: #5F9FF4;color: #fff;padding-left: 15px;}
 
 .left-side .side-nav .hd1 .caret{margin-top: 15px;margin-right: 15px;}
-.col-table {background:#fff;box-shadow:0 2px 3px #ccc;}
+.col-table {background: #fff;box-shadow: 0 2px 3px #ccc;border-radius: 0 5px 5px 5px;overflow: hidden;}
 .choose-bar {line-height:42px;height:40px;}
 .choose-bar a {margin-left:10px;}
 .person-order-hd {display:none;}
@@ -188,6 +188,7 @@ body {background:#eee;}
 .preson-order-item .d2-1 {float:left;width:50%;}
 .preson-order-item .d1 {border-bottom: 1px dotted #ddd;margin-bottom: 10px;}
 
+.person-right-side {padding-top:15px;}
 
 
 /*小屏幕*/
@@ -232,6 +233,8 @@ body {background:#eee;}
   .preson-order-item .d2.control .btn{display: block;margin-bottom: 5px;width: 100%;padding: 6px 0px;}
 
   .person-right-side .row{margin-left: 0px;padding-top: 15px;}
+
+  .person-left-side {padding-right:0;}
 }
 /*中屏幕*/
 @media (min-width: 992px){
