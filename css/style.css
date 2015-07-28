@@ -195,6 +195,47 @@ body {background:#eee;}
 .person-right-side-collect .col-table{padding-top:10px;}
 .pagenation-nav {text-align:center;}
 
+
+.ripple-wrapper {display: block;position: absolute;background: rgba(255,255,255,0.4);border-radius: 100%;-webkit-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);}
+.ripple-wrapper.animated {animation: ripple 0.65s linear;-webkit-animation: ripple 0.65s linear;-moz-animation: ripple 0.65s linear;-o-animation: ripple 0.65s linear;}
+.has-ripple {overflow: hidden;position: relative;user-select: none;outline: none;}
+@keyframes ripple {
+  100% {
+    -webkit-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes ripple {
+  100% {
+    -webkit-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@-o-keyframes ripple {
+  100% {
+    -webkit-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+@-moz-keyframes ripple {
+  100% {
+    -webkit-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
 /*小屏幕*/
 @media (min-width: 768px) {
   .footer .col-2 {border-left:1px solid #ccc; border-right:1px solid #ccc; height: 95px; padding-top:10px;}
