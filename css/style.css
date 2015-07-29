@@ -196,6 +196,16 @@ body {background:#eee;}
 .pagenation-nav {text-align:center;}
 
 
+/*-- person-right-side-pj --*/
+.person-right-side-pj .preson-order-item.first{border-top:0;}
+.person-right-side-pj .star {width:73px;background:url("../images/star.png") -88px -664px no-repeat; height:20px; margin-right:10px;margin-left:3px;}
+.person-right-side-pj .star .sp1 {display:block; height:20px; background:url("../images/star.png") -88px -682px no-repeat;}
+.person-right-side-pj .preson-order-item .clear {height:5px;clear:both;}
+.person-right-side-pj .preson-order-item .name {margin-bottom:5px;}
+.person-right-side-pj .d2-1 {float:none;}
+.person-right-side-pj .preson-order-item .msg {margin-left:98px;}
+.preson-order-item .control {margin-bottom:0;}
+
 .ripple-wrapper {display: block;position: absolute;background: rgba(255,255,255,0.4);border-radius: 100%;-webkit-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);}
 .ripple-wrapper.animated {animation: ripple 0.65s linear;-webkit-animation: ripple 0.65s linear;-moz-animation: ripple 0.65s linear;-o-animation: ripple 0.65s linear;}
 .has-ripple {overflow: hidden;position: relative;user-select: none;outline: none;}
@@ -285,6 +295,13 @@ body {background:#eee;}
   .person-right-side-collect .preson-order-item.first{ border-top:1px solid #ccc;}
   .person-right-side-collect span.sp2,.person-right-side-collect span.sp3,.person-right-side-collect .d2{width:20%;}
   .person-right-side-collect .preson-order-item .d2.control .btn {max-width:90px; margin-left:auto; margin-right:auto;}
+
+  /*-- person-right-side-pj --*/
+  .person-right-side-pj .person-order-hd span.sp2,.person-right-side-pj .person-order-hd span.sp3{width:15%;}
+  .person-right-side-pj .preson-order-item > div.d2 {width:15%;}
+  .person-right-side-pj .preson-order-item.first {border-top: 1px solid #ccc;}
+
+
 }
 /*中屏幕*/
 @media (min-width: 992px){
