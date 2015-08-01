@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="key words" />
+    <meta name="description" content="google will show" />
+    <meta http-equiv="Content-Script-Type" content="type" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>
+        write your site name
+    </title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+  
+  <style type="text/css">
+    * {margin:0; padding:0; }
+    body {font-family:'微软雅黑'; }
+    .top_header {
+background: #3098f9;
+height: 40px;
+line-height:40px;
+color:#fff;
+}
+  .top_header  a {color:#fff; text-decoration:none;margin-left:10px;}
+  .w1020 {width:1020px; margin:0 auto;}
+  .top_header .container{width:1020px; margin:0 auto;}
+  </style>
+  <div class="top_header">
+    	<div class="container">
+        	<div class="navbar navbar-inverse" style="float:left;">
+            	<div class="navbar-inner">
+                       <span class="top_span">您好，用户商家</span>
+                       <a href="http://203.166.186.14/Login" class="top_a">退出</a>
+                </div>
+            </div>
+ 
+        </div>
+</div>
+  <style type="text/css">
+    .top-ct2 {padding-top: 22px;margin-bottom: 0; overflow:hidden; padding-bottom:10px;}
+    .top_bar_ul{
+	margin-top: 10px;
+	position: relative;
+	left: 0px;
+
+	float: right;
+}
+
+.top_bar_ul {float:right;}
+.top_bar_ul li{
+	float: left;
+
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+  list-style-type:none;
+}
+.top_bar_ul li a{
+color: #0088cc;
+text-decoration: none;
+}
+
+.top_bar_ul li span{
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	cursor:pointer;
+  position:relative;
+  top:-3px;
+
+}
+
+.top_bar_ul li span:hover{
+	color: #3098f9;
+}
+.top-ct2 .logo {float:left;margin-right:20px;}
+.top-ct2-wrap {background: url("http://www.wetcode.com.cn/templates/mima/images/header-bg1.jpg") 0 -64px repeat;border-bottom: 3px solid #90CFF6; margin-bottom:10px;}
+  </style>
+<div class="top-ct2-wrap">
+    <div class="top-ct2 w1020">
+      <a onclick="pageTracker._trackPageview('dp_head_logo_guangzhou');" title="大众点评网" href="http://www.dianping.com" class="logo"><img src="http://localhost/my-temp/website/des-water/logo.png" alt="" /></a>
+      <ul class="top_bar_ul">
+                  <li>
+                      <a href="http://203.166.186.14/About">
+                          <span class="id_1 active" data="关于联盟">水汇网首页</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/News">
+                          <span class="id_2" data="新闻资讯">个人中心</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/Meeting">
+                          <span class="id_3" data="会务活动">购物车</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://203.166.186.14/Software">
+                          <span class="id_4" data="软件分享">联系客服</span>
+                          <img src="sideling_line.png" class="sideling_line">
+                      </a>
+                  </li>                                    
+              </ul>
+    </div>
+  </div>
+  <style type="text/css">
+    .cotent-1 { border:1px solid #e4eaee; overflow:hidden; position:relative; margin-bottom:30px;}
+    .left-bk {width:120px;padding:10px; background:#f5f8fa; float:left; padding-bottom:999em;margin-bottom:-999em;}
+    .list-left-bk {list-style:none;}
+    .list-left-bk a{color:#000; font-family:'\5B8B\4F53',Arial; font-size:12px; text-decoration:none; display:block; padding:0 10px; line-height:30px;margin-bottom:5px;}
+     .list-left-bk a:hover,.list-left-bk a.current {background: #66AFF3;
+color: #fff;}
+
+     .right-bk {margin-left:150px;padding:10px;}
+     .ui-record-table {text-align:left;}
+     .ui-record-table thead th {
+     font-weight: normal;
+    border-bottom:1px solid #ccc;
+    height:30px;
+    line-height:30px;
+    background:#f5f5f5;
+    background:-moz-linear-gradient(top, #f8f8f8, #f2f2f2);
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f8f8f8), color-stop(1, #f2f2f2));
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8f8', endColorstr='#f2f2f2', GradientType='0')
+}
+.current-item {display:none;}
+.ui-record-table {font: 12px/1.5 tahoma,arial,\5b8b\4f53;border-collapse: collapse;
+border-spacing: 0;}
+.ui-record-table tr.split {
+    background-color:#fbfbfb
+}
+.ui-record-table tbody td {
+    vertical-align:top;
+    padding:10px 0;
+    border-bottom:1px solid #e6e6e6
+}
+.ui-record-table .time {
+    padding-left:20px;
+    width:60px;
+    text-align:left
+}
+.ui-record-table td.memo {
+    text-align:center
+}
+.security-tips {
+    border-top:1px dashed #ffbb76;
+    margin-top:5px;
+    padding-top:5px;
+    color:#878787
+}
+.ui-record-table td.name, .ui-record-table td.other, .ui-record-table td.tradeNo {
+    padding-right:10px
+}
+.ui-record-table td.name, .ui-record-table td.tradeNo, .memo-info {
+    word-break:break-all;
+    word-wrap:break-word
+}
+.memo-info {
+    float:left;
+    width:140px
+}
+.ui-record-table td .consume-title a {
+    color:#4d4d4d;
+    outline:0 none
+}
+.ui-record-table td .consume-title a:hover {
+    color:#08C
+}
+.ui-record-table td .consume-bizNo a {
+    color:#9A9A9A;
+    outline:0 none
+}
+.ui-record-table .consume-bizNo a:hover {
+    color:#9A9A9A;
+    cursor:default
+}
+.ui-record-table .consume-bizNo a.hover {
+    text-decoration:underline
+}
+.ui-record-table td.name .consume-bizNo .J-tradeNo-copy {
+    display:inline-block
+}
+.ui-record-table .ft-gray {
+    color:#9a9a9a
+}
+.ui-record-table td.detail {
+    text-align:left;
+    padding-left:10px
+}
+.ui-record-table td.detail a {
+    float:left;
+    margin-right:10px;
+    margin-top:2px
+}
+.ui-record-table .amount, .ui-record-table .status,.ui-record-table  .action {
+    text-align:center
+}
+.amount-pay {
+    font-weight:700;
+    color:gray
+}
+.amount-pay-out {
+    color:#f37800;
+    font-weight:700
+}
+.amount-pay-in {
+    color:#53a000;
+    font-weight:700
+}
+.ui-record-table .action {
+    padding-right:20px;
+    text-align:center
+}
+.ui-record-table .refund {
+    height:20px;
+    padding-top:7px;
+    border-top:1px dashed #ccc
+}
+.ui-record-table .action .refund {
+    padding-right:20px
+}
+.ui-record-table tr.no-border td {
+    border-bottom:0 none;
+    padding-bottom:0
+}
+.right-bk-hd{ height:40px; line-height:40px; font-weight:normal;margin-bottom:10px;border-bottom: 1px solid #ddd;color:#206E93;
+}
+.cotent-1-hd {color:#0088cc; font-weight:normal;  left:0; border-top:1px solid #e4eaee;margin-bottom:30px; border-right:1px solid #e4eaee; position:relative; top:30px;  border-left: 1px solid #fff;}
+.cotent-1-hd span {position:relative;top:-20px; background:#fff; display:inline-block; padding:0 10px; font-weight:bold;}
+  </style>
+
+<h2 class="cotent-1-hd w1020"><span>商家中心</span></h2>  
+<div class="cotent-1 w1020" style="clear:both;">
+    
+    <div class="left-bk">
+      <ul class="list-left-bk">
+        <li><a href="#" class="current">验证码消费</a></li>
+        <li><a href="#">验证数量</a></li>
+        <li><a href="#">退款数量</a></li>
+        <li><a href="#">自动提款</a></li>
+      </ul>
+    </div>
+        <div class="right-bk">
+          <h3 class="right-bk-hd">验证码列表</h3>
+          <style type="text/css">
+           .navbar-form .form-group {
+display: inline-block;
+margin-bottom: 0;
+vertical-align: middle;
+}
+.form-control {
+display: block;
+width: 100%;
+height: 20px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.navbar-form .form-control {
+display: inline-block;
+width: auto;
+vertical-align: middle;
+}
+.valublock {margin-bottom:10px;}
+
+.btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.form-control:focus {
+border-color: #66afe9;
+outline: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+.btn-default {
+background: #0D8EE8;
+background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#0883B1), to(#0D8EE8), color-stop(1.0,#336600));
+background-image: -moz-linear-gradient(0% 0% 270deg, #0883B1,#0D8EE8, #0D8EE8 100%);
+background-image: -ms-linear-gradient(top, #0883B1, #0D8EE8);
+box-shadow: 2px 2px 0px #c7ccd3;
+color:#fff;
+}
+          </style>
+         
+      <div class="valublock">
+      <form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    请输入验证码:  <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">提交</button>
+</form>
+      </div>
+       <h3 class="right-bk-hd">验证码列表</h3>
+      <div class="valublock">
+      <form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    验证数量:  <input type="text" class="form-control" placeholder="Search">
+  </div>
+  <button type="submit" class="btn btn-default">确认</button>
+</form>
+      </div>
+
+       <h3 class="right-bk-hd" style=" margin-top:10px;">评论</h3>
+      <style type="text/css">
+        .media-left {display: table-cell;
+vertical-align: top;
+padding-right: 10px;
+}
+.itemblock {padding-bottom:5px;}
+.media-left, .media-right, .media-body {
+display: table-cell;
+vertical-align: top;
+}
+.media {margin-top:10px;  }
+.media:first-child {margin-top:0;}
+.media:last-child {margin-bottom:0;}
+ .media-body  {font-size:12px; color: #4d4d4d;}
+.media-heading {padding: 0 0 0;
+font-size: 14px;
+color: #3b8cb0;
+font-weight: bold;
+overflow: hidden;
+
+line-height: 120%;
+margin-bottom:10px;
+}
+.media-object {display:block;}
+  .deal-list .deal-price {
+  padding: 20px 0 10px;
+  padding-top:0;
+  padding-left:10px;
+  padding-right:10px;
+  }
+.media-heading-lab {min-height:30px;}
+
+.media {padding-bottom: 10px;
+border-bottom: 0px solid #ddd;
+margin-bottom: 10px;}
+
+      </style>
+        <div class="itemblock">
+      
+
+
+          <div class="media">
+        
+      <a class="media-left" href="#">
+        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://assets.alicdn.com/apps/mytaobao/3.0/profile/defaultAvatar/avatar-100.png" style="width: 64px; height: 64px;">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">
+ 广东移动100元官方快充 手机充值话费 移动全自动充值 即时到帐     </h4>
+        <p class="media-heading-lab">【精工好料】:此款为进口PU皮，采用水洗工艺，仿真皮质感，防水防风，吸汗透气！【免费试穿】:支持先试后买，7天无理由退换货，全场赠运费险，购物无风险！</p>　
+      <div class="media">
+          <a class="media-left" href="#">
+            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://assets.alicdn.com/apps/mytaobao/3.0/profile/defaultAvatar/avatar-100.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">广东移动100元官方快充 手机充值话费 移动全自动充值 即时到帐</h4>
+            【精工好料】:此款为进口PU皮，采用水洗工艺，仿真皮质感，防水防风，吸汗透气！【免费试穿】:支持先试后买，7天无理由退换货，全场赠运费险，购物无风险！
+          </div>
+        </div>
+        <div class="media">
+          <a class="media-left" href="#">
+            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://assets.alicdn.com/apps/mytaobao/3.0/profile/defaultAvatar/avatar-100.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+          </a>
+          <div class="media-body">
+            <h4 class="media-heading">广东移动100元官方快充 手机充值话费 移动全自动充值 即时到帐</h4>
+            【精工好料】:此款为进口PU皮，采用水洗工艺，仿真皮质感，防水防风，吸汗透气！【免费试穿】:支持先试后买，7天无理由退换货，全场赠运费险，购物无风险！
+          </div>
+        </div>
+      </div>
+</div>
+<div class="media">
+      <a class="media-left" href="#">
+        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://assets.alicdn.com/apps/mytaobao/3.0/profile/defaultAvatar/avatar-100.png" style="width: 64px; height: 64px;">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">
+ 广东移动100元官方快充 手机充值话费 移动全自动充值 即时到帐     </h4>
+        【精工好料】:此款为进口PU皮，采用水洗工艺，仿真皮质感，防水防风，吸汗透气！【免费试穿】:支持先试后买，7天无理由退换货，全场赠运费险，购物无风险！　
+      </div>
+    </div>
+
+
+    </div>
+        
+
+
+
+         </div>
+</div>
+     <style type="text/css">
+  .footer_w {color: #999;text-align:center;font-size:12px; line-height:1.5;padding:10px;border-top: 1px solid #e0e0e0;
+padding: 5px 0 30px 0;}
+.footer_w  a {color:#999; text-decoration:none;}
+</style>
+
+<div class="footer_w" style="width:auto;"><div class="compay">
+      <p class="Color7">©2003-2014 dianping.com, All Rights Reserved.　　本站发布的所有内容，未经许可，不得转载，详见<a rel="nofollow" class="G" href="http://www.dianping.com/aboutus/zhishichanquan.html">《知识产权声明》</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="G" href="http://www.dianping.com/aboutus/useragreement">《用户使用协议》</a></p>
+      <p class="Color7">增值电信业务经营许可证：<a href="http://www.miitbeian.gov.cn" rel="nofollow" class="G" target="_blank">沪B2-20040012</a>　　互联网地图服务资质：乙测资字31202063</p>
+     </div>
+ </div>
+  </body>
+</html>
