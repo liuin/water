@@ -1,0 +1,57 @@
+  <nav class="top-nav" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4  login-box fl" ms-each="arry1">          
+          <a ms-href="el.url">{{el.name}}</a>
+        </div>
+        <div class="col-xs-8  my-peson fr" ms-each="arry2">
+          <a ms-href="el.url"><span ms-class="glyphicon {{el.icon}}" aria-hidden="true"></span>{{el.name}}</a>
+        </div>          
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-1 col-md-2">
+         <div class="col-1-box clearfix">
+           <div class="logo fl"><img src="images/logo.png" alt=""></div>
+           <div class="header-area fl">
+             <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                广州
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li class="dropdown-header">广东地区</li>
+                <li><a href="#">广州</a></li>
+                <li><a href="#">深圳</a></li>
+                <li class="dropdown-header">其他地区</li>
+                <li><a href="#">上海</a></li>
+                <li><a href="#">北京</a></li>
+              </ul>
+            </div>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6">
+         <div class="form-search">
+           <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
+          </div><!-- /input-group -->
+         </div>
+       </div>
+       <div class="col-3 col-md-3 col-lg-4">
+         <div class="tuikuan-link">
+           <a href="#" class="a1"><i class="glyphicon glyphicon-repeat"></i><span class="">随时退</span></a>
+           <a href="#" class="a2"><i class="glyphicon glyphicon-ok"></i><span class="">品质</span></a>
+           <a href="#" class="a3"><i class="glyphicon glyphicon-remove"></i><span class="">过期</span></a>
+         </div>
+       </div>
+     </div>
+    </div>
+  </header><!-- /头部 -->

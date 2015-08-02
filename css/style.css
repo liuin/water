@@ -5,8 +5,10 @@ a:hover {color:#06c;text-decoration:none;}
 body {background:#eee;}
 .color-red {color:red;}
 .color-green {color:green;}
+.ms-controller,.ms-important,[ms-controller],[ms-important]{visibility: hidden; }
 
 /*-- top-nav --*/
+.page-header {padding-bottom: 0;margin: 0;border-bottom: 0;}
 .top-nav {background: #fff;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid #eee;}
 .top-nav a {text-decoration:none; color:#282828; font-size:12px;}
 .login-box a{margin-right:10px;}
@@ -227,44 +229,25 @@ body {background:#eee;}
 .jf-list h3{font-size:14px; border-bottom:0px solid #ddd; line-height:30px;margin-bottom:0px;font-weight:bold;}
 .jf-list table {width:100%;}
 
+/*-- col-person-set --*/
+.col-person-set {padding:15px;}
+.change-link {margin-top: 0;text-align: right;margin-left: 10px;}
+.col-person-set .form-group{padding-bottom:0;margin-bottom:0; overflow:hidden;margin-bottom: 10px;}
+.form-group {margin-bottom:0;padding-bottom:15px; border-bottom:0px solid #ddd; margin-bottom:15px;}
+.form-grounp-pos {display:box;display: -webkit-box;display: -ms-flexbox;display: -moz-box; width:100%;}
+.form-grounp-pos .form-control {box-flex:1;-moz-box-flex:1;-webkit-box-flex:1;}
 
+.col-person-set label{padding-top: 0;width: 79px;line-height: 34px; margin-bottom:0;}
+.section-form {padding:10px;background:#efefef;margin-top: 0px;margin-bottom:15px;}
+.section-form h2{font-size:16px; margin-bottom:10px;}
+.section-form h3{font-size:14px; margin-bottom:10px;}
+.form-group-col{padding-top: 0px;margin-bottom: 10px;}
+.form-group-col-lf {margin-left:80px;}
+.form-group-col-lf .form-control {margin-bottom:0px;max-width:300px;}
+.p-email {margin-bottom:5px;}
+.getcode {margin-top:10px;}
+.p-email .sp1 {color:#f60;}
 
-@keyframes ripple {
-  100% {
-    -webkit-transform: scale(2.5);
-    -ms-transform: scale(2.5);
-    -o-transform: scale(2.5);
-    transform: scale(2.5);
-    opacity: 0;
-  }
-}
-@-webkit-keyframes ripple {
-  100% {
-    -webkit-transform: scale(2.5);
-    -ms-transform: scale(2.5);
-    -o-transform: scale(2.5);
-    transform: scale(2.5);
-    opacity: 0;
-  }
-}
-@-o-keyframes ripple {
-  100% {
-    -webkit-transform: scale(2.5);
-    -ms-transform: scale(2.5);
-    -o-transform: scale(2.5);
-    transform: scale(2.5);
-    opacity: 0;
-  }
-}
-@-moz-keyframes ripple {
-  100% {
-    -webkit-transform: scale(2.5);
-    -ms-transform: scale(2.5);
-    -o-transform: scale(2.5);
-    transform: scale(2.5);
-    opacity: 0;
-  }
-}
 
 /*小屏幕*/
 @media (min-width: 768px) {
