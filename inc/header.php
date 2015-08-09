@@ -1,11 +1,39 @@
-  <nav class="top-nav" >
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="renderer" content="webkit">
+  <meta name="description" content="">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <title><?php if(isset($page)){echo $page;} ?></title>
+</head>
+<body class="yh home-page">
+  <noscript>
+    <strong>你的浏览器似乎禁用了 JavaScript。</strong><br />您必须在浏览器中启用JavaScript才能使用本网站的功能。
+  </noscript>
+  <nav class="top-nav">
     <div class="container">
       <div class="row">
-        <div class="col-xs-4  login-box fl" ms-each="arry1">          
-          <a ms-href="el.url">{{el.name}}</a>
+        <div class="col-xs-4  login-box fl">
+          <a href="#">水汇网收藏</a>
+          <a href="#">登陆</a>
+          <a href="#">注册</a>
         </div>
-        <div class="col-xs-8  my-peson fr" ms-each="arry2">
-          <a ms-href="el.url"><span ms-class="glyphicon {{el.icon}}" aria-hidden="true"></span>{{el.name}}</a>
+        <div class="col-xs-8  my-peson fr">
+          <a href="person-order.php"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>我的订单</a>
+          <a href="my-biz.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>我是商家</a>
+          <a href="contact.php"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>联系客服</a>
+          <a href="more.php"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>更多</a>
         </div>          
       </div>
     </div>

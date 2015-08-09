@@ -1,3 +1,5 @@
+
+  <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="col-1 col-xs-6 col-sm-2 ft-link1">
@@ -37,3 +39,13 @@
         ©2003-2014 dianping.com, All Rights Reserved.<br />本站发布的所有内容，未经许可，不得转载，详见《知识产权声明》《用户使用协议》
       </div>
     </div>
+  </footer>
+
+  <div class="fix-right-code">
+    <img src="http://www.fxauto.com.cn/images/ydgw-code2.jpg" width="100" height="100" alt="" title="二维码">
+  </div>
+
+  <script type="text/javascript" src="js/asset.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

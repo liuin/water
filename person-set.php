@@ -1,53 +1,20 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="renderer" content="webkit">
-  <meta name="description" content="">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!--[if lt IE 9]>
-    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <title>水汇网首页</title>
-</head>
-<body class="yh page-person-set" >
-  <noscript>
-    <strong>你的浏览器似乎禁用了 JavaScript。</strong><br />您必须在浏览器中启用JavaScript才能使用本网站的功能。
-  </noscript>
-  <div ms-include-src="url" data-include-replace="true" ms-controller="pageHeader"></div>
-  <!-- /头部 -->
-
+<? $page='已评价-账户设置-个人中心'; include('inc/header.php') ?>
 
   <div class="main-person container">
-    <div ms-controller="navPils" ms-include-src="url" data-include-replace="true"></div><!-- /内容目录 -->
+    <?php include('inc/nav-pills.php'); ?>
 
     <div class="row">
       <div class="col-sm-2 left-side person-left-side">
-        <div ms-controller="personNav" ms-include-src="url" data-include-replace="true"></div><!-- /左边目录 -->
+        <?php include('inc/person-nav.php'); ?>
       </div> 
       <div class="col-sm-10 person-right-side person-right-side-jf">
-        <div ms-controller="personNavZh"  data-include-rendered="callback" ms-include-src="url"  data-include-replace="true">
-         <script type="text/javascript">
-          <!--
-            window.onload = function  () {
-              personNavZh.activeTxt = 'set';
-            }
-          //-->
-          </script>
-        </div><!-- /子目录 -->
+        <?php include('inc/person-nav-zh.php'); ?>
 
-
-        <div class="col-xs-12 col-table col-person-set" ms-controller="personSet">
+        <div class="col-xs-12 col-table col-person-set" >
           <form action="#">
              <div class="form-group">
                 <label class="fgtxt fl" for="exampleInputEmail1">Email:</label>
-                <p class="p1">d****1@dpmobile.com (未验证) 未验证 <a href="javascript:void(0);" ms-click="openchange('section-form-mail')" class="btn btn-default">立刻验证</a> <a href="javascript:void(0);" ms-click="openchange('section-form-val')" class="btn btn-default">修改</a></p>
+                <p class="p1">d****1@dpmobile.com (未验证) 未验证 <a href="javascript:void(0);"  section-target="section-form-mail"  class="btn btn-section btn-default">立刻验证</a> <a href="javascript:void(0);"  section-target="section-form-val" class="btn btn-section btn-default">修改</a></p>
               </div>
               
               <div class="section-form section-form-mail none">
@@ -79,7 +46,7 @@
 
               <div class="form-group">
                 <label class="fl" for="exampleInputPassword1">用户名</label>
-                <p class="p1">QQ_7404829030 <a href="javascript:void(0);" ms-click="openchange('section-form-base')" class="btn btn-default">修改</a></p>
+                <p class="p1">QQ_7404829030 <a href="javascript:void(0);" section-target="section-form-base"  class="btn btn-default btn-section">修改</a></p>
               </div>
 
               <div class="section-form section-form-base none">
@@ -127,7 +94,7 @@
 
               <div class="form-group">
                 <label class="fl" for="exampleInputPassword1">登录密码</label>
-                <p class="p1">****** <a href="javascript:void(0);" ms-click="openchange('section-form-pwd')" class="btn btn-default">修改</a></p>
+                <p class="p1">****** <a href="javascript:void(0);" section-target="section-form-pwd"  class="btn btn-default btn-section">修改</a></p>
               </div>
 
               <div class="section-form section-form-pwd none">
@@ -155,7 +122,7 @@
 
               <div class="form-group">
                 <label class="fl" for="exampleInputPassword1">手机绑定</label>
-                <p class="p1">****** <a href="javascript:void(0);" ms-click="openchange('section-form-ban')" class="btn btn-default">修改</a></p>
+                <p class="p1">****** <a href="javascript:void(0);" section-target="section-form-ban" class="btn btn-default btn-section">修改</a></p>
               </div>
 
               <div class="section-form section-form-ban none">
@@ -184,24 +151,25 @@
 
           </form>
         </div>
-
+            </div>
       </div>
     </div>
 
-  </div><!-- /中间 -->
+  <!-- /中间 -->
   
 
-  <footer class="footer" ms-controller="pageFooter">
-    <div ms-include-src="url" data-include-replace="true"></div>
-  </footer><!-- /底部 -->
-
-<!--   <div class="fix-right-code"> -->
-<!--     <img src="http://www.fxauto.com.cn/images/ydgw-code2.jpg" width="100" height="100" alt="" title="二维码"> -->
-<!--   </div> -->
-
-  <script type="text/javascript" src="js/asset.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
-
-</body>
-</html>
-
+  <?php include('inc/footer.php'); ?>
+ 
+  <script type="text/javascript">
+  <!--
+    $(document).ready(function() {
+      //改变切换
+      $('.btn-section').on('click',function  () {
+        var obj = $(this).attr('section-target');
+        obj = $('.' + obj);
+        $('.section-form').hide();
+        obj.show();
+      })
+    })
+  //-->
+  </script>
