@@ -47,7 +47,7 @@
   <li class="cur">
     <span class="hd1"><span class="caret fr"></span>账号管理</span>
     <ul>
-      <li><a class="<?php if (isset($page)&&strstr($page, '子账号管理（包括权限分配）')): ?>active<?php endif ?>" href="biz-zhhgl.php">子账号管理（包括权限分配）</a></li>
+      <li><a class="<?php if (isset($page)&&strstr($page, '子账号管理(包括权限分配)')): ?>active<?php endif ?>" href="biz-zhhgl.php">子账号管理（包括权限分配）</a></li>
     </ul>
   </li>
 

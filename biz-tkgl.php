@@ -1,4 +1,4 @@
-<? $page='上传审核-团购项目-我是商家'; include('inc/header.php') ?>
+<? $page='提款管理-团购项目-我是商家'; include('inc/header.php') ?>
 
   <div class="main-person container">
     <?php include('inc/nav-pills.php'); ?>
@@ -9,18 +9,15 @@
         <div class="col-sm-10 person-right-side person-right-side-jf">
           <ul class="person-tabs nav nav-tabs">
             <li role="presentation" class="active">
-              <a href="biz-scsh.php">上传审核</a>
+              <a href="biz-scsh.php">提款管理</a>
             </li>
           </ul>
-          <div class="col-xs-12 col-table biz-scsh-col">
-            <div class="scsh-bk">
-              <label for="scsh-lb">上传审核</label>
-              <div class="clearfix">
-                <input type="text" class="form-control" placeholder="请上传您的资料">
-                <button class="btn btn-danger">上传</button>
-              </div>
+          <div class="col-xs-12 col-table biz-tkgl-col">
+            <div class="tkgl-box">
+              欠数据提供
             </div>
           </div>
+          <!-- 消息中心 -->
         </div>
       </div>
   </div>

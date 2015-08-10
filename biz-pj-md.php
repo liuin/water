@@ -1,4 +1,4 @@
-<? $page='消费者评价-验证管理-我是商家'; include('inc/header.php') ?>
+<? $page='门店评价详情-验证管理-我是商家'; include('inc/header.php') ?>
 
   <div class="main-person container">
     <?php include('inc/nav-pills.php'); ?>
@@ -10,22 +10,12 @@
           <?php include('inc/biz-nav-pl.php'); ?>
             <div class=" col-xs-12 col-table biz-val-fypj-col">
               <form action="">
-                <div class="form-group-choose form-group">
-                  <label for="">选择团购：</label>
-                  <select name="#">
-                    <option>轩辕古法沐足城团购信息2</option>
-                    <option>轩辕古法沐足城团购信息2</option>
-                  </select>
-                </div>
+
                 <div class="form-group-state form-group">
-                  <p class="state-p1">
-                    <span class="sp1">团购状态：未过期销售</span>
-                    <span class="sp1">时间：2015-06-23至2015-12-31</span>
-                    <span class="sp1">团购券有效日期：2015-06-16至2015-12-31</span>
-                  </p>
+
                 </div>
               </form>
-
+              <p class=""></p>
               <div class="box-pj">
                 <!-- <div class="count-bk none"> 
             <p class="count-bk-row1">平均5分</p>
@@ -55,7 +45,7 @@
               <span class="nub">1封</span>
             </div>
           -->
-                <h3 class="box-pj-hd"><span class="fr">共有<span class="sp1">3</span>人评价</span>用户评论</h3>
+                <h3 class="box-pj-hd"><span class="fr">共有<span class="sp1">1</span>人评价</span>用户评论</h3>
                 <div class="media">
                   <div class="media-left">
                     <a href="#">
@@ -121,23 +111,19 @@
                         </div>
                         <div class="fd-name fr">分店：轩辕古法沐足城</div>
                       </div>
-                      <div class="info-pl-s btn-danger">
+                      <div class="info-pl-sf">
                         服务态度都很好 手法也不错 还会再来哦
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
-
         </div>
 
       </div>
   </div>
 
   <!-- /中间 -->
-
 
   <?php include('inc/footer.php'); ?>

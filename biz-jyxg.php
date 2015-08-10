@@ -12,9 +12,9 @@
               <a href="biz-jyxg.php">经营效果</a>
             </li>
           </ul>
-          <div class=" col-xs-12 col-table biz-scsh-col">
-            <div class="jyxg-flash">
-              图表
+          <div class="fds col-xs-12 btn col-table biz-scsh-col">
+            <div class="fdsf jyxg-flash">
+              ffsfffsffsffsfs
             </div>
           </div>
         </div>
