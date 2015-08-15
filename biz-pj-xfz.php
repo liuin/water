@@ -121,7 +121,7 @@
                         </div>
                         <div class="fd-name fr">分店：轩辕古法沐足城</div>
                       </div>
-                      <div class="info-pl-s btn-danger">
+                      <div class="info-pl-s">
                         服务态度都很好 手法也不错 还会再来哦
                       </div>
                     </div>

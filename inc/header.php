@@ -31,8 +31,8 @@
       <div class="row">
         <div class="col-xs-4  login-box fl">
           <a href="#">水汇网收藏</a>
-          <a href="#">登陆</a>
-          <a href="#">注册</a>
+          <a href="login.php">登陆</a>
+          <a href="reg.php">注册</a>
         </div>
         <div class="col-xs-8  my-peson fr">
           <a href="person-order.php"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>我的订单</a>
