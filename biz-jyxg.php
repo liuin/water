@@ -7,14 +7,10 @@
           <?php include('inc/biz-nav.php'); ?>
         </div>
         <div class="col-sm-10 person-right-side person-right-side-jf">
-          <ul class="person-tabs nav nav-tabs">
-            <li role="presentation" class="active">
-              <a href="biz-jyxg.php">经营效果</a>
-            </li>
-          </ul>
-          <div class="fds col-xs-12 btn col-table biz-scsh-col">
+          <?php include('inc/biz-nav-pro.php'); ?>          
+          <div class="fds col-xs-12 col-table biz-scsh-col">
             <div class="fdsf jyxg-flash">
-              ffsfffsffsffsfs
+              (数据统计及图表展示)
             </div>
           </div>
         </div>

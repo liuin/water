@@ -58,6 +58,10 @@
   .person-right-side-tk .preson-order-item > div.d2 {width:15%;}
   .person-right-side-tk .preson-order-item.first {border-top: 1px solid #ccc;}
 
+  /*-- biz-pro-add --*/
+  .form-pro-add {max-width:600px; padding-top:20px; margin:0 auto;}  
+  .ground-item .form-control {width:100%; max-width:450px;  }
+
 }
 /*中屏幕*/
 @media (min-width: 992px){
