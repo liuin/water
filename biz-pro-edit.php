@@ -1,4 +1,4 @@
-<? $page='编辑产品-验证管理-我是商家'; include('inc/header.php') ?>
+<? $page='添加商品-验证管理-我是商家'; include('inc/header.php') ?>
 
   <div class="main-person container">
     <?php include('inc/nav-pills.php'); ?>
@@ -12,17 +12,36 @@
             <form  class="form-pro-add"  method="get" action="">
               <div class="ground-item">
                 <label for="">商品名称:</label>
-                <input type="text" name="" class="form-control" value="酸奶浴足" id="">
+                <input type="text" name="" value="商品名称商品名称 商品名称" class="form-control" id="">
               </div>
               <div class="ground-item">
                 <label for="">相关图片:</label>
-                <div class="form-control">
-                  <input type="file" class="form-control-photo" name="" multiple id="photo" />
-                  <div class="imgphoto">
-                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt="" widht="60" height="60" />
+                <input type="file" class="form-control" name="" multiple id="photo" />
+              </div>
+              <div class="ground-item">
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
                   </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn set-default">取消默认</a>
+                </div>
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn ">设为默认</a>
+                </div>
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn ">取消默认</a>
                 </div>
               </div>
+
               <div class="ground-item">
                 <label for="">数　　量:</label>
                 <input type="text" name="" class="form-control" id="">
@@ -45,7 +64,8 @@
                 <textarea id="" rows="" cols="" class="form-control" placeholder="其他参数"></textarea>
               </div>
               <div class="ground-item-sub ground-item">
-                <button class="btn btn-primary" type="submit">保  存</button>      
+                <button class="btn btn-primary" type="submit">保  存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+                <button class="btn btn-danger" type="submit">返　回</button>      
               </div>
             </form>
             

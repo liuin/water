@@ -34,8 +34,8 @@
               <div class="d2 d2-1"><span class="sp1">金额:</span> ¥99.99</div>
               <div class="d2 d2-1"><span class="sp1">状态:</span>已启用</div>
               <div class="d2 control">
-                <a href="#" class="btn btn-default">编辑</a>
-                <a href="#" class="btn btn-default">删除</a>
+                <a href="biz-pro-edit.php" class="btn btn-default">编辑</a>
+                <a href="biz-pro-edit.php" class="btn btn-default">删除</a>
               </div>
             </div>
             <div class="preson-order-item">
@@ -51,8 +51,8 @@
               <div class="d2 d2-1"><span class="sp1">金额:</span> ¥99.99</div>
               <div class="d2 d2-1"><span class="sp1">状态:</span>未启用</div>
               <div class="d2 control">
-                <a href="#" class="btn btn-default">编辑</a>
-                <a href="#" class="btn btn-default">删除</a>
+                <a href="biz-pro-edit.php" class="btn btn-default">编辑</a>
+                <a href="biz-pro-edit.php" class="btn btn-default">删除</a>
               </div>
             </div>
 

@@ -19,6 +19,30 @@
                 <input type="file" class="form-control" name="" multiple id="photo" />
               </div>
               <div class="ground-item">
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn set-default">取消默认</a>
+                </div>
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn ">设为默认</a>
+                </div>
+                <div class="imgphoto">
+                  <div class="img">
+                    <img src="http://www.dpfile.com/gp/cms/1438935379644.png" alt=""  />
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <a href="#" class="set-btn ">取消默认</a>
+                </div>
+              </div>
+
+              <div class="ground-item">
                 <label for="">数　　量:</label>
                 <input type="text" name="" class="form-control" id="">
               </div>

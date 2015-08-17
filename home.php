@@ -13,7 +13,7 @@
                 <p class="p1">睇过两次，音响效果很好。环境干净。</p>        
                 <p class="p2"><i></i>活动地点: 太古汇店</p> 
                 <p class="p2-1 p2"><i></i>活动时间: 2015/07/08</p> 
-                <p class="p3 clearfix"><a href="jijiehao.html" class="btn btn-primary fl" role="button">我要报名</a> <a href="jijiehao.html" class="btn btn-default fr" role="button">详情</a></p>
+                <p class="p3 clearfix"><a href="jijiehao.php" class="btn btn-primary fl" role="button">我要报名</a> <a href="jijiehao.php" class="btn btn-default fr" role="button">详情</a></p>
               </div>
             </div>
           </div>

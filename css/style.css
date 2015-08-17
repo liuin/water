@@ -302,3 +302,9 @@ body{background: #eee;}
 .ground-item-sub {text-align:center;}
 .ground-item-sub .btn{width:100px;}
 
+.imgphoto {display:inline-block;  position:relative;  overflow:hidden; margin-right:5px;}
+.imgphoto .img {width:75px; height:75px;}
+.imgphoto .img img {width:100%;height:100%;display:block;}
+.imgphoto button{position:absolute;right:0px;top:0px;background:#eee; color:#000; width:20px;height:20px; line-height:20px;}
+.imgphoto a.set-btn {display:block;text-align:center; padding-top:5px; padding-bottom:5px; font-size:12px;background:darkgray; color:#151111;}
+.imgphoto a.set-default  {background:#5F9FF4; color:#fff;}
