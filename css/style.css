@@ -29,6 +29,8 @@ body{background: #eee;}
 [ms-controller],
 [ms-important]{visibility: hidden;}
 .open>.dropdown-menu{min-width: inherit;}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {color: #2577e3;background: #fff;}
+.nav-pills>li+li {margin-left:0;}
 /*-- top-nav --*/
 .page-header{padding-bottom: 0;margin: 0;border-bottom: 0;}
 .top-nav{background: #fff;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid #eee;}
@@ -308,3 +310,28 @@ body{background: #eee;}
 .imgphoto button{position:absolute;right:0px;top:0px;background:#eee; color:#000; width:20px;height:20px; line-height:20px;}
 .imgphoto a.set-btn {display:block;text-align:center; padding-top:5px; padding-bottom:5px; font-size:12px;background:darkgray; color:#151111;}
 .imgphoto a.set-default  {background:#5F9FF4; color:#fff;}
+
+
+/*-- cate-nav --*/
+.cate-nav {background:#fff; padding:15px; border:1px solid #ddd; padding-bottom:0; padding-top:0; margin-bottom:15px;}
+.cate-nav-item {padding-bottom:15px;  border-bottom:1px solid #ddd; padding-top:15px;}
+.cate-nav .glyphicon {margin-right:5px; color:#f60;}
+.cate-nav-item-lable *{}
+.cate-nav-item-link a{display:inline-block;margin:0 10px; padding-top:5px;padding-bottom:5px; padding-left:5px;padding-right:5px;}
+.cate-nav-item-link a.active {background:#f60; color:#fff;}
+.cate-nav-item-lable .lb {display:inline-block;padding-top:5px;padding-bottom:5px;}
+
+/*-- pro-list-bar --*/
+.pro-list-bar { line-height:20px;  background:#fff; padding-bottom:7px; border-bottom:1px solid #ddd; margin-bottom:15px;}
+.pro-list-bar a {display:inline-block;padding-top:7px; padding-bottom:7px;  padding:0 10px;}
+.pro-list-bar a.active {color:#f60;}
+.price-new {color: #f63;font-size: 14px;}
+.price-new em {font-size: 18px;line-height: 24px; font-style:normal;}
+.price-ground .sellout {color:#999;padding-top:5px;}
+
+.pro-list-item {border:0; padding:20px;}
+.pro-list-item:hover {background: #f8f8f8;border-radius: 2px;}
+.pro-pagination {clear:both; text-align:center;}
+.pro-pagination a {color:#666;}
+
+.pro-detail-box {}
