@@ -372,6 +372,61 @@ body{background: #eee;}
 .map-info p {margin-bottom:5px;}
 #bd-map1 {height:400px;}
 
+
+
+/*-- tab-pane-tg --*/
+.tab-pane-tg {padding:15px;}
+.tab-pane-tg table tr.total {background: #eee; line-height:30px;}
+.tab-pane-tg table tr.total td{line-height:30px;}
+
+/*-- purchase-notes --*/
+.purchase-notes {margin-left:15px; margin-right:15px; padding:15px; background: #fffde5;}
+.purchase-notes dl {padding-left:85px;}
+.purchase-notes dt {float:left; display:inline; margin-left:-85px;width:85px;}
+
 /*-- cumpj-tab-pane --*/
-.cumpj-tab-pane {padding:10px;}
-.cumpj-tab-pane .preson-order-item.first{border-top:0; }
+.pro-detail-box2-info {margin-bottom:15px;}
+.cumpj-tab-pane {padding-left:15px; padding-right:15px; padding-top:0;}
+.cumpj-tab-pane .preson-order-item {margin-left:0; margin-right:0;padding:0; position:relative; padding-top:10px;  margin-bottom:10px;}
+.cumpj-tab-pane .preson-order-item .time {font-size: 12px;color: #999;    line-height: 20px;}
+.cumpj-tab-pane .preson-order-item.first {padding-top:0; border-top:0;}
+.cumpj-tab-pane .preson-order-item .star {background-position:-88px -664px; margin-right:10px;}
+.cumpj-tab-pane .preson-order-item .star .sp1 {background-position:-88px -682px;}
+.cumpj-tab-pane .preson-order-item .txt1 {padding-top:10px;}
+.relation-pro {font-weight:normal; font-size:16px; height:42px; line-height:42px;    box-shadow: 0 -1px 3px #ccc;background:#fff; border-radius:4px 4px 0 0; width:100px; text-align:center;}
+
+/*-- pay --*/
+.pay-block .price{font-weight:bold; margin-bottom:10px;}
+.pay-block .price .sp1 {color:#f60;}
+.pay-hd {font-size:16px; border-bottom:1px solid #ddd; font-weight:bold; padding-bottom:10px;margin-bottom:10px;}
+.bank-list .only-icon .alipay, .pay-method .chinabank {background-image:url("../images/bank.png");background-repeat:no-repeat}
+.bank-list .icon-box .icon {background-repeat: no-repeat;display: block;float: none;height: 30px;background-image:url("../images/bank.png");}
+.bank-list li {float: left;margin-bottom: 10px;display: inline;padding-left: 0;margin-right: 30px;width: 170px;}
+.bank-list .icon-box { background-color: #eee;border: 1px solid #ddd;display: inline-block;vertical-align: middle;width: 120px;padding: 0;height: 30px;position: relative;box-sizing: content-box;}
+.bank-list label {height: auto;padding: 0;width: auto;}
+.bank-list li input { vertical-align: middle;margin-top: 0;margin-right: 5px;}
+.panel-pay .panel-title {font-size:14px;}
+.panel-pay .panel-title a {display:block;}
+.panel-pay .panel-title .sp1 {font-size:12px; color:#999;}
+
+.ICBCB2C, .ICBC {background-position:0 0;text-indent:-9999px}
+.CMB {background-position:0 -50px;text-indent:-9999px}
+.CCB {background-position:0 -100px;text-indent:-9999px}
+.BOCB2C, .BOC {background-position:0 -150px;text-indent:-9999px}
+.ABC {background-position:0 -200px;text-indent:-9999px}
+.COMM {background-position:0 -250px;text-indent:-9999px}
+.CEBBANK, .CEB {background-position:0 -300px;text-indent:-9999px}
+.SPDB {background-position:0 -350px;text-indent:-9999px}
+.GDB {background-position:0 -400px;text-indent:-9999px}
+.GDB-EXPRESS-CREDIT {background-position:0 -400px;text-indent:-9999px}
+.CITIC {background-position:0 -450px;text-indent:-9999px}
+.CIB {background-position:0 -500px;text-indent:-9999px}
+.SDB {background-position:0 -550px;text-indent:-9999px}
+.CMBC {background-position:0 -600px;text-indent:-9999px}
+.HZCBB2C {background-position:0 -650px;text-indent:-9999px}
+.ICBCBTB {background-position:0 -700px;text-indent:-9999px}
+.ABCBTB {background-position:0 -750px;text-indent:-9999px}
+.SPDBB2B {background-position:0 -800px;text-indent:-9999px}
+.alipay {background-position:0 -850px;text-indent:-9999px}
+.alipay-barcode {background-position:0 -1142px;text-indent:-9999px}
+.weixin-barcode {position:relative;background-position:0 -1188px}

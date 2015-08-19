@@ -69,6 +69,7 @@
         <div class="cart-bk">
           <button class="btn btn-lg btn-primary">立即抢购</button>   
           <button class="btn btn-lg btn-danger">添加到购物车</button>   
+          <button class="btn btn-lg btn-default">加入收藏</button>   
         </div>
       </div>
     </div>
@@ -78,15 +79,15 @@
           <div class="col-md-9 pro-detail-box2-info">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
-            <li role="presentation"><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
+            <li role="presentation"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
+            <li role="presentation"  class="active"><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
             <li role="presentation"><a href="#buyknow" aria-controls="messages" role="tab" data-toggle="tab">购买须知</a></li>
             <li role="presentation"><a href="#cumpj" aria-controls="settings" role="tab" data-toggle="tab">会员评价</a></li>
           </ul>
           
           <!-- Tab panes -->
           <div class="tab-content box1">
-            <div role="tabpanel" class="tab-pane active" id="map">
+            <div role="tabpanel" class="tab-pane " id="map">
               <div class="col-md-6">
                 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
                 <div id="bd-map1"></div>                    
@@ -98,142 +99,146 @@
                 <p>营业时间：9：00-22:00</p>   
               </div>        
             </div><!-- /地图 -->  
-            <div role="tabpanel" class="tab-pane" id="tg">
-              <table width="100%" cellpadding="0" cellspacing="0" class="detail-table">
-                <thead>
-                <tr>
-                  <th width="50%">名称</th>
-                  <th width="25%">数量</th>
-                  <th width="25%">单价</th>
-                </tr>
-                </thead>
-                <tbody>
-                  <tr><th colspan="3">22选8,不可重复选</th></tr>
+
+            <div role="tabpanel" class="tab-pane " id="tg">
+              <div class="tab-pane-tg">
+                <table width="100%" cellpadding="0" cellspacing="0" class="table table-striped">
+                  <thead>
                   <tr>
-                          <td>金蒜蒸排骨</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
+                    <th width="50%">名称</th>
+                    <th width="25%">数量</th>
+                    <th width="25%">单价</th>
                   </tr>
-                  <tr>
-                          <td>淡水虾饺皇</td>
-                          <td class="tc">精点</td>
-                          <td class="tc">29元</td>
+                  </thead>
+                  <tbody>
+                    <tr><th colspan="3">22选8,不可重复选</th></tr>
+                    <tr>
+                            <td>金蒜蒸排骨</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>淡水虾饺皇</td>
+                            <td class="tc">精点</td>
+                            <td class="tc">29元</td>
+                    </tr>
+                    <tr>
+                            <td>名酱百搭蒸凤爪</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>好味菜蒸大肠</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>古绵马拉糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>肉碎陈村粉</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>潮州蒸粉果</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>山东源汁枣皇糕</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>阳江猪肠碌</td>
+                            <td class="tc">小点</td>
+                            <td class="tc">8元</td>
+                    </tr>
+                    <tr>
+                            <td>金丝燕麦包</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>日式手指春卷</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>香菇滑肉肠</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>空心煎堆仔</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>腊味萝卜糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>虫草花鲜竹卷</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>香煎韭菜饺</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>酥皮蛋挞仔</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>特色荞麦包</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>汤灼娃娃菜</td>
+                            <td class="tc">精点</td>
+                            <td class="tc">29元</td>
+                    </tr>
+                    <tr>
+                            <td>皮蛋瘦肉粥</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>泰国燕麦切糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>木瓜夹心椰汁糕</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>茶位费</td>
+                            <td class="tc">4位</td>
+                            <td class="tc">20元</td>
+                    </tr>
+                  <tr class="total">
+                    <td></td>
+                    <td class="tc">最高价值<br><strong>团购价</strong></td>
+                    <td class="tc">210元<br><strong>98元</strong></td>
                   </tr>
-                  <tr>
-                          <td>名酱百搭蒸凤爪</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
-                  </tr>
-                  <tr>
-                          <td>好味菜蒸大肠</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
-                  </tr>
-                  <tr>
-                          <td>古绵马拉糕</td>
-                          <td class="tc">大点</td>
-                          <td class="tc">15元</td>
-                  </tr>
-                  <tr>
-                          <td>肉碎陈村粉</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>潮州蒸粉果</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>山东源汁枣皇糕</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
-                  </tr>
-                  <tr>
-                          <td>阳江猪肠碌</td>
-                          <td class="tc">小点</td>
-                          <td class="tc">8元</td>
-                  </tr>
-                  <tr>
-                          <td>金丝燕麦包</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>日式手指春卷</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>香菇滑肉肠</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>空心煎堆仔</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>腊味萝卜糕</td>
-                          <td class="tc">大点</td>
-                          <td class="tc">15元</td>
-                  </tr>
-                  <tr>
-                          <td>虫草花鲜竹卷</td>
-                          <td class="tc">大点</td>
-                          <td class="tc">15元</td>
-                  </tr>
-                  <tr>
-                          <td>香煎韭菜饺</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
-                  </tr>
-                  <tr>
-                          <td>酥皮蛋挞仔</td>
-                          <td class="tc">顶点</td>
-                          <td class="tc">22元</td>
-                  </tr>
-                  <tr>
-                          <td>特色荞麦包</td>
-                          <td class="tc">大点</td>
-                          <td class="tc">15元</td>
-                  </tr>
-                  <tr>
-                          <td>汤灼娃娃菜</td>
-                          <td class="tc">精点</td>
-                          <td class="tc">29元</td>
-                  </tr>
-                  <tr>
-                          <td>皮蛋瘦肉粥</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>泰国燕麦切糕</td>
-                          <td class="tc">大点</td>
-                          <td class="tc">15元</td>
-                  </tr>
-                  <tr>
-                          <td>木瓜夹心椰汁糕</td>
-                          <td class="tc">特点</td>
-                          <td class="tc">19元</td>
-                  </tr>
-                  <tr>
-                          <td>茶位费</td>
-                          <td class="tc">4位</td>
-                          <td class="tc">20元</td>
-                  </tr>
-                <tr class="total">
-                  <td></td>
-                  <td class="tc">最高价值<br><strong>团购价</strong></td>
-                  <td class="tc">210元<br><strong>98元</strong></td>
-                </tr>
-                </tbody>
-              </table>              
+                  </tbody>
+                </table>
+              </div>              
             </div><!-- /团购详情 -->
-            <div role="tabpanel" class="tab-pane" id="buyknow">
-            <div class="purchase-notes"> 
+
+           <div role="tabpanel" class="tab-pane" id="buyknow">          
+            <div class="purchase-notes tab-pane-buyknow"> 
               <dl> 
                <dt>
                 有效期
@@ -312,51 +317,72 @@
               </dl> 
              </div>              
             </div><!-- /购买须知 -->
-            <div role="tabpanel" class="tab-pane cumpj-tab-pane" id="cumpj">
-            <div class="preson-order-item first">
-              <div class="d1">                                
-                <div class="star-wp">
-                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                </div>
-                <div class="name">用户名: 刘旭</div>
-                <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
 
+          <div role="tabpanel" class="tab-pane cumpj-tab-pane active" id="cumpj">
+            <div class="preson-order-item first">
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
               </div>
-              <div class="d2 d2-1"><span class="sp1">购买时间:</span>2015-07-26</div>
-              
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
             </div>
             <div class="preson-order-item">
-              <div class="d1">                                
-                <div class="star-wp">
-                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                </div>
-                <div class="name">用户名: 刘旭</div>
-                <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
-
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
               </div>
-              <div class="d2 d2-1"><span class="sp1">购买时间:</span>2015-07-26</div>
-              
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
             </div>
-              <div class="preson-order-item">
-                <div class="d1">                                
-                  <div class="star-wp">
-                    <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                  </div>
-                  <div class="name">用户名: 刘旭</div>
-                  <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
-
-                </div>
-                <div class="d2 d2-1"><span class="sp1">购买时间:</span>2015-07-26</div>
-                
-              </div>                        
+            <div class="preson-order-item">
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
+              </div>
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
+            </div>                        
             </div><!-- /会员评价 -->
           </div>        
             
           </div>
+       
+      <div class="col-md-3">
+        <h2 class="relation-pro">相关产品</h2>
+        <div class="box1">
+          <div class="pro-list-item jjh-list-item">
+            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
+              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+          <div class="pro-list-item jjh-list-item">
+            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
+              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
         </div>
-      <div class="col-md-3"></div>
     </div>
-
+    </div>
+    </div>
   </div>
   <!-- /中间 -->
 
