@@ -13,9 +13,27 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <!--[if lt IE 9]>
-<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+    <div style='border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;'>
+
+    <div style='width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;'>
+    <div style='width: 75px; float: left;'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg ' alt='Warning!'/></div>
+    <div style='width: 275px; float: left; font-family: Arial, sans-serif;'>
+    <div style='font-size: 14px; font-weight: bold; margin-top: 12px;'>发现你的浏览器需要升级</div>
+    <div style='font-size: 12px; margin-top: 6px; line-height: 12px;'>为达最佳呈现效果,请升级至最新式浏览器.</div>
+    </div>
+
+    <div style='width: 75px; float: left;'><a href='http://www.firefox.com ' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg ' style='border: none;' alt='Get Firefox 3.5'/></a></div>
+    <div style='width: 75px; float: left;'><a href='http://www.browserforthebetter.com/download.html ' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg ' style='border: none;' alt='Get Internet Explorer 8'/></a></div>
+    <div style='width: 73px; float: left;'><a href='http://www.apple.com/safari/download/ ' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg ' style='border: none;' alt='Get Safari 4'/></a></div>
+    <div style='float: left;'><a href='http://www.google.com/chrome ' target='_blank'><img src='http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg ' style='border: none;' alt='Get Google Chrome'/></a></div>
+    </div>
+    </div>
+  <![endif]-->
+
   <title>
     <?php if(isset($page)){echo $page;} ?>
   </title>
