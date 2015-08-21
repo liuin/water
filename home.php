@@ -112,7 +112,7 @@
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
@@ -124,7 +124,7 @@
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
@@ -137,7 +137,7 @@
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
@@ -149,7 +149,7 @@
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
@@ -162,7 +162,7 @@
 
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
@@ -175,7 +175,7 @@
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
