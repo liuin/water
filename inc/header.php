@@ -88,12 +88,14 @@
         </div>
         <div class="col-md-6">
           <div class="form-search">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search for...">
-              <span class="input-group-btn">
-                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-              </span>
-            </div>
+            <form action="search.php">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div>
+            </form>
             <!-- /input-group -->
           </div>
         </div>

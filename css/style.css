@@ -103,6 +103,7 @@ body{background: #eee;}
 .tj-box h3{font-size: 16px;font-weight: bold;overflow: hidden;margin-bottom: 5px;height: 17px;}
 .tj-box .p1{font-size: 12px;height: 36px;overflow: hidden;margin-bottom: 6px;}
 .tj-box .thumbnail{max-width: 310px;margin: 0 auto;background: transparent;border: 0;border: 1px solid #ccc;margin-bottom: 15px;}
+.tj-box .thumbnail img {height:200px;}
 .tj-box .box1{padding-top: 16px;padding-bottom: 16px;}
 .tj-box .p3{margin-top: 10px;}
 .tj-box .price{font-size: 20px;color: #f60;}
@@ -409,6 +410,8 @@ body{background: #eee;}
 .panel-pay .panel-title a {display:block;}
 .panel-pay .panel-title .sp1 {font-size:12px; color:#999;}
 
+.panel-pay .panel-body {padding-bottom:0px;}
+
 .ICBCB2C, .ICBC {background-position:0 0;text-indent:-9999px}
 .CMB {background-position:0 -50px;text-indent:-9999px}
 .CCB {background-position:0 -100px;text-indent:-9999px}
@@ -430,3 +433,58 @@ body{background: #eee;}
 .alipay {background-position:0 -850px;text-indent:-9999px}
 .alipay-barcode {background-position:0 -1142px;text-indent:-9999px}
 .weixin-barcode {position:relative;background-position:0 -1188px}
+
+.pay-info {margin-top:0px;}
+.pay-info h2{font-size:16px; font-weight:bold;margin-bottom:10px; padding-top:10px;}
+
+.pay-confirm .title{font-size: 16px; font-weight: bold;padding-bottom: 0px;margin-bottom: 10px;}
+.pay-confirm .infor {text-align:right;}
+.pay-confirm .infor .price {color:#f60; font-size:25px; font-weight:normal;}
+
+.form-tel {margin:0 auto; text-align:center;}
+.form-tel .form-group{padding:0;display: inline-block;}
+.form-tel .form-group .form-control {display:inline-block; width:auto;}
+.form-tel {margin-bottom:15px;}
+
+.pay-order-bk {text-align:right; padding-top:15px;}
+
+/*-- cart-page --*/
+.car-box-title {font-size:16px;font-weight:bold;padding-top: 5px;}
+.car-box-step li{float:left;display:inline; width:125px; text-align:center;}
+
+.car-box-step .step {position:relative;}
+.step .arrow {height:3px; background:#ccc;width:100%; position: absolute;top: 9px;}
+.step-now .arrow-a {height: 3px;width: 78px;left: 48px;}
+.step .num {color: #999;display: inline-block;background: #fff;position: relative;z-index: 10; padding-left:5px; padding-right:5px;}
+.step-now .num{ color:#333; font-weight:bold;}
+.car-box-row {margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #ddd;}
+.pro-detail-box-car {padding:0; margin:0;}
+.pro-detail-box-car .count  .form-control {margin-bottom:0;}
+
+.car-box-list .table>tbody>tr>td,
+.car-box-list .table>tbody>tr>th, 
+.car-box-list .table>tfoot>tr>td, 
+.car-box-list .table>tfoot>tr>th, 
+.car-box-list .table>thead>tr>td, 
+.car-box-list .table>thead>tr>th 
+{vertical-align:middle;}
+
+.car-box-list .price,
+.car-box-list .price-xj
+{color:#f60; }
+
+.cart-box-tj {text-align:right;padding-top:10px;}
+.cart-box-tj .price {font-size:20px; color:#f60; margin-right:10px;}
+
+/*-- pay-success --*/
+.car-box {min-height:400px;}
+.car-box-suc {margin-bottom: 100px;}
+.pay-success {padding-top:30px; padding-bottom:30px; width:640px; margin:0 auto;text-align: center; }
+.pay-success .p2{ font-size:30px; margin-bottom:10px;}
+.pay-success .p2 .glyphicon {margin-right:10px;}
+.pay-success .alert-link {font-size:18px;}
+
+/*-- search --*/
+.search-hd {line-height:30px; margin-top:15px; margin-bottom:15px; font-size:16px;}
+.search-hd .sp1{ color:#f60;}
+.search-txt {color:#f60;}
