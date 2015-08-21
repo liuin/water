@@ -1,10 +1,9 @@
 <? $page='首页'; include('inc/header.php') ?>
   <div class="main-box container">
     <div class="row">
-      <div></div>
       <div class="col-md-3 left-side">
         <div class="row">
-          <div class="jjh col-box   col-md-12">
+          <div class="jjh col-box col-md-12">
             <h2 class="hd"><span class="glyphicon glyphicon-bullhorn"></span>活动结集号</h2>
             <div class="thumbnail col-box-thumbnail">
               <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="img" alt="..." >
@@ -80,7 +79,7 @@
                     <h4 class="media-heading">37°2 Rendez遇Vous(海珠桥脚店) </h4>
                     <p>地址： 海珠区 滨江中路272号海珠桥脚(近海珠桥脚)<br />电话： 020-89228169</p>
                     <div class="clearfix">
-                      <div class="price fl">¥98.8</div>
+                      <div class="price fl"><span class="sp1">¥</span>98.8</div>
                       <p class="sell fr">已售<span class="sp1">98</span>件</p>
                     </div>
                   </div>
@@ -118,8 +117,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-grey btn-sm btn fr" role="button">已售</a></p>
             </div>
           </div>
       </div>
@@ -130,8 +129,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>
@@ -143,8 +142,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
             </div>
           </div>
       </div>
@@ -155,8 +154,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>
@@ -168,8 +167,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
             </div>
             
           </div>
@@ -181,8 +180,8 @@
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>

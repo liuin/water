@@ -86,7 +86,8 @@ body{background: #eee;}
 .sell .sp1{color: #f60;}
 .zztj .row-1{line-height: 1.8;min-height: 160px;}
 .zztj .sell{padding-top: 5px;}
-.zztj .price{font-size: 20px;color: #f60;}
+.zztj .price{font-size: 18px;color: #f60;}
+.zztj .price .sp1 {font-size:14px;}
 .btn-grey{background: #ccc;color: #fff;}
 .td-order{margin-bottom: 0;}
 .zztj .img{}
@@ -102,13 +103,15 @@ body{background: #eee;}
 .tj-box .title1{margin-bottom: 0px;}
 .tj-box h3{font-size: 16px;font-weight: bold;overflow: hidden;margin-bottom: 5px;height: 17px;}
 .tj-box .p1{font-size: 12px;height: 36px;overflow: hidden;margin-bottom: 6px;}
-.tj-box .thumbnail{max-width: 310px;margin: 0 auto;background: transparent;border: 0;border: 1px solid #ccc;margin-bottom: 15px;}
+.tj-box .thumbnail{max-width: 310px;margin: 0 auto;background: #f8f8f8;border: 0;border: 0;margin-bottom: 15px;padding: 20px;}
+.tj-box .thumbnail:hover {background:#e8e8e8;}
 .tj-box .thumbnail img {height:200px;}
 .tj-box .box1{padding-top: 16px;padding-bottom: 16px;}
-.tj-box .p3{margin-top: 10px;}
-.tj-box .price{font-size: 20px;color: #f60;}
+.tj-box .p3{margin-top: 10px; height:30px;}
+.tj-box .price{font-size: 18px;color: #f60;}
+.tj-box .price .sp1 {font-size:14px;}
 .carousel-1{margin-bottom: 10px;}
-.view-more-link{text-align: center;font-size: 16px;}
+.view-more-link{text-align: center;font-size: 12px; background:#eee; padding-top:5px; padding-bottom:5px; }
 
 /*-- footer --*/
 .footer{margin-top: 30px;padding-top: 0px;border-top: 1px solid #e0e0e0;line-height: 1.8;background: #fff;}
