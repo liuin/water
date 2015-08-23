@@ -34,6 +34,7 @@
   .preson-order-item {display:table;width:100%; padding-right:0px;margin-left: 0;margin-right: 0;padding-left:0;}
   .preson-order-item > div.d2,.preson-order-item > div.d1{display:table-cell; float:none; vertical-align:middle;}
   .preson-order-item .sp1 {display:none;}
+  .cumpj-tab-pane .preson-order-item .sp1 {display:block;}
   .preson-order-item .d1 {border-bottom:0; padding-bottom:0px;}
   .preson-order-item .d2 {width:12%; text-align:center;}
   .preson-order-item .d2-count {width:7%;}
@@ -58,6 +59,10 @@
   .person-right-side-tk .preson-order-item > div.d2 {width:15%;}
   .person-right-side-tk .preson-order-item.first {border-top: 1px solid #ccc;}
 
+  /*-- biz-pro-add --*/
+  .form-pro-add {max-width:600px; padding-top:20px; margin:0 auto;}  
+  .ground-item .form-control {width:100%; max-width:450px;  }
+
 }
 /*中屏幕*/
 @media (min-width: 992px){
@@ -71,7 +76,7 @@
  .state-p1 {padding-top:5px;}
  .state-p1 span{display:inline-block; padding-right:20px; }
  .state-p1 span:last-child {padding-right:0;}
-
+ #bd-map1 {height:250px;}
 }
 
 /*大屏幕*/

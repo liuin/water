@@ -1,4 +1,4 @@
-<ul class="main-nav nav nav-pills">
+<ul class="main-nav nav nav-pills ">
   <li <?php if(isset($page)&&strstr($page,'首页')){echo 'class="active"';} ?>><a href="home.php">首页</a></li>
   <li <?php if(isset($page)&&strstr($page,'今日热单')){echo 'class="active"';} ?>><a href="hot-order.php">今日热单</a></li>
   <li <?php if(isset($page)&&strstr($page,'身边团购')){echo 'class="active"';} ?>><a href="side-buyteam.php">身边团购</a></li>

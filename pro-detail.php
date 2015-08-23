@@ -1,0 +1,496 @@
+<?php $page='产品内页'; include('inc/header.php'); ?>
+
+  <div class="main-box container">
+    <?php include('inc/nav-pills.php'); ?>      
+    <div class="pro-detail-box box1 clearfix">
+      <div class="col-sm-6">
+        <div id="carousel-example-generic" class="carousel-pro carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner-wrap">
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img alt="集木烧烤音乐餐吧团购" src="http://i2.s1.dpfile.com/pc/mc/6c193e0c1fc3dd86f6a7f9fdaa8fcdf8(450c280)/aD0yODAmaz0vcGMvbWMvNmMxOTNlMGMxZmMzZGQ4NmY2YTdmOWZkYWE4ZmNkZjgmbG9nbz0wJm09YyZ3PTQ1MA.923077cec43f685d4e11c4f90ca85259/thumb.jpg" style="left: 23850px;">
+              </div>
+              <div class="item">
+                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/f8a1219b12739b6b72d53507911ef806(450c280)/aD0yODAmaz0vcGMvbWMvZjhhMTIxOWIxMjczOWI2YjcyZDUzNTA3OTExZWY4MDYmbG9nbz0wJm09YyZ3PTQ1MA.0beee04a13f6edb11eab3a8f50810895/thumb.jpg" style="left: 25650px;">
+              </div>
+              <div class="item">
+                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/e58f37d06c36c822cbdaf0846a1220d2(450c280)/aD0yODAmaz0vcGMvbWMvZTU4ZjM3ZDA2YzM2YzgyMmNiZGFmMDg0NmExMjIwZDImbG9nbz0wJm09YyZ3PTQ1MA.39634e982cb206cbbad20c0d4e26ba05/thumb.jpg" style="left: 26550px;"> 
+              </div>
+            </div>
+            
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <!-- Indicators -->
+          <ol class="pro-carousel-indicators carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+          </ol>
+        </div>
+
+      </div>
+      <div class="pro-detail-info col-sm-6">
+        <h3>[北京路] 广州宾馆得云宫酒楼</h3>
+        <p class="p1">代金券，可叠加，不限时段通用！除茶位、烟酒、特价菜、宴席、海鲜以及餐饮服务费外全场通用，包厢可用，免费WiFi，首次开团，独家合作！</p>
+        <div class="price">
+          ¥<span class="sp1">85</span>
+          
+          <span class="sp2">5折</span>
+          <span class="sp3">价值 ¥100</span>
+        </div>
+        <div class="pro-detail-info-pj">
+          <table class="table">
+            <tr>
+              <td>已售473份</td>
+              <td class="td2">4.0 27 条团购评价</td>
+              <td>
+                <p class="sup1"><i class="glyphicon glyphicon-repeat"></i>支持随时退</p>
+                <p class="sup1"><i class="glyphicon glyphicon-remove"></i>支持过期退</p>                
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="effect-date">
+          有效期：至2016-3-31
+        </div>
+        <div class="count">
+          数量：<a class="c-sub" href="#">-</a> <input class="form-control" type="text" name="" id="" /> <a href="#" class="c-add">+</a>
+        </div>
+        <div class="cart-bk">
+          <button class="btn btn-lg btn-primary">立即抢购</button>   
+          <button class="btn btn-lg btn-danger">添加到购物车</button>   
+          <button class="btn btn-lg btn-default">加入收藏</button>   
+        </div>
+      </div>
+    </div>
+
+    <div class="pro-detail-box2">
+      <div class="row">
+          <div class="col-md-9 pro-detail-box2-info">
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
+            <li role="presentation"  class="active"><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
+            <li role="presentation"><a href="#buyknow" aria-controls="messages" role="tab" data-toggle="tab">购买须知</a></li>
+            <li role="presentation"><a href="#cumpj" aria-controls="settings" role="tab" data-toggle="tab">会员评价</a></li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content box1">
+            <div role="tabpanel" class="tab-pane " id="map">
+              <div class="col-md-6">
+                <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+                <div id="bd-map1"></div>                    
+              </div>
+              <div class="col-md-6 map-info">
+                <h3>悦语酒家</h3>
+                <p>地址：珠江新城马场路28号富力公园2楼(太阳新天地旁）(近跑马场西门口)</p>
+                <p>电话：020-38206018 020-38206028</p>
+                <p>营业时间：9：00-22:00</p>   
+              </div>        
+            </div><!-- /地图 -->  
+
+            <div role="tabpanel" class="tab-pane " id="tg">
+              <div class="tab-pane-tg">
+                <table width="100%" cellpadding="0" cellspacing="0" class="table table-striped">
+                  <thead>
+                  <tr>
+                    <th width="50%">名称</th>
+                    <th width="25%">数量</th>
+                    <th width="25%">单价</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    <tr><th colspan="3">22选8,不可重复选</th></tr>
+                    <tr>
+                            <td>金蒜蒸排骨</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>淡水虾饺皇</td>
+                            <td class="tc">精点</td>
+                            <td class="tc">29元</td>
+                    </tr>
+                    <tr>
+                            <td>名酱百搭蒸凤爪</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>好味菜蒸大肠</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>古绵马拉糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>肉碎陈村粉</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>潮州蒸粉果</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>山东源汁枣皇糕</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>阳江猪肠碌</td>
+                            <td class="tc">小点</td>
+                            <td class="tc">8元</td>
+                    </tr>
+                    <tr>
+                            <td>金丝燕麦包</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>日式手指春卷</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>香菇滑肉肠</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>空心煎堆仔</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>腊味萝卜糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>虫草花鲜竹卷</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>香煎韭菜饺</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>酥皮蛋挞仔</td>
+                            <td class="tc">顶点</td>
+                            <td class="tc">22元</td>
+                    </tr>
+                    <tr>
+                            <td>特色荞麦包</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>汤灼娃娃菜</td>
+                            <td class="tc">精点</td>
+                            <td class="tc">29元</td>
+                    </tr>
+                    <tr>
+                            <td>皮蛋瘦肉粥</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>泰国燕麦切糕</td>
+                            <td class="tc">大点</td>
+                            <td class="tc">15元</td>
+                    </tr>
+                    <tr>
+                            <td>木瓜夹心椰汁糕</td>
+                            <td class="tc">特点</td>
+                            <td class="tc">19元</td>
+                    </tr>
+                    <tr>
+                            <td>茶位费</td>
+                            <td class="tc">4位</td>
+                            <td class="tc">20元</td>
+                    </tr>
+                  <tr class="total">
+                    <td></td>
+                    <td class="tc">最高价值<br><strong>团购价</strong></td>
+                    <td class="tc">210元<br><strong>98元</strong></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>              
+            </div><!-- /团购详情 -->
+
+           <div role="tabpanel" class="tab-pane" id="buyknow">          
+            <div class="purchase-notes tab-pane-buyknow"> 
+              <dl> 
+               <dt>
+                有效期
+               </dt> 
+               <dd> 
+                <p class="listitem">2013-11-22至2015-10-29</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                除外日期
+               </dt> 
+               <dd> 
+                <p class="listitem">2015-05-10、2015-06-20至2015-06-21不可用</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                使用时间
+               </dt> 
+               <dd> 
+                <p class="listitem">09:00-14:30</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                预约信息
+               </dt> 
+               <dd> 
+                <p class="listitem">无需预约，如遇消费高峰时段您可能需要排队</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                堂食外带
+               </dt> 
+               <dd> 
+                <p class="listitem">本单只适用于堂食，只适用于大厅使用，敬请谅解</p> 
+                <p class="listitem">本单不提供外送外卖服务</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                规则提醒
+               </dt> 
+               <dd> 
+                <p class="listitem">每张团购券建议4人使用</p> 
+                <p class="listitem">如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商</p> 
+                <p class="listitem">不再与其他优惠同享</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                商家服务
+               </dt> 
+               <dd> 
+                <p class="listitem">提供免费WiFi</p> 
+                <p class="listitem">停车位信息详询商户</p> 
+               </dd> 
+              </dl> 
+              <dl> 
+               <dt>
+                温馨提示
+               </dt> 
+               <dd> 
+                <p class="listitem">如需团购券发票，请您在消费时向商户咨询</p> 
+               </dd> 
+              </dl>
+              <dl>
+               <dt>
+                优惠规则
+               </dt> 
+               <dd>
+                <p class="listitem">本单为特惠单，不支持使用现金券/抵用券支付</p> 
+               </dd> 
+              </dl> 
+             </div>              
+            </div><!-- /购买须知 -->
+
+          <div role="tabpanel" class="tab-pane cumpj-tab-pane active" id="cumpj">
+            <div class="preson-order-item first">
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
+              </div>
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
+            </div>
+            <div class="preson-order-item">
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
+              </div>
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
+            </div>
+            <div class="preson-order-item">
+              <div class="user clearfix">
+                <div class="star-wp fl">
+                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
+                </div>                  
+                <div class="name fl">刘旭</div>
+                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
+              </div>
+              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
+            </div>                        
+            </div><!-- /会员评价 -->
+          </div>        
+            
+          </div>
+       
+      <div class="col-md-3">
+        <h2 class="relation-pro">相关产品</h2>
+        <div class="box1">
+          <div class="pro-list-item jjh-list-item">
+            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
+              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+          <div class="pro-list-item jjh-list-item">
+            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
+              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  <!-- /中间 -->
+
+  <?php include('inc/footer.php'); ?>
+  <script type="text/javascript">
+  <!--
+   /* ========================================================================
+  百度地图*/
+
+  +(function($){
+    $(document).ready(function() {    
+      //创建和初始化地图函数：
+      function initMap(){
+          createMap();//创建地图
+          setMapEvent();//设置地图事件
+          addMapControl();//向地图添加控件
+          addMarker();//向地图中添加marker
+      }
+      
+      //创建地图函数：
+      function createMap(){
+          var map = new BMap.Map("bd-map1");//在百度地图容器中创建一个地图
+          var point = new BMap.Point(116.460054,39.922507);//定义一个中心点坐标
+          map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+          window.map = map;//将map变量存储在全局
+      }
+      
+      //地图事件设置函数：
+      function setMapEvent(){
+          map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+          map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+          map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+          map.enableKeyboard();//启用键盘上下左右键移动地图
+      }
+      
+      //地图控件添加函数：
+      function addMapControl(){
+          //向地图中添加缩放控件
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    map.addControl(ctrl_nav);
+          //向地图中添加缩略图控件
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+    map.addControl(ctrl_ove);
+          //向地图中添加比例尺控件
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+    map.addControl(ctrl_sca);
+      }
+
+      //标注点数组
+      var markerArr = [{title:"北京市朝阳区光华路9号时尚大厦20层",content:"北京芭莎能量文化活动有限公司",point:"116.460054|39.922507",isOpen:1,icon:{w:23,h:25,l:69,t:21,x:9,lb:12}}
+       ];
+      //创建marker
+      function addMarker(){
+          for(var i=0;i<markerArr.length;i++){
+              var json = markerArr[i];
+              var p0 = json.point.split("|")[0];
+              var p1 = json.point.split("|")[1];
+              var point = new BMap.Point(p0,p1);
+        var iconImg = createIcon(json.icon);
+              var marker = new BMap.Marker(point,{icon:iconImg});
+        var iw = createInfoWindow(i);
+        var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+        marker.setLabel(label);
+              map.addOverlay(marker);
+              label.setStyle({
+                          borderColor:"#808080",
+                          color:"#333",
+                          cursor:"pointer"
+              });
+        
+        (function(){
+          var index = i;
+          var _iw = createInfoWindow(i);
+          var _marker = marker;
+          _marker.addEventListener("click",function(){
+              this.openInfoWindow(_iw);
+            });
+            _iw.addEventListener("open",function(){
+              _marker.getLabel().hide();
+            })
+            _iw.addEventListener("close",function(){
+              _marker.getLabel().show();
+            })
+          label.addEventListener("click",function(){
+              _marker.openInfoWindow(_iw);
+            })
+          if(!!json.isOpen){
+            label.hide();
+            _marker.openInfoWindow(_iw);
+          }
+        })()
+          }
+      }
+      //创建InfoWindow
+      function createInfoWindow(i){
+          var json = markerArr[i];
+          var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+          return iw;
+      }
+      //创建一个Icon
+      function createIcon(json){
+          var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+          return icon;
+      }
+      
+      initMap();//创建和初始化地图
+    })
+
+  })(jQuery); 
+  //-->
+  </script>

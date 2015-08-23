@@ -1,13 +1,6 @@
 <?php $page='身边团购'; include('inc/header.php'); ?>
   <div class="main-box container">
-    <ul class="main-nav nav nav-pills">
-      <li><a href="home.html">首页</a></li>
-      <li><a href="hot-order.html">今日热单</a></li>
-      <li><a href="side-buyteam.html">身边团购</a></li>
-      <li><a href="biz.html">商家官网</a></li>
-      <li><a href="recruit.html">招聘</a></li>
-      <li><a href="supplier.html">供应商</a></li>
-    </ul><!-- /右目录 -->
+    <?php include('inc/nav-pills.php'); ?>
 
 
     <div id="carousel-example-generic" class="banner carousel-1 carousel slide" data-ride="carousel">

@@ -1,10 +1,9 @@
 <? $page='首页'; include('inc/header.php') ?>
   <div class="main-box container">
     <div class="row">
-      <div></div>
       <div class="col-md-3 left-side">
         <div class="row">
-          <div class="jjh col-box   col-md-12">
+          <div class="jjh col-box col-md-12">
             <h2 class="hd"><span class="glyphicon glyphicon-bullhorn"></span>活动结集号</h2>
             <div class="thumbnail col-box-thumbnail">
               <img src="http://mall.bydauto.com.cn/media/wysiwyg/1215/_237x255.jpg" class="img" alt="..." >
@@ -13,7 +12,7 @@
                 <p class="p1">睇过两次，音响效果很好。环境干净。</p>        
                 <p class="p2"><i></i>活动地点: 太古汇店</p> 
                 <p class="p2-1 p2"><i></i>活动时间: 2015/07/08</p> 
-                <p class="p3 clearfix"><a href="jijiehao.html" class="btn btn-primary fl" role="button">我要报名</a> <a href="jijiehao.html" class="btn btn-default fr" role="button">详情</a></p>
+                <p class="p3 clearfix"><a href="jijiehao.php" class="btn btn-primary fl" role="button">我要报名</a> <a href="jijiehao.php" class="btn btn-default fr" role="button">详情</a></p>
               </div>
             </div>
           </div>
@@ -80,7 +79,7 @@
                     <h4 class="media-heading">37°2 Rendez遇Vous(海珠桥脚店) </h4>
                     <p>地址： 海珠区 滨江中路272号海珠桥脚(近海珠桥脚)<br />电话： 020-89228169</p>
                     <div class="clearfix">
-                      <div class="price fl">¥98.8</div>
+                      <div class="price fl"><span class="sp1">¥</span>98.8</div>
                       <p class="sell fr">已售<span class="sp1">98</span>件</p>
                     </div>
                   </div>
@@ -113,76 +112,76 @@
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-grey btn-sm btn fr" role="button">已售</a></p>
             </div>
           </div>
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
             </div>
           </div>
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>
 
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-grey btn fr" role="button">已售</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
             </div>
             
           </div>
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://mall.bydauto.com.cn/media/catalog/product/cache/4/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/8/0/800x800_2_2.jpg"  width="100%">
+            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
               <h3>云来斯堡酒店伯爵国际自助美</h3>
 
               <p class="p3 clearfix">
-              <span class="price">¥98.8</span>
-              <a href="#" class="btn btn-primary fr" role="button">我要报名</a></p>
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
             </div>
           </div>
       </div>

@@ -15,14 +15,15 @@
       <li><a class="<?php if (isset($page)&&strstr($page, '门店评价详情')): ?>active<?php endif ?>" href="biz-pj-md.php">门店评价详情</a></li>
     </ul>
   </li>
-
   <li class="cur">
-    <span class="hd1"><span class="caret fr"></span>经营效果</span>
+    <span class="hd1"><span class="caret fr"></span>商品管理</span>
     <ul>
-      <li><a class="<?php if (isset($page)&&strstr($page, '经营效果(数据统计及图表展示)')): ?>active<?php endif ?>" href="biz-jyxg.php">经营效果(数据统计及图表展示)</a></li>
+      <li><a class="<?php if (isset($page)&&strstr($page, '商品管理')): ?>active<?php endif ?>" href="biz-pro.php">商品管理</a></li>
+      <li><a class="<?php if (isset($page)&&strstr($page, '经营效果')): ?>active<?php endif ?>" href="biz-jyxg.php">经营效果</a></li>
+      <li><a class="<?php if (isset($page)&&strstr($page, '添加商品')): ?>active<?php endif ?>" href="biz-pro-add.php">添加商品</a></li>
     </ul>
   </li>
-
+  
   <li class="cur">
     <span class="hd1"><span class="caret fr"></span>团购项目</span>
     <ul>
