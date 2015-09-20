@@ -1,7 +1,9 @@
 /*小屏幕*/
 @media (min-width: 768px) {
-  .footer .col-2 {border-left:1px solid #ccc; border-right:1px solid #ccc; height: 95px; padding-top:10px;}
+  .footer .col-2 {   padding-top:10px;}
   .footer .col-1,.footer .col-3 {padding-top:10px;border-top:0;border-left:0;border-right:0;}
+  .footer .col-1 {text-align:center;}
+  .footer i.F-glob {font-style: 14px;margin-right: 5px;}
   .zztj .btn {margin: 0;padding: 6px 12px; }
   
   .bannertuan .col-2 {text-align:right;}
@@ -68,10 +70,12 @@
 @media (min-width: 992px){
  .zztj .row-1{padding-top: 5px;padding-bottom: 28px;height: 124px; } 
  .zztj .price,.zztj  .sell {display:block; margin-left:0px;}
- .header .col-1 {padding-top: 35px;padding-bottom: 0;}
- .header .form-search{padding-top:31px;}
- .tuikuan-link {padding-top: 12px;position: relative;top: 10px;}
- 
+ .header .col-1 {padding-top: 15px;padding-bottom: 0;}
+ .header .col-3 {float: right;}
+ .header .col-md-5 {margin-left: 37px;}
+ .header .form-search{padding-top:12px;}
+ .tuikuan-link { padding-top: 0;position: relative;top: -3px;}
+ .left-side {padding-right: 0;}
  /*-- biz-val-fypj-col --*/
  .state-p1 {padding-top:5px;}
  .state-p1 span{display:inline-block; padding-right:20px; }

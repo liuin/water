@@ -1,27 +1,14 @@
-<?php $page='搜索'; include('inc/header.php'); ?>
+<?php $page='找水疗'; include('inc/header.php'); ?>
+
   <div class="main-box container">
     <?php include('inc/nav-pills.php'); ?>      
-    <h3 class="search-hd">找到<span class="sp1">“刘旭”</span> 相关团购10244个</h3>
-    <div class="cate-nav">
+    <div class="cate-nav">      
       <div class="cate-nav-item row">
-        <div class="cate-nav-item-lable col-xs-2">
-          <span class="lb"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>分类</span>
+        <div class="col-xs-12 cate-xz">
+          已选择: <a href="#">天河区</a>
         </div>
-        <div class="cate-nav-item-link col-xs-10">
-          <a href="#" class="active">美食</a>
-          <a href="#">休闲娱</a>
-          <a href="#">电影</a>
-          <a href="#">酒店</a>
-          <a href="#">旅游</a>
-          <a href="#">丽人</a>
-          <a href="#">生活服务</a>
-          <a href="#">购物</a>
-          <a href="#">亲子</a>
-        </div>
-      </div>
-      <div class="cate-nav-item row">
         <div class="cate-nav-item-lable col-xs-2">
-          <span class="lb"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>位置</span>
+          <span class="lb"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>区域</span>
         </div>
         <div class="cate-nav-item-link col-xs-10">
           <a href="#">天河区</a>
@@ -283,7 +270,7 @@
     
     </div>
       
-
+    
 
   </div>
   <!-- /中间 -->

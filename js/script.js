@@ -413,3 +413,11 @@ $.fn.scollpic= function (options) {
 
 })(jQuery);
 
+$(document).ready(function() {
+  $('.my-peson .link,.my-peson-sbnav').hover(function  () {
+    $(this).find('.my-peson-sbnav').show();
+  },function  () {
+    $(this).find('.my-peson-sbnav').hide();
+  })
+})
+

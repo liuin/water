@@ -1,27 +1,14 @@
-<?php $page='搜索'; include('inc/header.php'); ?>
+<?php $page='找优惠'; include('inc/header.php'); ?>
+
   <div class="main-box container">
     <?php include('inc/nav-pills.php'); ?>      
-    <h3 class="search-hd">找到<span class="sp1">“刘旭”</span> 相关团购10244个</h3>
-    <div class="cate-nav">
+    <div class="cate-nav">      
       <div class="cate-nav-item row">
-        <div class="cate-nav-item-lable col-xs-2">
-          <span class="lb"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>分类</span>
+        <div class="col-xs-12 cate-xz">
+          已选择: <a href="#">天河区</a>
         </div>
-        <div class="cate-nav-item-link col-xs-10">
-          <a href="#" class="active">美食</a>
-          <a href="#">休闲娱</a>
-          <a href="#">电影</a>
-          <a href="#">酒店</a>
-          <a href="#">旅游</a>
-          <a href="#">丽人</a>
-          <a href="#">生活服务</a>
-          <a href="#">购物</a>
-          <a href="#">亲子</a>
-        </div>
-      </div>
-      <div class="cate-nav-item row">
         <div class="cate-nav-item-lable col-xs-2">
-          <span class="lb"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>位置</span>
+          <span class="lb"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>全部区域</span>
         </div>
         <div class="cate-nav-item-link col-xs-10">
           <a href="#">天河区</a>
@@ -33,6 +20,23 @@
           <a href="#">白云区</a>
           <a href="#">花都区</a>
           <a href="#">越秀区</a>
+        </div>
+      </div>
+
+      <div class="cate-nav-item row">
+        <div class="cate-nav-item-lable col-xs-2">
+          <span class="lb"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>热门分类</span>
+        </div>
+        <div class="cate-nav-item-link col-xs-10">
+          <a href="#" class="active">海桑门票</a>
+          <a href="#">休闲娱</a>
+          <a href="#">电影</a>
+          <a href="#">酒店</a>
+          <a href="#">旅游</a>
+          <a href="#">丽人</a>
+          <a href="#">生活服务</a>
+          <a href="#">购物</a>
+          <a href="#">亲子</a>
         </div>
       </div>
     </div>
@@ -49,110 +53,93 @@
             <a href="#">销量 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
             <a href="#">价格 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
           </div>
-          <div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
-                <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
-                  </div>
-                </div>
-           </div>
+          
 
-<div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
+<div class="row row-fyh">
+<div class="col-md-6">
+    <div class="pro-list-item ">
+                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
                 <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
+                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
+                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                  <div class="price-ground clearfix">
+                    <span class="price-new fl">¥<em>85</em></span>
+                    <span class="sellout fr">已售473</span>
                   </div>
                 </div>
-           </div>
-<div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
+              </div>
+  </div>
+  <div class="col-md-6">
+                        <div class="pro-list-item ">
+              <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+              <div class="caption">
+                <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
+                <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                <div class="price-ground clearfix">
+                  <span class="price-new fl">¥<em>85</em></span>
+                  <span class="sellout fr">已售473</span>
+                </div>
+              </div>
+                        </div>
+            </div>
+<div class="col-md-6">
+    <div class="pro-list-item ">
+                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
                 <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
+                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
+                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                  <div class="price-ground clearfix">
+                    <span class="price-new fl">¥<em>85</em></span>
+                    <span class="sellout fr">已售473</span>
                   </div>
                 </div>
-           </div>
+              </div>
+  </div>
+  <div class="col-md-6">
+    <div class="pro-list-item ">
+                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+                <div class="caption">
+                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
+                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                  <div class="price-ground clearfix">
+                    <span class="price-new fl">¥<em>85</em></span>
+                    <span class="sellout fr">已售473</span>
+                  </div>
+                </div>
+              </div>
+  </div>
+  <div class="col-md-6">
+    <div class="pro-list-item ">
+                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+                <div class="caption">
+                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
+                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                  <div class="price-ground clearfix">
+                    <span class="price-new fl">¥<em>85</em></span>
+                    <span class="sellout fr">已售473</span>
+                  </div>
+                </div>
+              </div>
+  </div>
+  <div class="col-md-6">
+    <div class="pro-list-item ">
+                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+                <div class="caption">
+                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
+                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+                  <div class="price-ground clearfix">
+                    <span class="price-new fl">¥<em>85</em></span>
+                    <span class="sellout fr">已售473</span>
+                  </div>
+                </div>
+              </div>
+  </div>
+</div>
 
-<div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
-                <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
-                  </div>
-                </div>
-           </div>
-<div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
-                <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
-                  </div>
-                </div>
-           </div>
-<div class="find-water-item">
-                <a class="img fl" href="find-water-item.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img" /></a>
-                <div class="caption">
-                  <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i> <i class="d-icon" >订</i></h3>     
-                  <div class="info">
-                    <div class="star fl"><span style="width:20%;" class="sp1"></span></div>
-                    <span class="pl">32条评论</span>
-                  </div>
-                  <div class="adress">
-                    地址:四川成都市峨眉山 
-                  </div>
-                  <div class="fw-youhui">
-                    <span class="sp1 fl">优惠:优惠信息</span>
-                    <a href="javascript:void(0);" class="sp1 fr">更多优惠</a>
-                  </div>
-                </div>
-           </div>
+
+
+
+
 <nav class="pro-pagination">
           <ul class="pagination">
             <li>
@@ -233,7 +220,7 @@
         <div class="tj-box tj-box-guess">
           <div class="title1"><span class="glyphicon glyphicon-fire"></span>猜你喜欢</div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -243,7 +230,7 @@
             </div>
           </div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -258,7 +245,7 @@
         <div class="tj-box tj-box-newview">
           <div class="title1"><span class="glyphicon glyphicon-fire"></span>最新浏览</div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -268,7 +255,7 @@
             </div>
           </div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -283,7 +270,7 @@
     
     </div>
       
-
+    
 
   </div>
   <!-- /中间 -->
