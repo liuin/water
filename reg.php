@@ -19,7 +19,24 @@
                    <div class="txt">注册成功后，全水汇网通用</div>
                  </div>
 
-                <div class="form-group clearfix" style="padding-bottom: 5px;">
+                
+
+                 <div class="form-group clearfix " style="padding-bottom: 5px;">
+             <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+             <input type="password" class="form-control" id="inputPassword3"   placeholder="密码">
+             <div class="txt-pwd">
+              <span class="">弱</span>
+              <span class="">中</span>
+              <span class="active">强</span>
+            </div>  
+           </div>  
+      
+           <div class="form-group clearfix" style="padding-bottom: 23px;">
+             <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+             <input type="password" class="form-control" id="inputPassword3"   placeholder="确认密码">
+           </div>
+                 
+<div class="form-group clearfix" style="padding-bottom: 5px;">
                  
                  <div class="row row-form-pwd" >
                    <div class="col-xs-7 col-1">
@@ -35,21 +52,7 @@
                  </div>
                </div>
 
-                 <div class="form-group clearfix " style="padding-bottom: 5px;">
-             <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
-             <input type="password" class="form-control" id="inputPassword3"   placeholder="密码">
-             <div class="txt-pwd">
-              <span class="">弱</span>
-              <span class="">中</span>
-              <span class="active">强</span>
-            </div>  
-           </div>  
-      
-           <div class="form-group clearfix">
-             <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
-             <input type="password" class="form-control" id="inputPassword3"   placeholder="确认密码">
-           </div>
-                 
+
                  <div class="form-sub-bk form-group">
                     
                    <button type="submit" class="btn btn-primary">注　册</button>     

@@ -460,6 +460,8 @@ body{background: #eee;}
 .carousel-1{margin-bottom: 15px;}
 .view-more-link{ text-align: center;background: #ddd;padding-top: 5px;padding-bottom: 5px;font-size: 15px;}
 
+#carousel-example-generic-jjh .carousel-indicators{bottom: -8px;}
+
 /*-- footer --*/
 .footer{margin-top: 30px;padding-top: 0px;border-top: 1px solid #e0e0e0;line-height: 1.8;background: #fff;}
 .footer a{display: inline-block;color: #999;font-size: 12px;text-align: center;margin: 0 10px;}
