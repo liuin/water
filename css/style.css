@@ -391,7 +391,7 @@ body{background: #eee;}
 .header-area .btn-default:active,
 .header-area .open>.dropdown-toggle.btn-default{background: transparent !important;outline: 0;box-shadow: none}
 
-.header-area .dropdown-menu { min-width: inherit;width: 164px;left: 17px;top: 30px;}
+.header-area .dropdown-menu { min-width: inherit;width: 164px;left: 17px;top: 30px; border: 0;}
 .hot-key{ position: relative;top: 4px;}
 .hot-key a{color:#999;margin-left: 10px;font-size: 12px;}
 .hot-key a:hover {color:#06c;}
@@ -408,6 +408,33 @@ body{background: #eee;}
 .container-hd1 .carousel-indicators{bottom:-8px;}
 
 .row-menu {margin-bottom: 15px;}
+
+.city-list {position: absolute;left: 0;top: 0;border: 1px solid #e3e3e3;background-color: #fff;width: 472px;z-index: 100;padding-bottom: 28px;}
+
+.city-list .group {position: relative;padding: 10px 0 10px 78px;border-top: 1px solid #f6f6f6;line-height: 2;_zoom: 1; font-size: 12px;}
+
+ .city-list .group:first-child {
+    border-top:0
+}
+ .city-list .group .title { position: absolute;left: 10px;top: 16px;font-size: 12px;color: #8c8c8c;}
+ .city-list .group a {
+    float:left;
+    width:60px;
+    margin-right:5px;
+    color:#282828
+}
+ .city-list .group a:hover {
+   color: #06c;
+}
+ .city-list .group .double {
+    width:125px
+}
+ .city-list .all {
+    position:absolute;
+    right:10px;
+    bottom:8px;
+    color:#8c8c8c
+}
 
 /*-- main-box --*/
 .main-box{padding-top: 20px;padding-bottom: 10px;}

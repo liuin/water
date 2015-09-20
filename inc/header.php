@@ -134,14 +134,119 @@
                   广州
                   <span class="caret">切换城市</span>
                 </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                  <li class="dropdown-header">广东地区</li>
-                  <li><a href="#">广州</a></li>
-                  <li><a href="#">深圳</a></li>
-                  <li class="dropdown-header">其他地区</li>
-                  <li><a href="#">上海</a></li>
-                  <li><a href="#">北京</a></li>
-                </ul>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <div class="city-list J-city-list ">
+        <div class="group clearfix">
+            <h3 class="title">华北东北：</h3>
+                <a href="#" >北京</a>
+                <a href="#">天津</a>
+                <a href="#" >沈阳</a>
+                <a href="#" >大连</a>
+                <a href="#" >长春</a>
+                <a href="#" >哈尔滨</a>
+                <a href="#" >石家庄</a>
+                <a href="#" >太原</a>
+                <a href="#" >呼和浩特</a>
+                <a href="#" >廊坊</a>
+        </div>
+        <div class="group clearfix">
+            <h3 class="title">华东地区：</h3>
+                <a href="#" >上海</a>
+                <a href="#" >杭州</a>
+                <a href="#" >南京</a>
+                <a href="#" >苏州</a>
+                <a href="#" >无锡</a>
+                <a href="#" >济南</a>
+                <a href="#" >厦门</a>
+                <a href="#" >宁波</a>
+                <a href="#" >福州</a>
+                <a href="#" >青岛</a>
+                <a href="#" >合肥</a>
+                <a href="#" >常州</a>
+                <a href="#" >扬州</a>
+                <a href="#" >温州</a>
+                <a href="#" >绍兴</a>
+                <a href="#" >嘉兴</a>
+                <a href="#" >烟台</a>
+                <a href="#" >威海</a>
+                <a href="#" >镇江</a>
+                <a href="#" >南通</a>
+                <a href="#" >金华</a>
+                <a href="#" >徐州</a>
+                <a href="#" >潍坊</a>
+                <a href="#" >淄博</a>
+                <a href="#" >临沂</a>
+                <a href="#" >马鞍山</a>
+                <a href="#" >台州</a>
+                <a href="#" >泰州</a>
+                <a href="#" >济宁</a>
+                <a href="#" >泰安</a>
+        </div>
+        <div class="group clearfix">
+            <h3 class="title">中部西部：</h3>
+                <a href="#" >成都</a>
+                <a href="#" >武汉</a>
+                <a href="#" >郑州</a>
+                <a href="#" >长沙</a>
+                <a href="#" >南昌</a>
+                <a href="#" >贵阳</a>
+                <a href="#" >西宁</a>
+                <a href="#" >重庆</a>
+                <a href="#" >西安</a>
+                <a href="#" >昆明</a>
+                <a href="#" >兰州</a>
+                <a href="#" >乌鲁木齐</a>
+                <a href="#" >银川</a>
+        </div>
+        <div class="group clearfix">
+            <h3 class="title">华南地区：</h3>
+                <a href="#" >广州</a>
+                <a href="#" >深圳</a>
+                <a href="#" >佛山</a>
+                <a href="#" >珠海</a>
+                <a href="#" >东莞</a>
+                <a href="#" >三亚</a>
+                <a href="#" >海口</a>
+                <a href="#" >南宁</a>
+                <a href="#" >惠州</a>
+        </div>
+        <div class="group clearfix">
+            <h3 class="title">港澳台：</h3>
+                <a href="#" >香港</a>
+                <a href="#" >澳门</a>
+                <a href="#" >台北</a>
+                <a href="#" >高雄</a>
+                <a href="#" >垦丁</a>
+                <a href="#" >花莲</a>
+        </div>
+        <div class="group clearfix">
+            <h3 class="title">国外热门：</h3>
+                <a href="#" >东京</a>
+                <a href="#" >首尔</a>
+                <a href="#" >曼谷</a>
+                <a href="#" >新加坡</a>
+                <a href="#" >吉隆坡</a>
+                <a href="#" >墨尔本</a>
+                <a href="#" >京都</a>
+                <a href="#" >大阪</a>
+                <a href="#" >北海道</a>
+                <a href="#" >清迈</a>
+                <a href="#" >芭堤雅</a>
+                <a href="#" >普吉岛</a>
+                <a href="#" >济州岛</a>
+                <a href="#" >长滩岛</a>
+                <a href="#" >巴厘岛</a>
+                <a href="#" >沙巴</a>
+                <a href="#" >纽约</a>
+                <a href="#" >洛杉矶</a>
+                <a href="#" >巴黎</a>
+                <a href="#" >伦敦</a>
+                <a href="#" >悉尼</a>
+                <a href="#" >奥克兰</a>
+        </div>
+        <a class="all" href="#" >全部城市</a>
+    </div>
+                </div>
               </div>
             </div>
           </div>
@@ -171,3 +276,5 @@
     </div>
   </header>
   <!-- /头部 -->
+
+
