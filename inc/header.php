@@ -48,7 +48,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-4  login-box fl">
-          <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>水汇网收藏</a>
+          <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>收藏水汇网</a>
           <a href="login.php"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> 登陆</a>
           <!-- <a href="reg.php">注册</a> -->
           <a href="reg.php"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>手机端</a>
@@ -162,9 +162,9 @@
         </div>
         <div class="col-3 col-md-3 col-lg-4">
           <div class="tuikuan-link">
-            <a href="#" class="a1"><i class="F-glob F-glob-commitment-retire"></i><span class="">随时退</span></a>
-            <a href="#" class="a2"><i class="F-glob F-glob-commitment-free"></i><span class="">不满意免单</span></a>
-            <a href="#" class="a3"><i class="F-glob F-glob-commitment-expire"></i><span class="">过期退</span></a>
+            <span href="#" class="alink a1"><i class="F-glob F-glob-commitment-retire"></i><span class="">随时退</span></span>
+            <span href="#" class="alink a2"><i class="F-glob F-glob-commitment-free"></i><span class="">不满意免单</span></span>
+            <span href="#" class="alink a3"><i class="F-glob F-glob-commitment-expire"></i><span class="">过期退</span></span>
           </div>
         </div>
       </div>

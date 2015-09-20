@@ -47,7 +47,7 @@
             <div class="jjh-list-item">
                 <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
+                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -65,7 +65,7 @@
             <div class="jjh-list-item">
                 <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
+                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -83,7 +83,7 @@
             <div class="jjh-list-item">
                 <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
+                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -206,7 +206,7 @@
         <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -218,7 +218,7 @@
          <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -231,7 +231,7 @@
         <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -243,7 +243,7 @@
          <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -256,7 +256,7 @@
         <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -269,7 +269,7 @@
          <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -294,7 +294,7 @@
         <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -306,7 +306,7 @@
          <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -319,7 +319,7 @@
         <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
@@ -331,7 +331,7 @@
          <div class="thumbnail">
             <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
             <div class="caption">
-              <h3>云来斯堡酒店伯爵国际自助美</h3>
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
               <span class="price"><span class="sp1">¥</span>98.8</span>
