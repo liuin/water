@@ -4,7 +4,7 @@
     <?php include('inc/nav-pills.php'); ?>      
     <div class="pro-detail-box box1 clearfix">
       <div class="col-sm-6">
-        <div id="carousel-example-generic" class="carousel-pro carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic-prodt" class="carousel-pro carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
           <div class="carousel-inner-wrap">
             <div class="carousel-inner" role="listbox">
@@ -20,11 +20,11 @@
             </div>
             
             <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#carousel-example-generic-prodt" role="button" data-slide="prev">
               <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <a class="right carousel-control" href="#carousel-example-generic-prodt" role="button" data-slide="next">
               <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -32,9 +32,9 @@
 
           <!-- Indicators -->
           <ol class="pro-carousel-indicators carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+            <li data-target="#carousel-example-generic-prodt" data-slide-to="0" class="active"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+            <li data-target="#carousel-example-generic-prodt" data-slide-to="1"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
+            <li data-target="#carousel-example-generic-prodt" data-slide-to="2"><img title="集木烧烤音乐餐吧" src="http://i2.s1.dpfile.com/pc/mc/03d12840223bfc1a929c1699470c14a7(80c50)/thumb.jpg"></li>
           </ol>
         </div>
 
@@ -66,6 +66,20 @@
         <div class="count">
           数量：<a class="c-sub" href="#">-</a> <input class="form-control" type="text" name="" id="" /> <a href="#" class="c-add">+</a>
         </div>
+        <div class="share">
+                <div class="rule-share pic-tips">
+				分享：
+				<a class="share-sina J_sina-share" onclick="pageTracker._trackPageview('dp_events_detail_share_weibo_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'新浪微博', type:1 }]);" title="新浪微博" href="javascript:void(0);"></a>
+				<a class="share-qqweibo J_qqweibo-share" onclick="pageTracker._trackPageview('dp_events_detail_share_tqq_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'腾讯微博', type:2 }]);" title="腾讯微博" href="javascript:void(0);"></a>
+				
+				<a class="share-weixin J_weixin-share" onclick="pageTracker._trackPageview('dp_events_detail_share_wx_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'微信', type:4 }]);" title="微信" href="javascript:void(0);"></a>				
+        <div class="fr oterase">
+          <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>收藏</a>
+          <a href="#"><span class="glyphicon glyphicon-alert" aria-hidden="true"></span>报错</a>
+          <a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>发送到手机</a>
+        </div>
+		</div>
+              </div>
         <div class="cart-bk">
           <button class="btn btn-lg btn-primary">立即抢购</button>   
           <button class="btn btn-lg btn-danger">添加到购物车</button>   
@@ -79,15 +93,15 @@
           <div class="col-md-9 pro-detail-box2-info">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
-            <li role="presentation"  class="active"><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
+            <li role="presentation" class="active"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
+            <li role="presentation"  ><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
             <li role="presentation"><a href="#buyknow" aria-controls="messages" role="tab" data-toggle="tab">购买须知</a></li>
             <li role="presentation"><a href="#cumpj" aria-controls="settings" role="tab" data-toggle="tab">会员评价</a></li>
           </ul>
           
           <!-- Tab panes -->
           <div class="tab-content box1">
-            <div role="tabpanel" class="tab-pane " id="map">
+            <div role="tabpanel" class="tab-pane active" id="map">
               <div class="col-md-6">
                 <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
                 <div id="bd-map1"></div>                    
@@ -318,61 +332,130 @@
              </div>              
             </div><!-- /购买须知 -->
 
-          <div role="tabpanel" class="tab-pane cumpj-tab-pane active" id="cumpj">
-            <div class="preson-order-item first">
-              <div class="user clearfix">
-                <div class="star-wp fl">
-                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
-                </div>                  
-                <div class="name fl">刘旭</div>
-                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
-              </div>
-              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
-            </div>
-            <div class="preson-order-item">
-              <div class="user clearfix">
-                <div class="star-wp fl">
-                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
-                </div>                  
-                <div class="name fl">刘旭</div>
-                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
-              </div>
-              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
-            </div>
-            <div class="preson-order-item">
-              <div class="user clearfix">
-                <div class="star-wp fl">
-                  <span class="fl">评价:</span><div class="star fl"><span style="width:20%;" class="sp1"></span></div>                 
-                </div>                  
-                <div class="name fl">刘旭</div>
-                <div class="time fr"><span class="sp1">购买时间:</span>2015-07-26</div>
-              </div>
-              <div class="txt1">内容:感觉上没有太古汇附近那间好，价钱也比那间贵，烤羊排竟然烤焦了，环境也吵，一般般吧。</div>
-            </div>                        
+          <div role="tabpanel" class="tab-pane cumpj-tab-pane " id="cumpj">
+            
+            <div class="box-pj clearfix">
+            <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="top-row clearfix">
+                      <span class="name fl">刘旭</span>
+                      <span class="date fr">评价时间：2015-08-07 01:24:08</span>
+                    </div>
+                    <div class="info-pl">
+                      <div class="clearfix">
+                        <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
+                        </div>
+                      </div>
+                      <div class="info-pl-sf">
+                        
+                    太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一看，才知是325和370.我晕，这也可以配错，还是眼镜师，然后又说，若我重新在配之后不舒服就不换了、网购时去这家店时，网上几百的镜框和镜片这个品牌的都没有，团购的都在另一个地方，网上几百标价、到实体店只能选几十的，说只有这些款参与团购
+                
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+<div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="top-row clearfix">
+                      <span class="name fl">刘旭</span>
+                      <span class="date fr">评价时间：2015-08-07 01:24:08</span>
+                    </div>
+                    <div class="info-pl">
+                      <div class="clearfix">
+                        <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
+                        </div>
+                      </div>
+                      <div class="info-pl-sf">
+                        
+                    太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一
+                
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+                                    
             </div><!-- /会员评价 -->
           </div>        
             
           </div>
        
       <div class="col-md-3">
-        <h2 class="relation-pro">相关产品</h2>
-        <div class="box1">
-          <div class="pro-list-item jjh-list-item">
-            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+        
+      
+        <div class="row-hotpop" style="margin-bottom: 0;">
+          <div id="carousel-example-generic-hot" class="banner carousel-1 carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic-hot" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic-hot" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic-hot" data-slide-to="2"></li>
+          </ol>
+            <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <h3>新元素餐厅(太古汇店)</h3>
+              <p>广式月饼品质80年</p>
+              <img src="http://p0.meituan.net/0.0.90/tuanpic/09a0ee99565500c9a8b046a96fa542dd55385.jpg"  alt="">
+            </div>
+            <div class="item">
+              <h3>新元素餐厅(太古汇店)</h3>
+              <p>广式月饼品质80年</p>
+              <img src="http://p0.meituan.net/0.0.90/tuanpic/09a0ee99565500c9a8b046a96fa542dd55385.jpg"  alt="">
+            </div>
+            <div class="item">
+              <h3>新元素餐厅(太古汇店)</h3>
+              <p>广式月饼品质80年</p>
+              <img src="http://p0.meituan.net/0.0.90/tuanpic/09a0ee99565500c9a8b046a96fa542dd55385.jpg"  alt="">
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic-hot" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          
+          <a class="right carousel-control" href="#carousel-example-generic-hot" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+
+        <div class="link-hz">
+          <a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>招贤纳士</a>
+          <a href="#"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>意见反馈</a>
+          <a href="#"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>商务合作</a>
+        </div>
+
+        <div class="tj-box tj-box-guess">
+          <div class="title1"><span class="glyphicon glyphicon-fire"></span>猜你喜欢</div>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
             <div class="caption">
-              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
-              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
                 <span class="price-new fl">¥<em>85</em></span>
                 <span class="sellout fr">已售473</span>
               </div>
             </div>
           </div>
-          <div class="pro-list-item jjh-list-item">
-            <a href="pro-detail.php"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
             <div class="caption">
-              <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
-              <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
                 <span class="price-new fl">¥<em>85</em></span>
                 <span class="sellout fr">已售473</span>
@@ -380,7 +463,34 @@
             </div>
           </div>
         </div>
-    </div>
+
+
+        <div class="tj-box tj-box-newview">
+          <div class="title1"><span class="glyphicon glyphicon-fire"></span>最新浏览</div>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img fl"><img src="http://i3.s1.dpfile.com/pc/mc/b2e07ffd3e1dc02eb32967301cf732e5(180c135)/thumb.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+      </div>
     </div>
     </div>
   </div>

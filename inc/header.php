@@ -48,19 +48,79 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-4  login-box fl">
-          <a href="#">水汇网收藏</a>
-          <a href="login.php">登陆</a>
-          <a href="reg.php">注册</a>
+          <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>水汇网收藏</a>
+          <a href="login.php"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> 登陆</a>
+          <!-- <a href="reg.php">注册</a> -->
+          <a href="reg.php"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>手机端</a>
         </div>
         <div class="col-xs-8  my-peson fr">
-          <a href="person-order.php"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>我的订单</a>
-          <a href="biz-val-tgj.php"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>我是商家</a>
-          <a href="contact.php"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span>联系客服</a>
-          <a href="more.php"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>更多</a>
+          <div class="link ">
+            <a href="person-order.php">我的订单<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a>
+            <div class="my-peson-sbnav">
+              <a href="person-order.php">团购订单团购订单团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+            </div>
+          </div>
+          <span class="sp1">|</span>
+          <a href="person-order.php">最新浏览<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+          <span class="sp1">|</span>
+          <a href="person-order.php">购物车<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+          <span class="sp1">|</span>
+          <a href="contact.php">联系客服<span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+          <span class="sp1">|</span>
+          <div class="link ">
+            <a href="biz-val-tgj.php">我是商家<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a>
+            <div class="my-peson-sbnav">
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+              <a href="person-order.php">团购订单</a>
+            </div>
+          </div>
+          <span class="sp1">|</span>
+          <a href="more.php">更多</a>
         </div>
       </div>
     </div>
   </nav>
+
+  <div class="container-hd1"><div class="container">
+          <div id="carousel-example-generic" class="banner carousel-1 carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="https://aecpm.alicdn.com/simba/img/TB1mEPBHVXXXXaVXVXXSutbFXXX.jpg" width="100%" height="95" alt="">
+          </div>
+          <div class="item">
+            <img src="https://aecpm.alicdn.com/simba/img/TB1mEPBHVXXXXaVXVXXSutbFXXX.jpg" width="100%" height="95" alt="">
+          </div>
+          <div class="item">
+            <img src="https://aecpm.alicdn.com/simba/img/TB1mEPBHVXXXXaVXVXXSutbFXXX.jpg" width="100%" height="95" alt="">
+          </div>
+        </div>
+    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> <!-- /海报 -->
+    </div>  </div>
 
   <header class="header">
     <div class="container">
@@ -72,7 +132,7 @@
               <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                   广州
-                  <span class="caret"></span>
+                  <span class="caret">切换城市</span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                   <li class="dropdown-header">广东地区</li>
@@ -86,24 +146,25 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="form-search">
             <form action="search.php">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
+                <input type="text" class="form-control" placeholder="输入关键词进行搜索...">
                 <span class="input-group-btn">
                     <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                 </span>
               </div>
             </form>
+            <div class="hot-key"><a href="#">水上乐园</a><a href="#">面包</a><a href="#">日料</a><a href="#">油条</a><a href="#">豆浆</a></div>
             <!-- /input-group -->
           </div>
         </div>
         <div class="col-3 col-md-3 col-lg-4">
           <div class="tuikuan-link">
-            <a href="#" class="a1"><i class="glyphicon glyphicon-repeat"></i><span class="">随时退</span></a>
-            <a href="#" class="a2"><i class="glyphicon glyphicon-ok"></i><span class="">品质</span></a>
-            <a href="#" class="a3"><i class="glyphicon glyphicon-remove"></i><span class="">过期</span></a>
+            <a href="#" class="a1"><i class="F-glob F-glob-commitment-retire"></i><span class="">随时退</span></a>
+            <a href="#" class="a2"><i class="F-glob F-glob-commitment-free"></i><span class="">不满意免单</span></a>
+            <a href="#" class="a3"><i class="F-glob F-glob-commitment-expire"></i><span class="">过期退</span></a>
           </div>
         </div>
       </div>
