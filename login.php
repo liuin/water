@@ -13,7 +13,7 @@
             <a href="#" data-target="tel-login-tag" class="tel-login fr">手机动态密码登陆</a>
           </div>
           <div class="tag-section-wrap">
-            <div class="zhuser-login-tag tag-section none">
+            <div class="zhuser-login-tag tag-section ">
               <form >
                <div class="form-group clearfix">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
@@ -36,7 +36,7 @@
                </div>
               </form>
             </div>
-            <div class="tel-login-tag tag-section">
+            <div class="tel-login-tag tag-section none">
               <form >
                <div class="form-group clearfix">
                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
