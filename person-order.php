@@ -45,9 +45,15 @@
             <div class="d2 control">
               <a href="#" class="btn btn-default">付款</a>
               <a href="#" class="btn btn-default">删除</a>
-              <a href="#" class="btn btn-default">申请退款</a>
+              <a href="#" class="btn btn-default btn-tk">申请退款</a>
             </div>
           </div>
+
+          <form action="" class="form-tk">
+            <h2>非常抱歉让您执行此步骤，请输入的退款理由:</h2>
+            <textarea name="" class="form-control" placeholder="例如:7天无理由退款"></textarea>
+            <button type="submit" class="btn btn-danger">提交退款</button>
+          </form>
 
           <div class="preson-order-item">
             <div class="d1">
@@ -66,10 +72,14 @@
             <div class="d2 control">
               <a href="#" class="btn btn-default">付款</a>
               <a href="#" class="btn btn-default">删除</a>
-              <a href="#" class="btn btn-default">申请退款</a>
+              <a href="#" class="btn btn-default btn-tk">申请退款</a>
             </div>
           </div>
-
+          <form action="" class="form-tk">
+            <h2>非常抱歉让您执行此步骤，请输入的退款理由:</h2>
+            <textarea name="" class="form-control" placeholder="例如:7天无理由退款"></textarea>
+            <button type="submit" class="btn btn-danger">提交退款</button>
+          </form>
           <div class="preson-order-item">
             <div class="d1">
               <input class="fl" type="checkbox" name="" id="" />
@@ -87,10 +97,14 @@
             <div class="d2 control">
               <a href="#" class="btn btn-default">付款</a>
               <a href="#" class="btn btn-default">删除</a>
-              <a href="#" class="btn btn-default">申请退款</a>
+              <a href="#" class="btn btn-default btn-tk">申请退款</a>
             </div>
           </div>
-
+          <form action="" class="form-tk">
+            <h2>非常抱歉让您执行此步骤，请输入的退款理由:</h2>
+            <textarea name="" class="form-control" placeholder="例如:7天无理由退款"></textarea>
+            <button type="submit" class="btn btn-danger">提交退款</button>
+          </form>
           <div class="preson-order-item">
             <div class="d1">
               <input class="fl" type="checkbox" name="" id="" />
@@ -108,10 +122,14 @@
             <div class="d2 control">
               <a href="#" class="btn btn-default">付款</a>
               <a href="#" class="btn btn-default">删除</a>
-              <a href="#" class="btn btn-default">申请退款</a>
+              <a href="#" class="btn btn-default btn-tk">申请退款</a>
             </div>
           </div>
-
+          <form action="" class="form-tk">
+            <h2>非常抱歉让您执行此步骤，请输入的退款理由:</h2>
+            <textarea name="" class="form-control" placeholder="例如:7天无理由退款"></textarea>
+            <button type="submit" class="btn btn-danger">提交退款</button>
+          </form>
           <nav class="pagenation-nav">
             <ul class="pagination">
               <li>
@@ -141,3 +159,14 @@
   </div><!-- /中间 -->
 
 <?php include('inc/footer.php'); ?>
+<script type="text/javascript">
+<!--
+  $(document).ready(function() {
+    //退款
+    $('.btn-tk').click(function  () {
+      $(this).parents('.preson-order-item').next('.form-tk').toggle();
+      return false;
+    })
+  })
+//-->
+</script>
