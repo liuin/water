@@ -85,5 +85,5 @@
 
 /*大屏幕*/
 @media (min-width: 1200px){
-  .fix-right-code {display:block;}
+  .fix-right-code {display:none;}
 }
