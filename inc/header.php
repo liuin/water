@@ -44,7 +44,7 @@
     <strong>你的浏览器似乎禁用了 JavaScript。</strong>
     <br />您必须在浏览器中启用JavaScript才能使用本网站的功能。
   </noscript>
-  <nav class="top-nav">
+  <nav class="top-nav" id="top-nav">
     <div class="container">
       <div class="row">
         <div class="col-xs-4  login-box fl">
