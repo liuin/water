@@ -90,306 +90,319 @@
 
     <div class="pro-detail-box2">
       <div class="row">
-          <div class="col-md-9 pro-detail-box2-info">
-          <!-- Nav tabs -->
-          <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#map" aria-controls="home" role="tab" data-toggle="tab">门店地图</a></li>
-            <li role="presentation"  ><a href="#tg" aria-controls="profile" role="tab" data-toggle="tab">团购详情</a></li>
-            <li role="presentation"><a href="#buyknow" aria-controls="messages" role="tab" data-toggle="tab">购买须知</a></li>
-            <li role="presentation"><a href="#cumpj" aria-controls="settings" role="tab" data-toggle="tab">会员评价</a></li>
-          </ul>
-          
           <!-- Tab panes -->
-          <div class="tab-content box1">
-            <div role="tabpanel" class="tab-pane active" id="map">
-              <div class="col-md-6">
-                <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
-                <div id="bd-map1"></div>                    
+          <div class="col-md-9 pro-detail-box2-info"><div class="pro-detail-box2-info-wp">
+            <div class="item-des-hd" id="item-des-hd">
+              <ul class="nav">
+                <li><a href="#top-nav" class="active">门店地图</a></li>
+                <li><a href="#tg">团购详情</a></li>
+                <li><a href="#buyknow">购买须知</a></li>
+                <li><a href="#cumpj">会员评价</a></li>
+              </ul>
+              
+              
+
+              <div class="buylink none">
+                <button class="btn btn-primary">立即抢购</button>
+                <button class="btn btn-danger">添加到购物车</button>
               </div>
-              <div class="col-md-6 map-info">
-                <h3>悦语酒家</h3>
-                <p>地址：珠江新城马场路28号富力公园2楼(太阳新天地旁）(近跑马场西门口)</p>
-                <p>电话：020-38206018 020-38206028</p>
-                <p>营业时间：9：00-22:00</p>   
-              </div>        
-            </div><!-- /地图 -->  
-
-            <div role="tabpanel" class="tab-pane " id="tg">
-              <div class="tab-pane-tg">
+            </div>
+            <div class="item-des-hd2 none"></div>
+            
+            <div class="tab-pane" id="map">
+                <div class="hdtab">门店地图</div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>
+                    <div id="bd-map1"></div>                    
+                  </div>
+                  <div class="col-md-6 map-info">
+                    <h3>悦语酒家</h3>
+                    <p>地址：珠江新城马场路28号富力公园2楼(太阳新天地旁）(近跑马场西门口)</p>
+                    <p>电话：020-38206018 020-38206028</p>
+                    <p>营业时间：9：00-22:00</p>   
+                  </div> </div>       
+              </div>
+            
+            <div class="tab-pane" id="tg">
+                <div class="hdtab">团购详情</div>
+                <div class="tab-pane-tg">
                 <table width="100%" cellpadding="0" cellspacing="0" class="table table-striped">
-                  <thead>
-                  <tr>
-                    <th width="50%">名称</th>
-                    <th width="25%">数量</th>
-                    <th width="25%">单价</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                    <tr><th colspan="3">22选8,不可重复选</th></tr>
+                    <thead>
                     <tr>
-                            <td>金蒜蒸排骨</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
+                      <th width="50%">名称</th>
+                      <th width="25%">数量</th>
+                      <th width="25%">单价</th>
                     </tr>
-                    <tr>
-                            <td>淡水虾饺皇</td>
-                            <td class="tc">精点</td>
-                            <td class="tc">29元</td>
+                    </thead>
+                    <tbody>
+                      <tr><th colspan="3">22选8,不可重复选</th></tr>
+                      <tr>
+                              <td>金蒜蒸排骨</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>淡水虾饺皇</td>
+                              <td class="tc">精点</td>
+                              <td class="tc">29元</td>
+                      </tr>
+                      <tr>
+                              <td>名酱百搭蒸凤爪</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>好味菜蒸大肠</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>古绵马拉糕</td>
+                              <td class="tc">大点</td>
+                              <td class="tc">15元</td>
+                      </tr>
+                      <tr>
+                              <td>肉碎陈村粉</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>潮州蒸粉果</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>山东源汁枣皇糕</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>阳江猪肠碌</td>
+                              <td class="tc">小点</td>
+                              <td class="tc">8元</td>
+                      </tr>
+                      <tr>
+                              <td>金丝燕麦包</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>日式手指春卷</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>香菇滑肉肠</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>空心煎堆仔</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>腊味萝卜糕</td>
+                              <td class="tc">大点</td>
+                              <td class="tc">15元</td>
+                      </tr>
+                      <tr>
+                              <td>虫草花鲜竹卷</td>
+                              <td class="tc">大点</td>
+                              <td class="tc">15元</td>
+                      </tr>
+                      <tr>
+                              <td>香煎韭菜饺</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>酥皮蛋挞仔</td>
+                              <td class="tc">顶点</td>
+                              <td class="tc">22元</td>
+                      </tr>
+                      <tr>
+                              <td>特色荞麦包</td>
+                              <td class="tc">大点</td>
+                              <td class="tc">15元</td>
+                      </tr>
+                      <tr>
+                              <td>汤灼娃娃菜</td>
+                              <td class="tc">精点</td>
+                              <td class="tc">29元</td>
+                      </tr>
+                      <tr>
+                              <td>皮蛋瘦肉粥</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>泰国燕麦切糕</td>
+                              <td class="tc">大点</td>
+                              <td class="tc">15元</td>
+                      </tr>
+                      <tr>
+                              <td>木瓜夹心椰汁糕</td>
+                              <td class="tc">特点</td>
+                              <td class="tc">19元</td>
+                      </tr>
+                      <tr>
+                              <td>茶位费</td>
+                              <td class="tc">4位</td>
+                              <td class="tc">20元</td>
+                      </tr>
+                    <tr class="total">
+                      <td></td>
+                      <td class="tc">最高价值<br><strong>团购价</strong></td>
+                      <td class="tc">210元<br><strong>98元</strong></td>
                     </tr>
-                    <tr>
-                            <td>名酱百搭蒸凤爪</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
-                    </tr>
-                    <tr>
-                            <td>好味菜蒸大肠</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
-                    </tr>
-                    <tr>
-                            <td>古绵马拉糕</td>
-                            <td class="tc">大点</td>
-                            <td class="tc">15元</td>
-                    </tr>
-                    <tr>
-                            <td>肉碎陈村粉</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>潮州蒸粉果</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>山东源汁枣皇糕</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
-                    </tr>
-                    <tr>
-                            <td>阳江猪肠碌</td>
-                            <td class="tc">小点</td>
-                            <td class="tc">8元</td>
-                    </tr>
-                    <tr>
-                            <td>金丝燕麦包</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>日式手指春卷</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>香菇滑肉肠</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>空心煎堆仔</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>腊味萝卜糕</td>
-                            <td class="tc">大点</td>
-                            <td class="tc">15元</td>
-                    </tr>
-                    <tr>
-                            <td>虫草花鲜竹卷</td>
-                            <td class="tc">大点</td>
-                            <td class="tc">15元</td>
-                    </tr>
-                    <tr>
-                            <td>香煎韭菜饺</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
-                    </tr>
-                    <tr>
-                            <td>酥皮蛋挞仔</td>
-                            <td class="tc">顶点</td>
-                            <td class="tc">22元</td>
-                    </tr>
-                    <tr>
-                            <td>特色荞麦包</td>
-                            <td class="tc">大点</td>
-                            <td class="tc">15元</td>
-                    </tr>
-                    <tr>
-                            <td>汤灼娃娃菜</td>
-                            <td class="tc">精点</td>
-                            <td class="tc">29元</td>
-                    </tr>
-                    <tr>
-                            <td>皮蛋瘦肉粥</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>泰国燕麦切糕</td>
-                            <td class="tc">大点</td>
-                            <td class="tc">15元</td>
-                    </tr>
-                    <tr>
-                            <td>木瓜夹心椰汁糕</td>
-                            <td class="tc">特点</td>
-                            <td class="tc">19元</td>
-                    </tr>
-                    <tr>
-                            <td>茶位费</td>
-                            <td class="tc">4位</td>
-                            <td class="tc">20元</td>
-                    </tr>
-                  <tr class="total">
-                    <td></td>
-                    <td class="tc">最高价值<br><strong>团购价</strong></td>
-                    <td class="tc">210元<br><strong>98元</strong></td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>              
-            </div><!-- /团购详情 -->
-
-           <div role="tabpanel" class="tab-pane" id="buyknow">          
-            <div class="purchase-notes tab-pane-buyknow"> 
-              <dl> 
-               <dt>
-                有效期
-               </dt> 
-               <dd> 
-                <p class="listitem">2013-11-22至2015-10-29</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                除外日期
-               </dt> 
-               <dd> 
-                <p class="listitem">2015-05-10、2015-06-20至2015-06-21不可用</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                使用时间
-               </dt> 
-               <dd> 
-                <p class="listitem">09:00-14:30</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                预约信息
-               </dt> 
-               <dd> 
-                <p class="listitem">无需预约，如遇消费高峰时段您可能需要排队</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                堂食外带
-               </dt> 
-               <dd> 
-                <p class="listitem">本单只适用于堂食，只适用于大厅使用，敬请谅解</p> 
-                <p class="listitem">本单不提供外送外卖服务</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                规则提醒
-               </dt> 
-               <dd> 
-                <p class="listitem">每张团购券建议4人使用</p> 
-                <p class="listitem">如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商</p> 
-                <p class="listitem">不再与其他优惠同享</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                商家服务
-               </dt> 
-               <dd> 
-                <p class="listitem">提供免费WiFi</p> 
-                <p class="listitem">停车位信息详询商户</p> 
-               </dd> 
-              </dl> 
-              <dl> 
-               <dt>
-                温馨提示
-               </dt> 
-               <dd> 
-                <p class="listitem">如需团购券发票，请您在消费时向商户咨询</p> 
-               </dd> 
-              </dl>
-              <dl>
-               <dt>
-                优惠规则
-               </dt> 
-               <dd>
-                <p class="listitem">本单为特惠单，不支持使用现金券/抵用券支付</p> 
-               </dd> 
-              </dl> 
-             </div>              
-            </div><!-- /购买须知 -->
-
-          <div role="tabpanel" class="tab-pane cumpj-tab-pane " id="cumpj">
+                    </tbody>
+                  </table>
+                </div>       
+              </div>
             
+            <div class="tab-pane" id="buyknow">
+                <div class="hdtab">购买须知</div>
+                <div class="purchase-notes tab-pane-buyknow"> 
+                <dl> 
+                 <dt>
+                  有效期
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">2013-11-22至2015-10-29</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  除外日期
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">2015-05-10、2015-06-20至2015-06-21不可用</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  使用时间
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">09:00-14:30</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  预约信息
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">无需预约，如遇消费高峰时段您可能需要排队</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  堂食外带
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">本单只适用于堂食，只适用于大厅使用，敬请谅解</p> 
+                  <p class="listitem">本单不提供外送外卖服务</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  规则提醒
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">每张团购券建议4人使用</p> 
+                  <p class="listitem">如部分菜品因时令或其他不可抗因素导致无法提供，店内会用等价菜品替换，具体事宜请与店内协商</p> 
+                  <p class="listitem">不再与其他优惠同享</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  商家服务
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">提供免费WiFi</p> 
+                  <p class="listitem">停车位信息详询商户</p> 
+                 </dd> 
+                </dl> 
+                <dl> 
+                 <dt>
+                  温馨提示
+                 </dt> 
+                 <dd> 
+                  <p class="listitem">如需团购券发票，请您在消费时向商户咨询</p> 
+                 </dd> 
+                </dl>
+                <dl>
+                 <dt>
+                  优惠规则
+                 </dt> 
+                 <dd>
+                  <p class="listitem">本单为特惠单，不支持使用现金券/抵用券支付</p> 
+                 </dd> 
+                </dl> 
+               </div>       
+              </div>
+            
+            <div class="tab-pane" id="cumpj">
+              <div class="hdtab">会员评价</div>
             <div class="box-pj clearfix">
-            <div class="media">
-                  <div class="media-left">
-                    <a href="#">
-                      <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="top-row clearfix">
-                      <span class="name fl">刘旭</span>
-                      <span class="date fr">评价时间：2015-08-07 01:24:08</span>
+              <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
+                      </a>
                     </div>
-                    <div class="info-pl">
-                      <div class="clearfix">
-                        <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
+                    <div class="media-body">
+                      <div class="top-row clearfix">
+                        <span class="name fl">刘旭</span>
+                        <span class="date fr">评价时间：2015-08-07 01:24:08</span>
+                      </div>
+                      <div class="info-pl">
+                        <div class="clearfix">
+                          <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
+                          </div>
+                        </div>
+                        <div class="info-pl-sf">
+                          
+                      太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一看，才知是325和370.我晕，这也可以配错，还是眼镜师，然后又说，若我重新在配之后不舒服就不换了、网购时去这家店时，网上几百的镜框和镜片这个品牌的都没有，团购的都在另一个地方，网上几百标价、到实体店只能选几十的，说只有这些款参与团购
+                  
                         </div>
                       </div>
-                      <div class="info-pl-sf">
-                        
-                    太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一看，才知是325和370.我晕，这也可以配错，还是眼镜师，然后又说，若我重新在配之后不舒服就不换了、网购时去这家店时，网上几百的镜框和镜片这个品牌的都没有，团购的都在另一个地方，网上几百标价、到实体店只能选几十的，说只有这些款参与团购
-                
-                      </div>
                     </div>
                   </div>
-                </div>
-
-<div class="media">
-                  <div class="media-left">
-                    <a href="#">
-                      <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <div class="top-row clearfix">
-                      <span class="name fl">刘旭</span>
-                      <span class="date fr">评价时间：2015-08-07 01:24:08</span>
-                    </div>
-                    <div class="info-pl">
-                      <div class="clearfix">
-                        <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
-                        </div>
-                      </div>
-                      <div class="info-pl-sf">
-                        
-                    太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一
-                
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          </div>
-                                    
-            </div><!-- /会员评价 -->
-          </div>        
             
-          </div>
+            <div class="media">
+                    <div class="media-left">
+                      <a href="#">
+                        <img class="media-object" src="http://i1.dpfile.com/pc/acef3e72b913fff270f1ec60bac6a81f(48c48)/thumb.jpg" alt="...">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <div class="top-row clearfix">
+                        <span class="name fl">刘旭</span>
+                        <span class="date fr">评价时间：2015-08-07 01:24:08</span>
+                      </div>
+                      <div class="info-pl">
+                        <div class="clearfix">
+                          <div class="myd fl">满意度：<span class="star"><span class="sp1" style="width:38%;"></span></span>
+                          </div>
+                        </div>
+                        <div class="info-pl-sf">
+                          
+                      太差劲了，直接想投诉到他们老板啦！给我测400度就直接配400度，我那副丢了的眼睛一个是320度另一个350.然后我去他们家要求在测试一下，他们很不乐意，还给我带错镜片，带350和370的，被错带325和370.我觉得两眼清晰度相差太远就问店员，他说是350和370.我取下一
+                  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>        
+            </div>
+            
+            
+                    
+              
+            </div></div>
        
       <div class="col-md-3">
         
@@ -599,6 +612,54 @@
       }
       
       initMap();//创建和初始化地图
+    })
+
+
+    //产品列表栏
+    $('body').scrollspy({ 
+      target: '#item-des-hd',
+      offset: 57
+    });
+
+    var afwidth = $('#item-des-hd').width();
+    $('#item-des-hd').affix({
+      offset: {
+        top: $('.pro-detail-box2-info-wp').offset().top,
+        bottom: ''
+      }
+    })
+    
+    $('#item-des-hd').on('affix.bs.affix',function  () {
+      
+      $('.item-des-hd2').show();
+      if (afwidth > 800) {
+        $(this).find('.buylink').fadeIn();
+      }
+    })
+    $('#item-des-hd').on('affix-top.bs.affix',function  () {
+      
+      $('.item-des-hd2').hide();
+      if (afwidth > 800) {
+        $(this).find('.buylink').fadeOut();
+      }
+    })
+
+
+    $('#item-des-hd').width(afwidth);
+
+
+    $('#item-des-hd a').on('click',function  () {
+      
+      var gettagetoff = $(this).attr('href');
+      if (gettagetoff == '#top-nav') {
+        gettagetoff = '#map';
+      }
+      gettagetoff = $(gettagetoff);
+
+      $('body,html').animate({
+        scrollTop: gettagetoff.offset().top - 40
+      })
+      return false;
     })
 
   })(jQuery); 

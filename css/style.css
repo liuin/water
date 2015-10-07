@@ -829,20 +829,32 @@ body{background: #eee;}
 .map-info p {margin-bottom:5px;}
 #bd-map1 {height:400px;}
 
+.item-des-hd {overflow: hidden; border-bottom: 2px solid #2577e3; border-left: 1px solid #ddd;  background: #fff;}
+.item-des-hd2 {height:42px;}
+.item-des-hd li{float:left;width: 130px;height: 40px;line-height: 40px;    text-align: center;    color: #666; border-right:1px solid #ddd; border-top: 1px solid #ddd; }
+.item-des-hd li a {padding: 0; display:block;}
+.item-des-hd li a:hover,.item-des-hd li a:focus {background-color: transparent; color: #666;}
+.item-des-hd li:first-child {margin-left: 0;}
+.item-des-hd li.active {background: #2577e3;color: #fff; }
+.item-des-hd li.active a {color:#fff;}
+.buylink {position:absolute;right:0;top:2px;}
+
+.item-des-hd.affix {z-index: 20;top: 0;}
 
 
 /*-- tab-pane-tg --*/
-.tab-pane-tg {padding:15px;}
+.tab-pane-tg {padding:0px;}
 .tab-pane-tg table tr.total {background: #eee; line-height:30px;}
 .tab-pane-tg table tr.total td{line-height:30px;}
 
 /*-- purchase-notes --*/
-.purchase-notes {margin-left:15px; margin-right:15px; padding:15px; background: #fffde5;}
+.purchase-notes {  padding:15px; background: #fffde5;}
 .purchase-notes dl {padding-left:85px;}
 .purchase-notes dt {float:left; display:inline; margin-left:-85px;width:85px;}
 
 /*-- cumpj-tab-pane --*/
-.pro-detail-box2-info {margin-bottom:15px;}
+.pro-detail-box2-info {margin-bottom:15px;    padding-right: 0;}
+.pro-detail-box2-info-wp {padding: 15px;background: #fff;}
 .cumpj-tab-pane {padding-left:15px; padding-right:15px; padding-top:0;}
 .cumpj-tab-pane .preson-order-item {margin-left:0; margin-right:0;padding:0; position:relative; padding-top:10px;  margin-bottom:10px;}
 .cumpj-tab-pane .preson-order-item .time {font-size: 12px;color: #999;    line-height: 20px;}
@@ -851,6 +863,9 @@ body{background: #eee;}
 .cumpj-tab-pane .preson-order-item .star .sp1 {background-position:-88px -682px;}
 .cumpj-tab-pane .preson-order-item .txt1 {padding-top:10px;}
 .relation-pro {font-weight:normal; font-size:16px; height:42px; line-height:42px;    box-shadow: 0 -1px 3px #ccc;background:#fff; border-radius:4px 4px 0 0; width:100px; text-align:center;}
+.tab-pane {overflow: hidden;}
+.hdtab { margin: 0;padding: 20px 0 10px;border-bottom: 2px solid #777;color: #333;font-size: 18px;font-weight: 700;}
+.tab-pane .box-pj {padding-top: 15px;}
 
 /*-- pay --*/
 .pay-block .price{font-weight:bold; margin-bottom:10px;}
