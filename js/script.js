@@ -419,5 +419,11 @@ $(document).ready(function() {
   },function  () {
     $(this).find('.my-peson-sbnav').hide();
   })
+
+  $('#carousel-example-generic .glyphicon-remove').on('click',function  () {
+    $('.container-hd1').slideUp(function  () {
+      $(this).remove();
+    });
+  })
 })
 

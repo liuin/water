@@ -119,6 +119,8 @@
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      
+      <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
       </div> <!-- /海报 -->
     </div>  </div>
 
