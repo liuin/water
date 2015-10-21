@@ -38,7 +38,7 @@
               </div>
               <div class="pj-sub ">                   
                 <div class="d1"><textarea name="" class="form-control" placeholder="说点啥呢"></textarea>  </div>    
-                <button type="button" class="btn btn-danger">发表评论</button>
+                <button type="button" class="btn btn-primary">发表评论</button>
               </div>
             </form>
           
@@ -67,7 +67,7 @@
               </div>
               <div class="pj-sub ">                   
                 <div class="d1"><textarea name="" class="form-control" placeholder="说点啥呢"></textarea>  </div>    
-                <button type="button" class="btn btn-danger">发表评论</button>
+                <button type="button" class="btn btn-primary">发表评论</button>
               </div>
               
             </form>
@@ -93,10 +93,11 @@
                   <span class="sp1"><input type="radio" name="start" id=""></span>
                 </div>
               </div>
-              <div class="pj-sub">                   
-                <textarea name="" class="form-control" placeholder="说点啥呢"></textarea>                  
+              <div class="pj-sub ">                   
+                <div class="d1"><textarea name="" class="form-control" placeholder="说点啥呢"></textarea>  </div>    
+                <button type="button" class="btn btn-primary">发表评论</button>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
               </div>
-              <button type="button" class="btn btn-danger">发表评论</button>
             </form>
 
 
@@ -139,10 +140,11 @@
     $('.star .sp1').hover(function  () {
       $(this).addClass('active-sp1').prevAll().addClass('active-sp1').end().nextAll().removeClass('active-sp1');
     },function  () {
-      $('.star .sp-checked').addClass('active-sp1').prevAll().end().addClass('active-sp1').nextAll().removeClass('active-sp1');
+      $('.star .sp1').not('.sp-checked').removeClass('active-sp1');
     })
     $('.star .sp1').on('click',function  () {
-      $(this).addClass('sp-checked').siblings().removeClass('sp-checked');
+      $(this).addClass('sp-checked').prevAll().addClass('sp-checked');
+      $(this).nextAll().removeClass('sp-checked')
       $('.form-pj .pj-sub').hide();
       $(this).parents('.form-pj').find('.pj-sub').show();
     })
