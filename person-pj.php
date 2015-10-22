@@ -28,12 +28,16 @@
           </div>
             <form action="" class="form-pj">                
               <div class="star-wp-add star-wp clearfix">
-                <span class="fl">我要评价:</span><div class="star fl">
+                <span class="fl">我要评价:</span>
+                <div class="star fl">
                   <span class="sp1"><input type="radio" name="start" id=""></span>
                   <span class="sp1"><input type="radio" name="start" id=""></span>
                   <span class="sp1"><input type="radio" name="start" id=""></span>
                   <span class="sp1"><input type="radio" name="start" id=""></span>
                   <span class="sp1"><input type="radio" name="start" id=""></span>
+                </div>
+                <div class="star-lab">
+                  
                 </div>
               </div>
               <div class="pj-sub ">                   
@@ -138,11 +142,15 @@
   $(document).ready(function() {
     //评价
     $('.star .sp1').hover(function  () {
-      $(this).addClass('active-sp1').prevAll().addClass('active-sp1').end().nextAll().removeClass('active-sp1');
+      var getInd = $(this).index() + 1;
+      var getClass = 'active-sp' + getInd;
+      $(this).addClass(getClass).prevAll().addClass(getClass).end().nextAll().removeClass('active-sp1 active-sp2 active-sp3 active-sp4 active-sp5');
     },function  () {
-      $('.star .sp1').not('.sp-checked').removeClass('active-sp1');
+      $('.star .sp1').removeClass('active-sp0 active-sp1 active-sp2 active-sp3 active-sp4');
     })
     $('.star .sp1').on('click',function  () {
+      var getInd = $(this).index() + 1;
+      var getClass = 'sp-checked' + getInd;
       $(this).addClass('sp-checked').prevAll().addClass('sp-checked');
       $(this).nextAll().removeClass('sp-checked')
       $('.form-pj .pj-sub').hide();
