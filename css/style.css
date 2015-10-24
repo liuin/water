@@ -625,22 +625,22 @@ body{background: #eee;}
 .star-wp-add .star-lab2 {color: #31708f;background-color: #d9edf7;border-color: #bce8f1;}
 .star-wp-add .star-lab3 { color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;}
 
-.star-wp-add .star {width: 300px; height: 26px; background: none;    margin-top: 4px;margin-left: 10px;}
-.star-wp-add .star .sp1{ background: url("../images/stars.png") 0 0 no-repeat;width: 31px;height: 26px;float: left;padding-left: 5px;cursor: pointer;display: inline-block;padding-right: 5px;}
+.star-wp-add .star {width: 300px; height: 26px; background: none; margin-top: 2px;margin-left: 5px;}
+.star-wp-add .star .sp1{ background: url("../images/stars.png") 4px 0 no-repeat;width: 31px;height: 26px;float: left;padding-left: 5px;cursor: pointer;display: inline-block;padding-right: 5px;}
 
-.star-wp-add .star .sp-checked-no{background-position: 0px 0px;}
-.star-wp-add .star .sp-checked-1{background-position: 0px -32px;}
-.star-wp-add .star .sp-checked-2{background-position: 0px -32px;}
-.star-wp-add .star .sp-checked-3{background-position: 0px -69px;}
-.star-wp-add .star .sp-checked-4{background-position: 0px -69px;}
-.star-wp-add .star .sp-checked-5{background-position: 0px -98px;}
+.star-wp-add .star .sp-checked-no{background-position: 4px 0px;}
+.star-wp-add .star .sp-checked-1{background-position: 4px -32px;}
+.star-wp-add .star .sp-checked-2{background-position: 4px -32px;}
+.star-wp-add .star .sp-checked-3{background-position: 4px -69px;}
+.star-wp-add .star .sp-checked-4{background-position: 4px -69px;}
+.star-wp-add .star .sp-checked-5{background-position: 4px -98px;}
 
-.star-wp-add .star .active-no{background-position: 0px 0px;}
-.star-wp-add .star .active-sp1{background-position: 0px -32px;}
-.star-wp-add .star .active-sp2{background-position: 0px -32px;}
-.star-wp-add .star .active-sp3{background-position: 0px -69px;}
-.star-wp-add .star .active-sp4{background-position: 0px -69px;}
-.star-wp-add .star .active-sp5{background-position: 0px -98px;}
+.star-wp-add .star .active-no{background-position: 4px 0px;}
+.star-wp-add .star .active-sp1{background-position: 4px -32px;}
+.star-wp-add .star .active-sp2{background-position: 4px -32px;}
+.star-wp-add .star .active-sp3{background-position: 4px -69px;}
+.star-wp-add .star .active-sp4{background-position: 4px -69px;}
+.star-wp-add .star .active-sp5{background-position: 4px -98px;}
 
 .star-wp-add .star input {visibility: hidden; position: absolute;}
 
