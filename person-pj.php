@@ -30,11 +30,11 @@
               <div class="star-wp-add star-wp clearfix">
                 <span class="fl">我要评价:</span>
                 <div class="star fl">
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
                 </div>
                 <div class="star-lab">
                   
@@ -61,13 +61,18 @@
           </div>
             <form action="" class="form-pj">                
               <div class="star-wp-add star-wp clearfix">
-                <span class="fl">我要评价:</span><div class="star fl">
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
+                <span class="fl">我要评价:</span>
+                <div class="star fl">
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
                 </div>
+                <div class="star-lab">
+                  
+                </div>
+                <div class="star-txt"></div>
               </div>
               <div class="pj-sub ">                   
                 <div class="d1"><textarea name="" class="form-control" placeholder="说点啥呢"></textarea>  </div>    
@@ -89,12 +94,16 @@
           </div>
             <form action="" class="form-pj">                
               <div class="star-wp-add star-wp clearfix">
-                <span class="fl">我要评价:</span><div class="star fl">
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
-                  <span class="sp1"><input type="radio" name="start" id=""></span>
+                <span class="fl">我要评价:</span>
+                <div class="star fl">
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                  <label class="sp1"><input type="radio" name="start" id=""></label>
+                </div>
+                <div class="star-lab">
+                  
                 </div>
               </div>
               <div class="pj-sub ">                   
@@ -141,18 +150,59 @@
 <!--
   $(document).ready(function() {
     //评价
+
+    
+
     $('.star .sp1').hover(function  () {
       var getInd = $(this).index() + 1;
+      var starLab = $(this).parent().next('.star-lab');
       var getClass = 'active-sp' + getInd;
-      $(this).addClass(getClass).prevAll().addClass(getClass).end().nextAll().removeClass('active-sp1 active-sp2 active-sp3 active-sp4 active-sp5');
+      var txtLab = 0;
+
+
+      $(this).addClass(getClass).prevAll().addClass(getClass).end().nextAll().removeClass('active-sp1 active-sp2 active-sp3 active-sp4 active-sp5 active-no');
+      $(this).nextAll().removeClass('active-sp1 active-sp2 active-sp3 active-sp4 active-sp5 active-no').addClass('active-no');
+
+      
+
+      if (starLab.length > 0) {
+        switch (getInd) {
+        case 1:
+          txtLab = '非常不满';
+          starLab.removeClass('star-lab1 star-lab2 star-lab3').addClass('star-lab1');
+        break
+        case 2:
+          txtLab = '不满';
+          starLab.removeClass('star-lab1 star-lab2 star-lab3').addClass('star-lab1');
+        break
+        case 3:
+          txtLab = '一般';
+          starLab.removeClass('star-lab1 star-lab2 star-lab3').addClass('star-lab2');
+        break
+        case 4:
+          txtLab = '满意';
+          starLab.removeClass('star-lab1 star-lab2 star-lab3').addClass('star-lab2');
+        break
+        case 5:
+          txtLab = '十分满意';
+          starLab.removeClass('star-lab1 star-lab2 star-lab3').addClass('star-lab3');
+        break
+        default:
+        }
+        starLab.show().html(txtLab);
+      }
+
     },function  () {
-      $('.star .sp1').removeClass('active-sp0 active-sp1 active-sp2 active-sp3 active-sp4');
+      var starLab = $(this).parent().next('.star-lab');
+      $('.star .sp1').removeClass('active-sp1 active-sp2 active-sp3 active-sp4 active-sp5 active-no');
+      starLab.hide();
     })
     $('.star .sp1').on('click',function  () {
       var getInd = $(this).index() + 1;
-      var getClass = 'sp-checked' + getInd;
-      $(this).addClass('sp-checked').prevAll().addClass('sp-checked');
-      $(this).nextAll().removeClass('sp-checked')
+      var getClass = 'sp-checked-' + getInd;
+      $(this).removeClass('sp-checked-1 sp-checked-2 sp-checked-3 sp-checked-4 sp-checked-5 sp-checked-no');
+      $(this).addClass('sp-checked-' + getInd).prevAll().removeClass('sp-checked-1 sp-checked-2 sp-checked-3 sp-checked-4 sp-checked-5 sp-checked-no').addClass('sp-checked-' + getInd);
+      $(this).nextAll().removeClass('sp-checked-1 sp-checked-2 sp-checked-3 sp-checked-4 sp-checked-5').addClass('sp-checked-no ');
       $('.form-pj .pj-sub').hide();
       $(this).parents('.form-pj').find('.pj-sub').show();
     })
