@@ -65,130 +65,22 @@
 
       <div class="jjh-active">
         <ul class="nav nav-tabs">
-          <li role="presentation" class="active"><a href="#">所有活动</a></li>
-          <li role="presentation"><a href="#">精彩活动</a></li>
-          <li role="presentation"><a href="#">往期活动</a></li>
+          <li role="presentation" data-totlepage="5" data-ckurl="ajax/jjh-data.html" data-cktarget=".tag-part1"><a href="#">所有活动</a></li>
+          <li role="presentation" data-totlepage="3" data-ckurl="ajax/jjh-data.html" data-cktarget=".tag-part2"><a href="#">精彩活动</a></li>
+          <li role="presentation" data-totlepage="3" data-ckurl="ajax/jjh-data.html" data-cktarget=".tag-part3"><a href="#">往期活动</a></li>
         </ul>
         <div class="box1">
-          <div class="row">
-            <div class="col-sm-4 col-md-3 ">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
+          <div class="row" class="jjh">
+            <div class="row-tag">
+              <div class="tag-part1 clearfix">
+                
               </div>
+              <div class="tag-part2 clearfix"></div>
+              <div class="tag-part3 clearfix"></div>
             </div>
-
-            <div class="col-sm-4 col-md-3">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-3">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-3">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 col-md-3">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4 col-md-3">
-              <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&h=160&url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵国际自助美</h3>
-
-                  <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br /> 活动结束：2014-08-03 , 17:00:00
-                    <br /> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
+            <div id="load-tag" class="none"><img src="images/spinner_tra.gif" alt=""></div>
+          <div class="tag-part-more none"><div class="spinner1"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><a href="#" page="2" class="btn btn-primary">加载更多</a></div>  
+            
           </div>
         </div>
       </div>
@@ -198,3 +90,221 @@
   <!-- /中间 -->
 
   <?php include('inc/footer.php'); ?>
+
+<script type="text/javascript">
+<!--
+
+  /*-- 
+    anchor:cuki13
+    use:data-cktarget
+   --*/
+  
+  +(function($) {
+
+    'use strict';
+    var selectString = '[data-cktarget]';  
+
+    function Cktarget(obj) {
+      this.obj = obj;
+      this.addClass = 'active';
+      this.index = obj.index();
+      this.targetObj = $(obj.data('cktarget'));
+      this.ajaxPro = false;
+      this.loadObj = $('#load-tag');
+      this.ajaxUrl = obj.data('ckurl');
+      this.curPage = 0;
+      this.totlePage = obj.data('totlepage');
+      this.end = false;
+
+      var $this = this;
+
+      //点击事件
+      this.obj.on('click',function  (e) {
+       if ($this.obj.hasClass($this.addClass) || $this.ajaxPro) {
+        return false;
+       }else {         
+         $this.obj.addClass($this.addClass).siblings().removeClass($this.addClass);
+         $this.curPage = 0;
+         $this.end = false;
+         $('.tag-part-more').find('a').removeClass('end');
+         if ($this.ajaxUrl != '' && (!$this.end)) {
+          
+          $this.ajaxLoad();
+         }else {
+           $this.showIn();           
+         }
+       }
+       return false;
+      })
+    }
+
+    Cktarget.prototype.ajaxLoad = function  () {     
+
+      var $this = this;
+      
+      if ($this.end) {
+       
+        return false
+      }
+      var url = $this.ajaxUrl + '?p =' + $this.curPage;
+      var arg = arguments[0];
+      
+      $this.ajaxPro = true;
+      $.ajax({
+          type: "GET",
+          url: url,
+          dataType: 'html',
+          success: function(data){
+            if ($this.curPage == 0) {
+              $this.targetObj.empty();
+            }              
+            
+            $this.targetObj.append(data);
+            
+
+            if ($this.curPage == $this.totlePage) {
+              $this.end = true;
+            }else {
+              $this.curPage++;
+            }
+            
+            $this.showIn(); 
+            $this.afterAjax();
+            $this.loadObj.fadeOut();
+
+            $this.ajaxPro = false;
+
+            
+          },
+          error:function  () {
+          },
+          beforeSend:function  () {
+              if (arg != 'moreload') {
+                $this.loadObj.show();
+              }
+          }
+      });      
+    }
+
+    Cktarget.prototype.afterAjax = function  () {
+      
+    } 
+  
+    Cktarget.prototype.showIn = function  () {
+      if (this.targetObj.hasClass(this.addClass)) {
+        return false;
+      }
+      this.targetObj.addClass(this.addClass).fadeIn().siblings().removeClass(this.addClass).hide();
+    }
+
+    $(document).ready(function() {
+      $(selectString).each(function () {
+        $(this).data('cktarget',new Cktarget($(this)))          
+      })
+
+      $(selectString).eq(0).trigger('click');
+    })
+  })(jQuery);
+
+
+/*-- 
+  anchor:cuki13
+  use:LazyLoad
+ --*/
+
++(function($) {
+  'use strict';
+  var selectString = '[cklazyload]';
+
+  function LazyLoad() {
+    this.run();
+  }
+
+  LazyLoad.prototype.delayload = function  () {
+    var $this = this;
+    
+    $(selectString).each(function () {
+      
+      var imgItem = $(this),
+          eleTop = imgItem.offset().top,
+          eleHeight = imgItem.outerHeight(),
+          winTop = $(window).scrollTop(),
+          winHeight = $(window).height()      
+      if(winTop === 0){ //修正chrome下取不到的問題
+          winTop = document.body.scrollTop;
+      }
+      
+      
+      //加载正确的图片,条件是屏幕范围内并且要防止重复设置
+      if (eleTop < winTop + winHeight && eleTop + eleHeight > winTop && imgItem.data('lazyload') == undefined) {
+          //加载开动
+         
+          $this.reloadImg(imgItem);
+      }      
+    })
+  }
+
+  LazyLoad.prototype.reloadImg = function  (obj) {
+    var gSrc = obj.data('src');
+    var img = $('<img src="'+ gSrc +'" alt="" />');
+    if (img[0].complete) {
+      obj.attr('src',gSrc);
+    }else {
+      img.load(function  () {
+        obj.attr('src',gSrc);
+      })
+    }   
+    obj.data('lazyload','compelete');
+  }
+
+  LazyLoad.prototype.run = function  (obj) {
+    var $this = this;
+    setInterval(
+      function(){
+        
+        $this.delayload();
+      },400
+    )
+  }
+
+  $(document).ready(function() {
+    new LazyLoad();  
+  })
+
+
+})(jQuery);
+
+
+  $(document).ready(function() {
+    //加载更多    
+    $('.nav-tabs li').each(function () {
+      $(this).data('cktarget').afterAjax = function  () {
+        $('.tag-part-more').show();
+        $('.tag-part-more').find('a').html('加载更多')
+        $('.tag-part-more').find('.spinner1').hide();
+        if (this.end == true) {
+          $('.tag-part-more').find('a').addClass('end').html('到底啦');
+          return false;
+        }
+      }
+    })
+    
+    $('.tag-part-more a').on('click',function  (e) {
+      e.preventDefault();
+
+      
+      if ($('.nav-tabs .active').data('cktarget').end == true) {
+        
+        return false;
+      }else {
+        $(this).text('').prev().show();      
+        $('.nav-tabs .active').data('cktarget').ajaxLoad('moreload');      
+      }
+
+
+    })
+  })
+
+
+//-->
+</script>
