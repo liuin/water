@@ -76,6 +76,15 @@
                       <div class="info-pl-sf">
                         服务态度都很好 手法也不错 还会再来哦
                       </div>
+                      <div class="reckback">
+                        
+                        <div class="txt">官方回复:感谢你的支持，欢迎再来 感谢你的支持，欢迎再来感谢你的支持，欢迎再来感谢你的支持，欢迎再来感谢你的支持，欢迎再来感谢你的支持，欢迎再来感谢你的支持，欢迎再来</div>
+                      </div>
+                      <div class="btn-ground-xfz">
+                        <textarea name="" class="textarea form-control" placeholder="回复内容"></textarea>
+                        <button type="button" class="btn btn-primary btn-small">我要回复</button> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -99,6 +108,11 @@
                       </div>
                       <div class="info-pl-sf">
                         服务态度都很好 手法也不错 还会再来哦
+                      </div>
+                      <div class="btn-ground-xfz">
+                        <textarea name="" class="textarea form-control" placeholder="回复内容"></textarea>
+                        <button type="button" class="btn btn-primary btn-small">我要回复</button> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
                       </div>
                     </div>
                   </div>
@@ -124,6 +138,11 @@
                       <div class="info-pl-s">
                         服务态度都很好 手法也不错 还会再来哦
                       </div>
+                      <div class="btn-ground-xfz">
+                        <textarea name="" class="textarea form-control" placeholder="回复内容"></textarea>
+                        <button type="button" class="btn btn-primary btn-small">我要回复</button> 
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -141,3 +160,22 @@
 
 
   <?php include('inc/footer.php'); ?>
+<script type="text/javascript">
+<!--
+  $(document).ready(function() {
+    //回复专题
+    $('.btn-ground-xfz .textarea').slideUp();
+
+    $('.btn-ground-xfz button').on('click',function  () {
+      $(this).prev().show();
+      $(this).next().show();
+    })
+
+    $('.btn-ground-xfz button.close').on('click',function  (e) {
+      
+      $(this).parent().find('.textarea').hide();
+      $(this).hide();
+    })
+  })
+//-->
+</script>
