@@ -443,7 +443,7 @@ body{background: #eee;}
 .main-person{padding-top: 20px;padding-bottom: 10px;}
 .box2{padding-top: 30px;background: #;}
 .jjh h2,
-.title1{font-size: 14px;font-weight: normal;; background: #2577e3;color: #fff;padding: 10px 15px;css-}
+.title1{font-size: 16px;font-weight: normal; font-family:"Hiragino Sans GB","Microsoft YaHei",simsun; /*background: #2577e3;*/ color: #2577e3;padding: 10px 15px;css-}
 .col-box-thumbnail{background: #f7f5f2;width: auto;}
 .col-box-thumbnail .img{display: block;margin: 0 auto;}
 .jjh .col-box-thumbnail .img{height: 168px;width: 100%;max-width: 237px;}
@@ -458,7 +458,7 @@ body{background: #eee;}
 .jjh .thumbnail{margin-bottom: 0px;background: #fff;box-shadow: 0 1px 3px #ccc;}
 .main-nav{background: #2577e3;}
 .main-nav li a{color: #fff;border-radius: 0;}
-.main-nav li a:hover{color: #2577e3;background: #fff;}
+.main-nav li a:hover{background: #3098F9;}
 .sell .sp1{color: #f60;}
 .zztj .row-1{line-height: 1.8;min-height: 160px;}
 .zztj .sell{padding-top: 5px;}
@@ -487,7 +487,14 @@ body{background: #eee;}
 .tj-box .price{font-size: 18px;color: #f60;}
 .tj-box .price .sp1 {font-size:14px;}
 .carousel-1{margin-bottom: 15px;}
-.view-more-link{ text-align: center;background: #ddd;padding-top: 5px;padding-bottom: 5px;font-size: 15px;}
+.view-more-link {
+    text-align: center;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border: 0px 1px 3px #CCC;
+}
 
 #carousel-example-generic-jjh .carousel-indicators{bottom: -8px;}
 
