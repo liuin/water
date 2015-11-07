@@ -104,11 +104,11 @@
       </div>
       <div class="col-md-3 right-side">
         <div class="row-oneyuan">
-          <div class="title2"><span class="sp1">1元</span>去水疗</div>
+          <div class="title2">找水疗</div>
           <div class="img">
-            <img src="http://www.fxauto.com.cn/images/ydgw-code2.jpg" width="100" height="100" alt="" title="二维码">
+            <img src="../images/Spa_QC.jpg" width="100" height="100" alt="" title="二维码">
             <span class="sp1">微信扫一扫</span>
-            <span class="sp2">水汇网手机端</span>
+            <span class="sp2">水汇网微信平台</span>
           </div>
         </div>
 
