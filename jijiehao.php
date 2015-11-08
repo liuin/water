@@ -237,8 +237,7 @@
       
       //加载正确的图片,条件是屏幕范围内并且要防止重复设置
       if (eleTop < winTop + winHeight && eleTop + eleHeight > winTop && imgItem.data('lazyload') == undefined) {
-          //加载开动
-         
+          //加载开动        
           $this.reloadImg(imgItem);
       }      
     })

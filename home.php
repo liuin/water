@@ -17,13 +17,13 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20150721/720x246.jpg" width="100%" alt="">
+              <img src="http://mall.bydauto.com.cn/media/wysiwyg//20151029/720x246.jpg" width="100%" alt="">
             </div>
             <div class="item">
-              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20150410/720-246.jpg" width="100%" alt="">
+              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20151012/720x246.jpg" width="100%" alt="">
             </div>
             <div class="item">
-              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20150717/720X246.jpg" width="100%" alt="">
+              <img src="http://mall.bydauto.com.cn/media/wysiwyg//20151029/720x246.jpg" width="100%" alt="">
             </div>
           </div>
 
@@ -45,7 +45,25 @@
         <div class="row-jjh-item clearfix">
           <div class="col-md-4 col-box ">            
             <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
+                <img src="images/15596.jpg" width="100%" class="img">
+                <div class="caption">
+                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+
+                  <p class="p2">
+                    地点：四川成都市峨眉山
+                    <br> 活动结束：2014-08-03 , 17:00:00
+                    <br> 参与人数：0人
+                  </p>
+                  <div class="btn-ground clearfix">
+                    <a href="#" class="btn btn-primary fl">我要报名</a>
+                    <a href="#" class="btn btn-default fr">详情</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-box col-box2 ">            
+            <div class="jjh-list-item">
+                <img src="images/15596.jpg" width="100%" class="img">
                 <div class="caption">
                   <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -63,25 +81,7 @@
           </div>
           <div class="col-md-4 col-box ">            
             <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
-                <div class="caption">
-                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
-                  <p class="p2">
-                    地点：四川成都市峨眉山
-                    <br> 活动结束：2014-08-03 , 17:00:00
-                    <br> 参与人数：0人
-                  </p>
-                  <div class="btn-ground clearfix">
-                    <a href="#" class="btn btn-primary fl">我要报名</a>
-                    <a href="#" class="btn btn-default fr">详情</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-md-4 col-box ">            
-            <div class="jjh-list-item">
-                <img src="http://www.jijiehao.org/thumb.php?w=300&amp;h=160&amp;url=http://dongqu.cache.cdqss.com/jijiehao/2014/0728/13/53d5e3c4d3986.jpg" width="100%" class="img">
+                <img src="images/15596.jpg" width="100%" class="img">
                 <div class="caption">
                   <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -106,7 +106,7 @@
         <div class="row-oneyuan">
           <div class="title2">找水疗</div>
           <div class="img">
-            <img src="../images/Spa_QC.jpg" width="100" height="100" alt="" title="二维码">
+            <img src="images/Spa_QC.jpg" width="100" height="100" alt="" title="二维码">
             <span class="sp1">微信扫一扫</span>
             <span class="sp2">水汇网微信平台</span>
           </div>
@@ -204,8 +204,8 @@
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
-            <div class="caption">
+            <img src="images/260.jpg" width="260" height="145" />
+             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
               <p class="p3 clearfix">
@@ -216,7 +216,7 @@
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -229,7 +229,7 @@
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -239,9 +239,9 @@
             </div>
           </div>
       </div>
-      <div class="col-sm-4 col-md-3">
+      <div class="col-sm-4 col-md-3 col-end">
          <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -254,7 +254,7 @@
 
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -267,7 +267,33 @@
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
+            <div class="caption">
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+
+              <p class="p3 clearfix">
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+            </div>
+          </div>
+      </div>
+
+            <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+            <img src="images/260.jpg" width="260" height="145" />
+            <div class="caption">
+              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+
+              <p class="p3 clearfix">
+              <span class="price"><span class="sp1">¥</span>98.8</span>
+              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
+            </div>
+            
+          </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-end">
+         <div class="thumbnail">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -286,13 +312,13 @@
   </div><!-- /今日热单 -->
  
      
- <div class="tj-box container-hotorder container">
+ <div class="tj-box container-gusee container-hotorder container">
     <div class="title1"><span class="glyphicon glyphicon-fire"></span>猜您喜欢</div>
     <div class="box1">
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -304,7 +330,7 @@
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -317,7 +343,7 @@
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
@@ -329,7 +355,7 @@
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="http://i3.s2.dpfile.com/pc/ca29144a4808182d7fa81cfa21f41201(249x249)/thumb.jpg"  width="100%">
+            <img src="images/260.jpg" width="260" height="145" />
             <div class="caption">
               <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
 
