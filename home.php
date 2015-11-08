@@ -45,9 +45,9 @@
         <div class="row-jjh-item clearfix">
           <div class="col-md-4 col-box ">            
             <div class="jjh-list-item">
-                <img src="images/15596.jpg" width="100%" class="img">
+                <img cklazyload data-src="images/15596.jpg" src="images/placeholder.png" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+                  <h3>云来斯堡酒店伯爵伯爵...  </h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -58,14 +58,17 @@
                     <a href="#" class="btn btn-primary fl">我要报名</a>
                     <a href="#" class="btn btn-default fr">详情</a>
                   </div>
+                  <div class="p-server">
+                    <i class="h-icon">惠</i><i class="d-icon">代</i>
+                  </div>  
                 </div>
               </div>
           </div>
           <div class="col-md-4 col-box col-box2 ">            
             <div class="jjh-list-item">
-                <img src="images/15596.jpg" width="100%" class="img">
+                <img cklazyload data-src="images/15596.jpg" src="images/placeholder.png" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+                  <h3>云来斯堡酒店伯爵伯爵... </h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -76,14 +79,18 @@
                     <a href="#" class="btn btn-primary fl">我要报名</a>
                     <a href="#" class="btn btn-default fr">详情</a>
                   </div>
+                  <div class="p-server">
+                    <i class="d-icon">代</i>
+                  </div> 
+
                 </div>
               </div>
           </div>
           <div class="col-md-4 col-box ">            
             <div class="jjh-list-item">
-                <img src="images/15596.jpg" width="100%" class="img">
+                <img cklazyload data-src="images/15596.jpg" src="images/placeholder.png" width="100%" class="img">
                 <div class="caption">
-                  <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
+                  <h3>云来斯堡酒店伯爵伯爵... </h3>
 
                   <p class="p2">
                     地点：四川成都市峨眉山
@@ -204,103 +211,235 @@
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
              <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-grey btn-sm btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            <div class="p-server">
+              <i class="h-icon">惠</i><i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
       <div class="col-sm-4 col-md-3 col-end">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
 
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
-            
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
 
             <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
-            
+            <div class="p-server">
+              <i class="d-icon">代</i>
+            </div> 
           </div>
       </div>
       <div class="col-sm-4 col-md-3 col-end">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            
           </div>
       </div>
 
@@ -318,51 +457,111 @@
     <div class="row">
       <div class="col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-grey btn-sm btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            
           </div>
       </div>
       <div class=" col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
-          </div>
+            
+          </div>         
       </div>
 
       <div class=" col-sm-4 col-md-3">
         <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-grey btn fr" role="button">已售</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            
           </div>
       </div>
       <div class="col-sm-4 col-md-3">
          <div class="thumbnail">
-            <img src="images/260.jpg" width="260" height="145" />
-            <div class="caption">
-              <h3>云来斯堡酒店伯爵伯爵...  <i class="h-icon">惠</i></h3>
-
+            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
+             <div class="caption">
+              <h3>
+                  <a href="#">
+                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
+                    <span class="sp1">单人套餐，美味不停歇</span> 
+                  </a>
+              </h3>
+              
               <p class="p3 clearfix">
-              <span class="price"><span class="sp1">¥</span>98.8</span>
-              <a href="#" class="btn btn-sm btn-primary fr" role="button">我要报名</a></p>
+                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
+                <span class="sellout fr">已售38106</span>
+              </p>
+
+              <div class="ft1 clearfix">
+                <span class="ft1-c1 fl">立减15</span>
+                <span class="pl1 fr ">
+                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
+                  <span class="des1"><a href="#">10908人评价</a></span>
+                </span>
+              </div>
             </div>
+            
           </div>
       </div>
 

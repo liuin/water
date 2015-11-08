@@ -413,7 +413,7 @@ body{background: #fff;}
 .tuikuan-link .alink span {display:block;color:#999;font-size: 12px;}
 
 
-.container-hd1 { padding-top: 0px;height: 60px;background: #fff;margin: 0 auto;margin-top: 2px;}
+.container-hd1 { padding-top: 0px;height: 60px;background: #fff;margin: 0 auto;margin-top: 1px;}
 .container-hd1 .carousel-indicators{bottom:-8px; display:none;}
 .container-hd1 .container{background:#fff;overflow: hidden; height: 60px;  }
 .container-hd1 .carousel-1{height: 60px;}
@@ -483,8 +483,9 @@ body{background: #fff;}
 .box1{padding: 10px;border-radius: 0;background: #fff; border:0px solid #eee;}
 .jjh .thumbnail{margin-bottom: 0px;background: #fff;box-shadow: 0 1px 3px #ccc;}
 .main-nav{background: #2577e3;}
-.main-nav li a{color: #fff;border-radius: 0;}
-.main-nav li a:hover{background: #3098F9;}
+.main-box .main-nav li a{color: #fff;border-radius: 0; background:#2577e3;}
+.main-box .main-nav li a:hover,.main-box .main-nav li.active a{background: #3098F9;}
+
 .sell .sp1{color: #f60;}
 .zztj .row-1{line-height: 1.8;min-height: 160px;}
 .zztj .sell{padding-top: 5px;}
@@ -506,17 +507,31 @@ body{background: #fff;}
 .tj-box .title1{ margin-bottom: 0px;height: 45px;line-height: 45px;padding: 0 15px;padding-left: 0;}
 .tj-box h3{font-size: 16px;font-weight: bold;overflow: hidden;margin-bottom: 5px;height: auto;}
 .tj-box .p1{font-size: 12px;height: 36px;overflow: hidden;margin-bottom: 6px;}
-.tj-box .thumbnail{max-width: 310px;margin: 0 auto; border: 0;border: 0;margin-bottom: 0px;padding: 20px;    padding-bottom: 10px;border-radius:0;}
+.tj-box .thumbnail{ max-width: 310px;margin: 0 auto;border: 0;border: 0;margin-bottom: 0px;padding: 12px;padding-bottom: 10px;border-radius: 0;}
 .tj-box .thumbnail:hover {}
 .tj-box .thumbnail img {height:154px;width: 260px;}
 .tj-box .box1{padding-top: 16px;padding-bottom: 16px; overflow:hidden;padding-top: 0;padding: 0;}
-.tj-box .box1 .row {margin: 0; border-right: 1px solid #eee; }
-.tj-box .box1 .col-sm-4 {padding: 0;border:1px solid #eee;border-right: 0;  border-bottom: 0px;}
-.tj-box .p3{margin-top: 10px; height:30px;}
+.tj-box .box1 .row {margin: 0; border-right: 1px solid #eee;     overflow: hidden;}
+.tj-box .box1 .col-sm-4 {padding: 0;border:1px solid #eee;border-right: 0;  border-bottom: 0px;     height: 317px;}
+.tj-box .p3{ margin-top: 10px;height: 30px;border-bottom: 1px solid #eee;margin-bottom: 8px;}
 .tj-box .price{font-size: 18px;color: #f60;}
+
+.tj-box .ft1 {font-size: 12px; color: #999;    height: 41px;}
+.tj-box .thumbnail {position:relative;}
+.tj-box .ft1 .ft1-c1 {display:inline-block;background:#ff8e3f; color: #fff; padding: 0 3px;}
+.tj-box .ft1 .pl1  { width: 100px;text-align: right;}
+.tj-box .ft1 .pl1 .des1{display:block;text-align:right;margin-top: 5px;}
+
+
+
+.tj-box .sellout { font-size: 12px;color: #999;line-height: 1.2;margin-top: 8px;}
+.tj-box .price del {font-size: 12px;color: #999;}
 .tj-box .price .sp1 {font-size:14px;}
 .carousel-1{margin-bottom: 15px;border: 1px solid #eee;}
 .view-more-link { text-align: center;background: #f6f6f6;padding-top: 5px;padding-bottom: 5px;font-size: 15px;height: 48px;line-height: 40px;}
+
+.carousel .carousel-control{display:none;}
+.carousel:hover .carousel-control {display:block;}
 
 #carousel-example-generic-jjh .carousel-indicators{bottom: -8px;}
 
@@ -526,7 +541,7 @@ body{background: #fff;}
 .footer a:hover{color: #06c;}
 .footer .glyphicon{margin-right: 5px;}
 .copy-right{ padding-top: 0;text-align: center;font-size: 12px;color: #999;border-top: 0; padding-bottom: 10px;}
-.footer .col-1{border-right: 1px solid #ccc;padding-top: 10px;padding-bottom: 10px;text-align: center;}
+.footer .col-1{border-right: 0px solid #ccc;padding-top: 10px;padding-bottom: 10px;text-align: center;}
 .footer .col-2{padding-top: 10px;padding-bottom: 10px;text-align: center;}
 .footer .col-3{border-top: 1px solid #ccc;padding-top: 10px;padding-bottom: 10px;}
 .footer .col-3 a{margin: 0;}
@@ -1031,14 +1046,17 @@ body{background: #fff;}
 .search-txt {color:#f60;}
 
 .row-jjh-item {background: #fff;border:1px solid #eee;}
-.row-jjh-item .col-box  {margin-bottom: 0;}
+
+
+.row-jjh-item .col-box  {margin-bottom: 0;padding: 12px;}
 .row-jjh-item .col-box2 {border-left: 1px solid #eee;border-right: 1px solid #eee;}
-.row-jjh-item .jjh-list-item {border: 0;padding: 10px; margin-bottom: 0; height: 300px;}
+.row-jjh-item .jjh-list-item {border: 0;padding: 0px; margin-bottom: 0;     height: 277px;}
 .row-jjh-item .jjh-list-item:hover {}
 .row-jjh-item .jjh-list-item .img{ display: block;margin: 0 auto;width: 100%;height: 150px;max-width: 264px;}
 
 /*-- container-hotorder --*/
 .container-hotorder {    padding-top: 0px;    margin-bottom: 10px;}
+.container-hotorder .caption h3 .sp1{display:block;color: #999; font-weight:normal; padding-top: 8px;}
 
 .cate-xz {margin-bottom: 5px;}
 .cate-xz a {border: 1px solid #ccc; display: inline-block;padding: 3px 8px;}
@@ -1051,9 +1069,14 @@ body{background: #fff;}
 .find-water-item .img{width:150px;}
 .find-water-item .caption {margin-left: 170px;}
 .find-water-item .caption h3 {font-size: 18px; margin-bottom: 5px;}
-.d-icon {display:inline-block;border: 1px solid #f60;font-style: normal;font-size: 14px;padding: 3px; color: #f60;}
-.h-icon {display:inline-block;border: 1px solid cadetblue;font-style: normal;font-size: 14px;padding: 3px; color: cadetblue;}
-.v-icon {display:inline-block;border: 1px solid red;font-style: normal;font-size: 14px;padding: 3px; color: red;}
+.p-server {position: absolute;top: 12px;left: 12px;}
+
+.d-icon {display:inline-block;  font-style: normal;font-size: 14px;padding: 3px; color: #fff;background:#f60;text-align: center;height: 35px;left: 12px;font-size: 16px;line-height: 27px; width:35px;    text-shadow: 0 0 2px #999; }
+
+
+.h-icon { display: inline-block;font-style: normal;font-size: 14px;padding: 3px;background: #2bb8aa;color: #fff;width: 35px;text-align: center;height: 35px;left: 12px;font-size: 16px;line-height: 27px; text-shadow: 0 0 2px #999;}
+.v-icon {display:inline-block; font-style: normal;font-size: 14px;padding: 3px; color: red;}
+
 
 /*-- find-water-item --*/
 .find-water-item {overflow: hidden; color: #666; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 10px;}
@@ -1162,3 +1185,6 @@ a.share-qqweibo.J_qqweibo-share {
  
 @keyframes bouncedelay {0%, 80%, 100% {transform: scale(0.0);-webkit-transform: scale(0.0);} 40% {transform: scale(1.0);-webkit-transform: scale(1.0);}    }
 
+
+
+.back-top { display: none;width: 18px;line-height: 1.2;padding: 5px 0;background-color: #444;color: #fff;font-size: 12px;text-align: center;position: fixed;_position: absolute;left: 50%;_right: 92px;bottom: 100px;_bottom: "auto";cursor: pointer;opacity: 0.6;filter: Alpha(opacity=60);margin-left: 590px;}
