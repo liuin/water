@@ -9,13 +9,13 @@
           <div class="carousel-inner-wrap">
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img alt="集木烧烤音乐餐吧团购" src="http://i2.s1.dpfile.com/pc/mc/6c193e0c1fc3dd86f6a7f9fdaa8fcdf8(450c280)/aD0yODAmaz0vcGMvbWMvNmMxOTNlMGMxZmMzZGQ4NmY2YTdmOWZkYWE4ZmNkZjgmbG9nbz0wJm09YyZ3PTQ1MA.923077cec43f685d4e11c4f90ca85259/thumb.jpg" style="left: 23850px;">
+                <img alt="集木烧烤音乐餐吧团购" src="http://i2.s1.dpfile.com/pc/mc/6c193e0c1fc3dd86f6a7f9fdaa8fcdf8(450c280)/aD0yODAmaz0vcGMvbWMvNmMxOTNlMGMxZmMzZGQ4NmY2YTdmOWZkYWE4ZmNkZjgmbG9nbz0wJm09YyZ3PTQ1MA.923077cec43f685d4e11c4f90ca85259/thumb.jpg" >
               </div>
               <div class="item">
-                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/f8a1219b12739b6b72d53507911ef806(450c280)/aD0yODAmaz0vcGMvbWMvZjhhMTIxOWIxMjczOWI2YjcyZDUzNTA3OTExZWY4MDYmbG9nbz0wJm09YyZ3PTQ1MA.0beee04a13f6edb11eab3a8f50810895/thumb.jpg" style="left: 25650px;">
+                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/f8a1219b12739b6b72d53507911ef806(450c280)/aD0yODAmaz0vcGMvbWMvZjhhMTIxOWIxMjczOWI2YjcyZDUzNTA3OTExZWY4MDYmbG9nbz0wJm09YyZ3PTQ1MA.0beee04a13f6edb11eab3a8f50810895/thumb.jpg" >
               </div>
               <div class="item">
-                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/e58f37d06c36c822cbdaf0846a1220d2(450c280)/aD0yODAmaz0vcGMvbWMvZTU4ZjM3ZDA2YzM2YzgyMmNiZGFmMDg0NmExMjIwZDImbG9nbz0wJm09YyZ3PTQ1MA.39634e982cb206cbbad20c0d4e26ba05/thumb.jpg" style="left: 26550px;"> 
+                <img alt="集木烧烤音乐餐吧团购" src="http://i3.s1.dpfile.com/pc/mc/e58f37d06c36c822cbdaf0846a1220d2(450c280)/aD0yODAmaz0vcGMvbWMvZTU4ZjM3ZDA2YzM2YzgyMmNiZGFmMDg0NmExMjIwZDImbG9nbz0wJm09YyZ3PTQ1MA.39634e982cb206cbbad20c0d4e26ba05/thumb.jpg" > 
               </div>
             </div>
             

@@ -3,14 +3,19 @@
   <div class="main-box container">
     <?php include('inc/nav-pills.php'); ?>      
     <div class="cate-nav">      
-      <div class="cate-nav-item row">
-        <div class="col-xs-12 cate-xz">
-          已选择: <a href="#">天河区</a>
-        </div>
-        <div class="cate-nav-item-lable col-xs-2">
+      <div class="cate-nav-item cate-nav-item-first">
+        <div class="cate-xz">
+          <a href="#" class="btn-sp btn-sp-first">全部</a> <span class="st">></span> <a href="#" class="btn-sp">天河区 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a> <span class="st">></span> <a href="#" class="btn-sp">天河区 <span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+        </div>        
+      </div>
+      <div class="cate-nav-item">
+        <p class="find-res">找到<span class="sp1">“九毛九”</span>相关团购<span class="sp1">35</span>个</p>
+      </div>
+      <div class="cate-nav-item">
+        <div class="cate-nav-item-lable fl">
           <span class="lb"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>全部区域</span>
         </div>
-        <div class="cate-nav-item-link col-xs-10">
+        <div class="cate-nav-item-link">
           <a href="#">天河区</a>
           <a href="#">萝岗区</a>
           <a href="#">增城区</a>
@@ -23,11 +28,11 @@
         </div>
       </div>
 
-      <div class="cate-nav-item row">
-        <div class="cate-nav-item-lable col-xs-2">
+      <div class="cate-nav-item">
+        <div class="cate-nav-item-lable fl">
           <span class="lb"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>热门分类</span>
         </div>
-        <div class="cate-nav-item-link col-xs-10">
+        <div class="cate-nav-item-link ">
           <a href="#" class="active">海桑门票</a>
           <a href="#">休闲娱</a>
           <a href="#">电影</a>
@@ -40,6 +45,18 @@
         </div>
       </div>
     </div>
+    
+    <div class="search-relative">
+      <span class="sp1">大家都在找：</span>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+      <a href="#">广州九毛九</a>
+    </div>
+
 
     <div class="row row-find-water">
       <div class="col-md-9 left-side">
