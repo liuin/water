@@ -1,9 +1,12 @@
 <? $page='我的积分-我的账户-个人中心'; include('inc/header.php') ?>
 
-  <div class="main-person container">
-  <?php include('inc/nav-pills.php'); ?>
-    <div class="row">
-      <div class="col-sm-2 left-side person-left-side">
+  <div class="main-person">
+      
+      <div class="container"><?php include('inc/nav-pills.php'); ?></div>
+        
+      <div class="container-outdoor">
+      <div class="container">
+        <div class="row">        <div class="col-sm-2 left-side person-left-side">
           <?php include('inc/person-nav.php'); ?>
       </div>
       <div class="col-sm-10 person-right-side person-right-side-jf">
@@ -70,6 +73,11 @@
 
       </div>
     </div>
+
+  </div>
+  </div>
+    </div>
+  </div>
 
   </div><!-- /中间 -->
   

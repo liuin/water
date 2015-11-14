@@ -1,9 +1,11 @@
 <? $page='聚活动-我的订单-个人中心'; include('inc/header.php') ?>
 
-  <div class="main-person container">
-    <?php include('inc/nav-pills.php'); ?>
+  <div class="main-person ">
+         <div class="container"><?php include('inc/nav-pills.php'); ?></div>
 
-    <div class="row">
+      <div class="container-outdoor">
+      <div class="container">
+        <div class="row">
       <div class="col-sm-2 left-side person-left-side">
           <?php include('inc/person-nav.php'); ?>
       </div>
@@ -137,7 +139,7 @@
     </div>
 
 
-
+</div></div>
   </div><!-- /中间 -->
   
   <?php include('inc/footer.php'); ?>

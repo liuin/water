@@ -1,8 +1,12 @@
 <? $page='消息中心-团购项目-我是商家'; include('inc/header.php') ?>
 
-  <div class="main-person container">
-    <?php include('inc/nav-pills.php'); ?>
-      <div class="row">
+  <div class="main-person">
+      
+      <div class="container"><?php include('inc/nav-pills.php'); ?></div>
+        
+      <div class="container-outdoor">
+      <div class="container">
+        <div class="row">
         <div class="col-sm-2 left-side person-left-side">
           <?php include('inc/biz-nav.php'); ?>
         </div>
@@ -30,6 +34,8 @@
         </div>
       </div>
   </div> 
+  </div>
+  </div>
 
   <!-- /中间 -->
 

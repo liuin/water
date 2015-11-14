@@ -404,9 +404,15 @@
               
             </div></div>
        
-      <div class="col-md-3">
-        
-      
+      <div class="col-md-3 right-side">
+      <div class="row-oneyuan">
+          <div class="title2"><span class="sp1">1元</span>去水疗</div>
+          <div class="img">
+            <img src="http://www.fxauto.com.cn/images/ydgw-code2.jpg" width="100" height="100" alt="" title="二维码">
+            <span class="sp1">微信扫一扫</span>
+            <span class="sp2">水汇网手机端</span>
+          </div>
+        </div>
         <div class="row-hotpop" style="margin-bottom: 0;">
           <div id="carousel-example-generic-hot" class="banner carousel-1 carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -502,8 +508,7 @@
           </div>
         </div>
 
-    
-      </div>
+    </div>
     </div>
     </div>
   </div>
