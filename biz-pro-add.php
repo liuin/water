@@ -50,6 +50,10 @@
                 <input type="text" name="" class="form-control" id="">
               </div>
               <div class="ground-item">
+                <label for="">时　　间:</label>
+                <input type="text" name="" id="data1" class="form-control" >
+              </div>
+              <div class="ground-item">
                 <label for="">金　　额:</label>
                 <input type="text" name="" class="form-control" id="">
               </div>
@@ -85,3 +89,17 @@
 
 
   <?php include('inc/footer.php'); ?>
+  
+  //日期插件
+  <script type="text/javascript" src="js/date.js"></script>
+  <script type="text/javascript">
+  <!--
+    laydate({
+      elem: '#data1',
+      choose: function(dates){ //选择好日期的回调
+        alert('你选择的日期是'+ dates);
+      }
+      
+    });
+  //-->
+  </script>
