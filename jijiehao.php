@@ -59,7 +59,7 @@
                   <span class="start fl"></span>
                   <span class="lb2 fl"></span> <!-- / lb1 距开始样式， lb2 进行中样式 -->
                   <div class="fl counttime" style="display:none;" countTime="2015/11/12 14:40:53,2015/11/15 11:00:00">
-                    <span class="c-day" countDay ></span><span class="sp1"></span><span class="c-hour" countHour ></span><span class="sp1"></span><span class="c-min" countMin ></span><span class="sp1"></span><span class="c-sec" countSec ></span>
+                    <span class="c-day" countDay ></span>天<span class="sp1"></span><span class="c-hour" countHour ></span>时<span class="sp1"></span><span class="c-min" countMin ></span>分<span class="sp1"></span><span class="c-sec" countSec ></span>秒
                   </div>
                 </div>
               </div>
