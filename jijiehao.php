@@ -42,10 +42,10 @@
         <div class="title1"><span class="glyphicon glyphicon-bullhorn"></span>活动结集号</div>
         <div class="box1">
           <div class="row">
-            <div class="col-sm-4 img">
-              <img src="http://www.jijiehao.org/data/thumb/a0/63/a063465d820aba88d696e2c5429136e3_300_160_c.jpg" alt="">
+            <div class="col-md-4 img">
+              <img src="http://p0.meituan.net/366.220/deal/c793fbe40fc9ccccd294574cc2060bb686133.jpg" alt="">
             </div>
-            <div class="col-sm-5 col-2">
+            <div class="col-md-8 col-2">
               <h3>自驾峨眉山：“盛夏避暑地 养生峨眉山”主题自驾游活动</h3>
               <p class="p1">吃在峨眉 耍在峨眉 成都全搜索邀请您周末峨眉山自驾游，体验峨眉山清凉夏日之旅。自峨眉山脚至金顶不到50公里的盘山公路，沿途享受峨眉山绮丽，峻险的风光，感受成都周边最刺激，最安全的山...</p>
               <p class="p2">
@@ -53,11 +53,18 @@
                 <br /> 活动结束：2014-08-03 , 17:00:00
                 <br /> 参与人数：0人
               </p>
+              <div class="start-bk">
+                <a href="#" class="btn btn-primary btn-lg fl">我要报名</a>
+                <div class="time-count">
+                  <span class="start fl"></span>
+                  <span class="lb2 fl"></span> <!-- / lb1 距开始样式， lb2 进行中样式 -->
+                  <div class="fl counttime" style="display:none;" countTime="2015/11/12 14:40:53,2015/11/15 11:00:00">
+                    <span class="c-day" countDay ></span>天<span class="sp1"></span><span class="c-hour" countHour ></span>时<span class="sp1"></span><span class="c-min" countMin ></span>分<span class="sp1"></span><span class="c-sec" countSec ></span>秒
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-3 col-3 clearfix">
-              <a href="#" class="btn btn-primary fl">我要报名</a>
-              <a href="#" class="btn btn-default fr">详情</a>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -239,6 +246,113 @@
 
     })
   })
+
+
+  /*-- 
+    anchor:cuki13
+    countTime = "startTime endTime"
+    bydtime:
+    var startTime = new Date("<?php date_default_timezone_set('Asia/Shanghai'); echo date('Y/m/d H:i:s'); ?>").getTime();
+    var endTime = new Date("<?=str_replace('-', '/', $btime)?>").getTime();
+  
+    exmaple:
+    <div class="counttime" countTime="2015/05/14 14:40:53,2015/05/08 11:00:00">
+      <span countDay ></span>
+      <span countHour ></span>
+      <span countMin ></span>
+      <span countSec ></span>
+    </div>
+  
+    use:
+   --*/
+  
+  +(function() {
+    'use strict';
+  
+    var selectString = '[countTime]';
+  
+    function CountTime (startTime,endTime,obj) {
+      this.startTime = startTime;
+      this.endTime = endTime;
+      this.sbTime = Math.floor((this.endTime - this.startTime) / 1e3);
+      this.second = obj.find('[countSec]');
+      this.minite = obj.find('[countMin]');
+      this.hour = obj.find('[countHour]');
+      this.day = obj.find('[countDay]');
+      this.el = obj;
+    }
+  
+    CountTime.prototype.countPro = function  () {
+  
+      this.el.trigger('countPro');
+      var getSbTime = this.sbTime;
+      this.second.html(checkSimple(Math.floor(getSbTime % 60)));
+      this.minite.html(checkSimple(Math.floor(getSbTime / 60 % 60)));
+      this.hour.html(checkSimple(Math.floor(getSbTime / 3600 % 24)));
+      this.day.html(checkSimple(Math.floor(getSbTime / 3600 / 24)));
+      
+
+      if (this.el.is(':hidden')) {
+        this.el.show();
+      }
+
+      if (this.sbTime == 0) {
+        this.el.trigger('countEnd');
+      }
+      this.sbTime--;
+  
+    }
+
+    function checkSimple (num) {
+      num = num.toString();
+
+      
+      if (num.length < 2) {
+        num = '<span class="num-ib">0</span>' + '<span class="num-ib">' + num + '</span>';
+      }else {
+        var arry = '';
+        for (var i = 0;  i<num.length ; i++) {
+          arry += '<span class="num-ib">' + num.charAt(i) + '</span>';
+        }  
+        num = arry;
+      }
+      return num
+    }
+  
+    CountTime.prototype.end = function  () {
+      this.el.trigger('countEnd');
+      this.second.html(0);
+      this.minite.html(0);
+      this.hour.html(0);
+      this.day.html(0);
+    }
+  
+    CountTime.prototype.init = function  () {
+      if (this.sbTime <= 0) {
+        this.end();
+      }else {
+        var $this = this;
+        setInterval(
+          function(){
+            $this.countPro();        
+          },1e3
+        )
+      }
+    }
+  
+    $(selectString).each(function () {
+      var attrpro = $(this).attr('countTime').split(',');
+      for (var i = 0;  i<attrpro.length ; i++) {
+        if (attrpro[i] == 'now') {
+          attrpro[i] = new Date().getTime();
+        }else {
+          attrpro[i] = new Date(attrpro[i]).getTime();
+        }
+      }
+      var timmer = new CountTime(attrpro[0],attrpro[1],$(this));
+      timmer.init();
+    })
+  })(jQuery);
 
 
 //-->

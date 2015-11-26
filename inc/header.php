@@ -126,7 +126,7 @@
 
   <header class="header">
     <div class="container">
-      <div class="row">
+      <div class="row1">
         <div class="col-1 col-md-2">
           <div class="col-1-box clearfix">
             <div class="logo fl"><a href="home.php"><img src="images/logo.png" alt="" /></a></div>

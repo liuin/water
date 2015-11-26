@@ -74,125 +74,30 @@
       <a href="#">广州九毛九</a>
     </div>
 
+    <div class="pro-list-bar">
+      <a class="current" href="#">默认</a>
+      <a href="#"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>销量</a>
+      <a href="#"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>价格</a>
+      <a href="#"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>好评</a>
+      <a href="#"><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>发布时间</a>
+      <a href="#" class="ck-cur"><span class="glyphicon glyphicon-stop" aria-hidden="true"></span>免预约</a>
+      <a href="#"><span class="glyphicon glyphicon-stop" aria-hidden="true"></span>代金券</a>  
+    </div><!-- /此处地址跳转 直接程序输入状态 -->
+
 
     <div class="row row-find-water">
       <div class="col-md-9 left-side">
         <div class="pro-list box1">
-          <div class="pro-list-bar">
-            <label><input type="checkbox" name="" id="">有优惠</label>
-            <label><input type="checkbox" name="" id="">可预订</label>
-            <a class="active" href="#">默认 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
-            <a href="#">服务 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
-            <a href="#">环境 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
-            <a href="#">销量 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
-            <a href="#">价格 <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span></a>
-          </div>
+          
           
 
-<div class="row row-fyh">
-<div class="col-md-6">
-    <div class="pro-list-item ">
-                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-                <div class="caption">
-                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
-                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                  <div class="price-ground clearfix">
-                    <span class="price-new fl">¥<em>85</em></span>
-                    <span class="sellout fr">已售473</span>
-                  </div>
-                </div>
-              </div>
-  </div>
-  <div class="col-md-6">
-                        <div class="pro-list-item ">
-              <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-              <div class="caption">
-                <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a></h3>              
-                <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                <div class="price-ground clearfix">
-                  <span class="price-new fl">¥<em>85</em></span>
-                  <span class="sellout fr">已售473</span>
-                </div>
-              </div>
-                        </div>
-            </div>
-<div class="col-md-6">
-    <div class="pro-list-item ">
-                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-                <div class="caption">
-                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
-                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                  <div class="price-ground clearfix">
-                    <span class="price-new fl">¥<em>85</em></span>
-                    <span class="sellout fr">已售473</span>
-                  </div>
-                </div>
-              </div>
-  </div>
-  <div class="col-md-6">
-    <div class="pro-list-item ">
-                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-                <div class="caption">
-                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
-                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                  <div class="price-ground clearfix">
-                    <span class="price-new fl">¥<em>85</em></span>
-                    <span class="sellout fr">已售473</span>
-                  </div>
-                </div>
-              </div>
-  </div>
-  <div class="col-md-6">
-    <div class="pro-list-item ">
-                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-                <div class="caption">
-                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
-                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                  <div class="price-ground clearfix">
-                    <span class="price-new fl">¥<em>85</em></span>
-                    <span class="sellout fr">已售473</span>
-                  </div>
-                </div>
-              </div>
-  </div>
-  <div class="col-md-6">
-    <div class="pro-list-item ">
-                <a href="pro-detail.php"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-                <div class="caption">
-                  <h3><a href="pro-detail.php">广州宾馆得云宫酒楼</a> <i class="h-icon">惠</i></h3>              
-                  <p class="p1"><a href="pro-detail.php">[2店通用] 代金券，全场通用，可叠加，不限</a></p>              
-                  <div class="price-ground clearfix">
-                    <span class="price-new fl">¥<em>85</em></span>
-                    <span class="sellout fr">已售473</span>
-                  </div>
-                </div>
-              </div>
-  </div>
-</div>
+<div class="row row-fyh" id="row-fyh" data-totlepage="5" data-ckurl="ajax/find-youhui.html" data-cktarget=".row-fyh"></div>
 
 
 
 
 
-<nav class="pro-pagination">
-          <ul class="pagination">
-            <li>
-              <a href="#" aria-label="Previous">
-                <span aria-hidden="true">«</span>
-              </a>
-            </li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li>
-              <a href="#" aria-label="Next">
-                <span aria-hidden="true">»</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+<div class="tag-part-more none"><div class="spinner1"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><a href="#" page="2" class="btn btn-primary">加载更多</a></div>  
         </div>
       </div>
    
@@ -205,7 +110,7 @@
             <span class="sp2">水汇网手机端</span>
           </div>
         </div>
-        <div class="row-hotpop" style="margin-bottom: 0;">
+        <div class="row-hotpop"  >
           <div id="carousel-example-generic-hot" class="banner carousel-1 carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -252,9 +157,9 @@
         </div>
 
         <div class="tj-box tj-box-guess">
-          <div class="title1"><span class="glyphicon glyphicon-fire"></span>猜你喜欢</div>
+          <div class="title1">猜你喜欢</div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img"><img cklazyload data-src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -264,7 +169,27 @@
             </div>
           </div>
           <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+            <a href="find-water-item.php" class="img"><img cklazyload data-src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img"><img cklazyload data-src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
+            <div class="caption">
+              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
+              <div class="price-ground clearfix">
+                <span class="price-new fl">¥<em>85</em></span>
+                <span class="sellout fr">已售473</span>
+              </div>
+            </div>
+          </div>
+          <div class="pro-list-cnxh pro-list-item ">
+            <a href="find-water-item.php" class="img"><img cklazyload data-src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
             <div class="caption">
               <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
               <div class="price-ground clearfix">
@@ -276,29 +201,7 @@
         </div>
 
 
-        <div class="tj-box tj-box-newview">
-          <div class="title1"><span class="glyphicon glyphicon-fire"></span>最新浏览</div>
-          <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-            <div class="caption">
-              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
-              <div class="price-ground clearfix">
-                <span class="price-new fl">¥<em>85</em></span>
-                <span class="sellout fr">已售473</span>
-              </div>
-            </div>
-          </div>
-          <div class="pro-list-cnxh pro-list-item ">
-            <a href="find-water-item.php" class="img fl"><img src="http://p1.meituan.net/deal/ee20a470d3ebc2d48ba9c6132d150923271062.jpg" width="100%" class="img"></a>
-            <div class="caption">
-              <h3><a href="find-water-item.php">广州宾馆得云宫酒楼</a></h3>              
-              <div class="price-ground clearfix">
-                <span class="price-new fl">¥<em>85</em></span>
-                <span class="sellout fr">已售473</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
     </div>
     
@@ -310,3 +213,148 @@
   <!-- /中间 -->
 
   <?php include('inc/footer.php'); ?>
+<script type="text/javascript">
+<!--
+  
+ /*-- 
+    anchor:cuki13
+    use:data-cktarget
+   --*/
+  
+  +(function($) {
+
+    'use strict';
+    var selectString = '[data-cktarget]';  
+
+    function Cktarget(obj) {
+      this.obj = obj;
+      this.addClass = 'active';
+      this.index = obj.index();
+      this.targetObj = $(obj.data('cktarget'));
+      this.ajaxPro = false;
+      this.loadObj = $('#load-tag');
+      this.ajaxUrl = obj.data('ckurl');
+      this.curPage = 0;
+      this.totlePage = obj.data('totlepage');
+      this.end = false;
+
+      var $this = this;
+
+      //点击事件
+      this.obj.on('click',function  (e) {
+       if ($this.obj.hasClass($this.addClass) || $this.ajaxPro) {
+        return false;
+       }else {         
+         $this.obj.addClass($this.addClass).siblings().removeClass($this.addClass);
+         $this.curPage = 0;
+         $this.end = false;
+         $('.tag-part-more').find('a').removeClass('end');
+         if ($this.ajaxUrl != '' && (!$this.end)) {
+          
+          $this.ajaxLoad();
+         }else {
+           $this.showIn();           
+         }
+       }
+       return false;
+      })
+    }
+
+    Cktarget.prototype.ajaxLoad = function  () {     
+
+      var $this = this;
+      
+      if ($this.end) {
+       
+        return false
+      }
+      var url = $this.ajaxUrl + '?p =' + $this.curPage;
+      var arg = arguments[0];
+      
+      $this.ajaxPro = true;
+      $.ajax({
+          type: "GET",
+          url: url,
+          dataType: 'html',
+          success: function(data){
+            if ($this.curPage == 0) {
+              $this.targetObj.empty();
+            }              
+            
+            $this.targetObj.append(data);
+            
+
+            if ($this.curPage == $this.totlePage) {
+              $this.end = true;
+            }else {
+              $this.curPage++;
+            }
+            
+            $this.showIn(); 
+            $this.afterAjax();
+            $this.loadObj.fadeOut();
+
+            $this.ajaxPro = false;
+
+            
+          },
+          error:function  () {
+          },
+          beforeSend:function  () {
+              if (arg != 'moreload') {
+                $this.loadObj.show();
+              }
+          }
+      });      
+    }
+
+    Cktarget.prototype.afterAjax = function  () {
+      
+    } 
+  
+    Cktarget.prototype.showIn = function  () {
+      if (this.targetObj.hasClass(this.addClass)) {
+        return false;
+      }
+      this.targetObj.addClass(this.addClass).fadeIn().siblings().removeClass(this.addClass).hide();
+    }
+
+    $(document).ready(function() {
+      $(selectString).each(function () {
+        $(this).data('cktarget',new Cktarget($(this)))          
+      })
+
+      $(selectString).eq(0).trigger('click');
+    })
+  })(jQuery);
+
+
+  $(document).ready(function() {
+    //加载更多    
+    $('#row-fyh').each(function () {
+      $(this).data('cktarget').afterAjax = function  () {
+        $('.tag-part-more').show();
+        $('.tag-part-more').find('a').html('加载更多')
+        $('.tag-part-more').find('.spinner1').hide();
+        if (this.end == true) {
+          $('.tag-part-more').find('a').addClass('end').html('到底啦');
+          return false;
+        }
+      }
+    })
+    
+    $('.tag-part-more a').on('click',function  (e) {
+      e.preventDefault();
+      if ($('#row-fyh').data('cktarget').end == true) {        
+        return false;
+      }else {
+        $(this).text('').prev().show();      
+        $('#row-fyh').data('cktarget').ajaxLoad('moreload');      
+      }
+
+
+    })
+  })
+
+//-->
+</script>

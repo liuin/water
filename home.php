@@ -386,62 +386,8 @@
           </div>
       </div>
 
-            <div class="col-sm-4 col-md-3">
-        <div class="thumbnail">
-            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
-             <div class="caption">
-              <h3>
-                  <a href="#">
-                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
-                    <span class="sp1">单人套餐，美味不停歇</span> 
-                  </a>
-              </h3>
-              
-              <p class="p3 clearfix">
-                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
-                <span class="sellout fr">已售38106</span>
-              </p>
-
-              <div class="ft1 clearfix">
-                <span class="ft1-c1 fl">立减15</span>
-                <span class="pl1 fr ">
-                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
-                  <span class="des1"><a href="#">10908人评价</a></span>
-                </span>
-              </div>
-            </div>
-            <div class="p-server">
-              <i class="d-icon">代</i>
-            </div> 
-          </div>
-      </div>
-      <div class="col-sm-4 col-md-3 col-end">
-         <div class="thumbnail">
-            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
-             <div class="caption">
-              <h3>
-                  <a href="#">
-                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
-                    <span class="sp1">单人套餐，美味不停歇</span> 
-                  </a>
-              </h3>
-              
-              <p class="p3 clearfix">
-                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
-                <span class="sellout fr">已售38106</span>
-              </p>
-
-              <div class="ft1 clearfix">
-                <span class="ft1-c1 fl">立减15</span>
-                <span class="pl1 fr ">
-                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
-                  <span class="des1"><a href="#">10908人评价</a></span>
-                </span>
-              </div>
-            </div>
             
-          </div>
-      </div>
+      
 
     </div>
     </div>
@@ -537,33 +483,7 @@
             
           </div>
       </div>
-      <div class="col-sm-4 col-md-3">
-         <div class="thumbnail">
-            <a href="#"><img cklazyload data-src="images/260.jpg" src="images/placeholder.png" width="260" height="145" /></a>
-             <div class="caption">
-              <h3>
-                  <a href="#">
-                    <span class="st">【</span>75店通用<span class="st">】</span>尊宝比萨
-                    <span class="sp1">单人套餐，美味不停歇</span> 
-                  </a>
-              </h3>
-              
-              <p class="p3 clearfix">
-                <span class="price"><span class="sp1">¥</span>98.8 <del>¥39</del>   </span>
-                <span class="sellout fr">已售38106</span>
-              </p>
-
-              <div class="ft1 clearfix">
-                <span class="ft1-c1 fl">立减15</span>
-                <span class="pl1 fr ">
-                  <span class="star"><span class="sp1" style="width:38%;"></span></span>
-                  <span class="des1"><a href="#">10908人评价</a></span>
-                </span>
-              </div>
-            </div>
-            
-          </div>
-      </div>
+      
 
 
     </div>
