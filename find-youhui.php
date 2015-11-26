@@ -42,6 +42,23 @@
           <a href="#">生活服务</a>
           <a href="#">购物</a>
           <a href="#">亲子</a>
+          <a href="#">休闲娱</a>
+          <a href="#">电影</a>
+          <a href="#">酒店</a>
+          <a href="#">旅游</a>
+          <a href="#">丽人</a>
+          <a href="#">生活服务</a>
+          <a href="#">购物</a>
+          <a href="#">亲子</a>
+          <a href="#">休闲娱</a>
+          <a href="#">电影</a>
+          <a href="#">酒店</a>
+          <a href="#">旅游</a>
+          <a href="#">丽人</a>
+          <a href="#">生活服务</a>
+          <a href="#">购物</a>
+          <a href="#">亲子</a>
+
         </div>
       </div>
     </div>
