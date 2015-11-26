@@ -475,6 +475,10 @@ body{background: #fff;}
 .box2{padding-top: 30px;background: #;}
 .jjh h2,
 .title1{font-size: 20px;font-weight: normal; font-family:"Hiragino Sans GB","Microsoft YaHei",simsun; /*background: #2577e3;*/ color: #666;padding: 10px 15px;     padding-left: 0;    padding-bottom: 12px;}
+
+.row-jjh-hot {position:relative;}
+.row-jjh-hot .start-bk-home {position: absolute;top: 0;left: 23px;}
+
 .col-box-thumbnail{background: #f7f5f2;width: auto;}
 .col-box-thumbnail .img{display: block;margin: 0 auto;}
 .jjh .col-box-thumbnail .img{height: 168px;width: 100%;max-width: 237px;}
@@ -1289,3 +1293,5 @@ a.share-qqweibo.J_qqweibo-share {
 
 
 .back-top { display: none;width: 18px;line-height: 1.2;padding: 5px 0;background-color: #444;color: #fff;font-size: 12px;text-align: center;position: fixed;_position: absolute;left: 50%;_right: 92px;bottom: 100px;_bottom: "auto";cursor: pointer;opacity: 0.6;filter: Alpha(opacity=60);margin-left: 590px;}
+
+.start-bk-home {position:absolute;}
