@@ -66,13 +66,19 @@
         <div class="count">
           数量：<a class="c-sub" href="#">-</a> <input class="form-control" type="text" name="" id="" /> <a href="#" class="c-add">+</a>
         </div>
-        <div class="share">
+        <div class="share clearfix">
                 <div class="rule-share pic-tips">
-				分享：
-				<a class="share-sina J_sina-share" onclick="pageTracker._trackPageview('dp_events_detail_share_weibo_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'新浪微博', type:1 }]);" title="新浪微博" href="javascript:void(0);"></a>
-				<a class="share-qqweibo J_qqweibo-share" onclick="pageTracker._trackPageview('dp_events_detail_share_tqq_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'腾讯微博', type:2 }]);" title="腾讯微博" href="javascript:void(0);"></a>
-				
-				<a class="share-weixin J_weixin-share" onclick="pageTracker._trackPageview('dp_events_detail_share_wx_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'微信', type:4 }]);" title="微信" href="javascript:void(0);"></a>				
+				<div class="fl" style="width: 300px;">
+  <span class="fl">分享：</span>
+          <!-- <a class="share-sina J_sina-share" onclick="pageTracker._trackPageview('dp_events_detail_share_weibo_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'新浪微博', type:1 }]);" title="新浪微博" href="javascript:void(0);"></a>
+          <a class="share-qqweibo J_qqweibo-share" onclick="pageTracker._trackPageview('dp_events_detail_share_tqq_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'腾讯微博', type:2 }]);" title="腾讯微博" href="javascript:void(0);"></a>
+          
+          <a class="share-weixin J_weixin-share" onclick="pageTracker._trackPageview('dp_events_detail_share_wx_80031'); _hip.push(['mv', {module: '1_top_share', action:'click', title:'微信', type:4 }]);" title="微信" href="javascript:void(0);"></a>        -->
+  
+  
+  <div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+</div>
+
         <div class="fr oterase">
           <a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>收藏</a>
           <a href="#"><span class="glyphicon glyphicon-alert" aria-hidden="true"></span>报错</a>
@@ -81,9 +87,9 @@
 		</div>
               </div>
         <div class="cart-bk">
-          <button class="btn btn-lg btn-primary">立即抢购</button>   
-          <button class="btn btn-lg btn-danger">添加到购物车</button>   
-          <button class="btn btn-lg btn-default">加入收藏</button>   
+          <button class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>&nbsp;立即抢购</button><button class="btn btn-lg btn-danger" title="添加到购物车"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></button>   
+          <a class="btn-colleor" href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>收藏<b>(11)</b></a>   
+          
         </div>
       </div>
     </div>

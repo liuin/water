@@ -243,20 +243,19 @@
       //点击事件
       this.obj.on('click',function  (e) {
        if ($this.obj.hasClass($this.addClass) || $this.ajaxPro) {
-        return false;
+        return ;
        }else {         
          $this.obj.addClass($this.addClass).siblings().removeClass($this.addClass);
          $this.curPage = 0;
          $this.end = false;
          $('.tag-part-more').find('a').removeClass('end');
-         if ($this.ajaxUrl != '' && (!$this.end)) {
-          
+         if ($this.ajaxUrl != '' && (!$this.end)) {          
           $this.ajaxLoad();
          }else {
            $this.showIn();           
          }
        }
-       return false;
+       return ;
       })
     }
 

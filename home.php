@@ -20,10 +20,10 @@
               <img src="http://mall.bydauto.com.cn/media/wysiwyg//20151029/720x246.jpg" width="100%" alt="">
             </div>
             <div class="item">
-              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20151012/720x246.jpg" width="100%" alt="">
+              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20151212/720X246.jpg" width="100%" alt="">
             </div>
             <div class="item">
-              <img src="http://mall.bydauto.com.cn/media/wysiwyg//20151029/720x246.jpg" width="100%" alt="">
+              <img src="http://mall.bydauto.com.cn/media/wysiwyg/20151212/hd1212/720x246.jpg" width="100%" alt="">
             </div>
           </div>
 
